@@ -1,0 +1,41 @@
+1. Existe um tipo de linguagem na qual a comunicação entre as pessoas de
+diversas línguas, pode ser falada, escrita ou gesticulada, possui uma grande
+contribuição quando vamos desenvolver uma aplicação computacional,
+pois pode direcionar de forma simples e eficiente as descrições dos
+problemas e suas soluções.
+A alternativa correta para definição do texto acima é:
+
+Reposta letra A;
+_____________________________________________________________________________
+2. Segundo Aguilar (2011), o pseudocódigo é considerado uma ferramenta
+que pode auxiliar na programação, ela pode ser escrita em palavras similares
+ao inglês ou português para facilitar a interpretação e desenvolvimento de
+um programa.
+Analise o algoritmo abaixo onde calcula o bônus de 30% para os funcionários
+cadastrados, complete a linha de programação que está faltando:
+1. inicio
+2. caracter: nome;
+**3. val real: sal, totsal, bonus;
+4. escreva (“Entre com o nome do funcionário”);
+5. leia (nome);
+6. escreva (“Entre com o salario Bruto do Funcionario”);
+7. leia (sal);
+**8. bonus = sal * (3/10);
+9. totsal = sal+bonus;
+10. escreva (“Seu salario com bonus será de:”; totsal);
+11. fim.
+
+Resposta letra C
+_____________________________________________________________________________
+3. Segundo Manzano (2015), podemos caracterizar diagrama de blocos 
+como sendo um conjunto de símbolos gráficos, no qual cada um 
+desses símbolos representa ações específicas a serem executadas pelo 
+computador. Vale lembrar que o diagrama de blocos determina a linha de 
+raciocínio utilizada pelo programador para resolver problemas. 
+Enunciado: 
+Para que os diagramas de blocos tenham certa coerência, os seus 
+símbolos foram padronizados pela ANSI (Instituto Norte Americano de 
+Padronização). Analise os símbolos abaixo:
+Assinale a alternativa correta:
+
+Resposta letra E

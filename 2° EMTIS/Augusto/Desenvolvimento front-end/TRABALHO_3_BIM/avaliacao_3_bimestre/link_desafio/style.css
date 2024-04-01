@@ -1,0 +1,13 @@
+table{
+    border: 1px solid black;
+    margin: auto;
+}
+p{
+    align-items: center;
+}
+td#t1{
+    border: 0 solid white;
+}
+td{
+    text-align: center;
+}

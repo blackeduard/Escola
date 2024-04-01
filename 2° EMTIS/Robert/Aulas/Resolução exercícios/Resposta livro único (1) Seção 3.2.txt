@@ -1,0 +1,60 @@
+1. O comando while executa a rotina de um programa enquanto uma
+sintaxe do programa for correta. Neste caso, podemos afirmar que:
+I - O programa não executará nenhuma repetição (e as ações que ali dentro
+estiverem programadas) sem antes testar uma condição.
+
+II - Em alguns casos, quando utilizamos teste no início, pode ocorrer o
+famoso loop infinito.
+
+III - Geralmente usamos o comando while quando não sabemos quantas
+vezes o laço da condição deve ser repetido.
+
+Assinale a alternativa correta de acordo com as afirmações acima:
+
+Resposta letra B
+_____________________________________________________________
+2. Levando em consideração que precisamos estar atentos para que não
+ocorra um loop infinito, analise as afirmações abaixo:
+
+I. Contador – é utilizado para controlar as repetições, quando são determinadas.
+
+II. Incremento e decremento – trabalham o número do contador, seja
+aumentando ou diminuindo.
+
+III. Acumulador – segundo Soffner (2013), irá somar as entradas de dados de
+cada iteração da repetição, gerando um somatório a ser utilizado quando
+da saída da repetição.
+
+IV. Condição de parada – utilizada para determinar o momento de parar
+quando não se tem um valor exato desta repetição.
+
+De acordo com as afirmações apresentadas, assinale a alternativa correta:
+
+Resposta letra E
+_____________________________________________________________
+3. Segundo Soffner (2013), quando aplicado o comando do/while as ações
+poderão ser executadas pelo menos uma vez antes do teste condicional. Nesse
+caso, é possível ter uma sequência de repetição de processos, sendo assim, é
+possível ter várias opções para a solução de um problema em um programa.
+Analise o programa abaixo, que realiza a soma dos números positivos
+usando repetição com teste no final, e complete as partes que estão
+faltando no programa.
+
+#include<stdio.h>
+int main()
+{
+int n;
+int soma = 0;
+{
+	printf("Digite um número positivo para ser somado ou negativo para sair: ");
+	scanf("%d", &n);
+	___( n >= 0 )
+	soma = soma + n;
+	}while( _____ );
+	printf("A soma eh %d\n", soma);
+	return 0;
+}
+
+Assinale a alternativa que completa o programa acima:
+
+Resposta letra A

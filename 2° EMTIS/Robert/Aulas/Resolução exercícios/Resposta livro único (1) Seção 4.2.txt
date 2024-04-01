@@ -1,0 +1,58 @@
+1. O uso de funções permite criar programas mais organizados, sem
+repetição de códigos e ainda com possibilidade de reutilização, pois, caso
+você implemente uma função de uso comum, poderá compartilhá-la com
+outros desenvolvedores. Em linguagens do paradigma orientado a objetos,
+as funções são chamadas de métodos, mas o princípio de construção e
+funcionamento é o mesmo.
+
+A respeito das funções, analise cada uma das afirmativas e determine se é
+verdadeira ou falsa.
+
+I - ( ) Funções que retornar um valor do tipo float, só podem receber
+como parâmetros valores do mesmo tipo, ou seja, float.
+II - ( ) Funções que trabalham com passagem de parâmetros por
+referência, não criam cópias das variáveis recebidas na memória.
+III - ( ) Funções que trabalham com passagem de parâmetros por valor
+criam cópias das variáveis recebidas na memória.
+
+Resposta letra
+_____________________________________________________________
+#include<stdio.h>
+int pensar(int a, int b){
+	a = 11;
+	b = 12;
+	return 0;
+}
+int main(){
+	int a = -11;
+	int b = -12;
+	pensar(a,b);
+	printf(“\n a = %d e b = %d”,a,b);
+	return 0;
+}
+
+Resposta letra A
+_____________________________________________________________
+3. Uma função pode receber parâmetros por valor ou por referência. No
+primeiro caso, são criadas cópias das variáveis na memória e, nesse caso, o
+valor original não é alterado. Para trabalhar com passagem por referência
+é preciso recorrer ao uso de ponteiros, pois são variáveis especiais que
+armazenam endereços de memória.
+Análise o código a seguir e escolha a opção que contém o que será
+impresso na linha 11.
+
+#include<stdio.h>
+int pensar(int* a, int* b){
+	a = 10;
+	b = 20;
+	return 0;
+}
+int main(){
+	int a = -30;
+	int b = -40;
+	pensar(&a,&b);
+	printf(“\n a = %d e b = %d”,a,b);
+	return 0;
+}
+
+Resposta letra A

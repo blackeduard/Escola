@@ -1,0 +1,70 @@
+﻿1. Segundo Marçula (2013, p. 170),
+
+"A linguagem de programação pode ser entendida como
+um conjunto de palavras (vocabulário) e um conjunto de
+regras gramaticais (para relacionar essas palavras) usados
+para instruir o sistema de computação a realizar tarefas
+específicas e com isso, criar os programas. Cada linguagem
+tem o seu conjunto de palavras-chave e sintaxes."
+
+Assinale a alternativa que corresponde às linguagens de baixo nível:
+
+Resposta letra C
+_________________________________________________________________________
+2. Segundo Manzano (2015), os algoritmos criados por você deverão
+ser convertidos em linguagens de alto nível. Você deverá escrever os
+códigos fontes na linguagem escolhida para que os mesmos se tornem
+executáveis, porém cada linguagem adota um método particular para
+gerar o código executável.
+Manzano (2015) aponta existem três métodos para gerar um código
+executável, relacione-os de forma correta:
+
+1- Compiladores
+2- Interpretadores
+3- Tradutores
+
+A- É gerado um código executável sem a necessidade de interpretar
+comando por comando.
+B- São gerados códigos intermediários em que não se exige tanto
+espaço de memórias, quanto realizado pelo código fonte.
+C- Lê uma instrução do código fonte, transforma em código binário e
+executa, repete esse processo até que todas as instruções do código fonte
+sejam executadas.
+
+Assinale a alternativa que corresponde corretamente os métodos para
+gerar um código executável:
+
+Resposta letra B
+_________________________________________________________________________
+3.De acordo com Houaiss (2001, p. 329), “paradigma significa modelo,
+padrão. No contexto da programação de computadores, um paradigma
+é um jeito, uma maneira, um estilo de se programar”. Para Tucker
+(2010), um paradigma de programação está relacionado a um padrão
+de soluções de problemas, onde por sua vez estão relacionados a uma
+determinada linguagem de programação.
+Analise as afirmações abaixo:
+
+I- Programação imperativa: considerada o paradigma mais antigo,
+a programação imperativa pode armazenar o programa e suas variáveis
+juntamente, assim como a abstração procedural, as atribuições, as
+sequências, os laços, os comandos condicionais e a manipulação de
+exceções são seus componentes de programação.
+
+II- Programação orientada a objeto: também conhecida na
+computação como (POO), como o próprio nome sugere, é considerado
+uma programação somente por objetos, não podendo ter manipulações
+por código.
+
+III- Programação funcional: são caraterizadas por possuírem
+atuação matemática, cada uma com um espaço de entrada (domínio) e
+resultado (faixa).
+
+IV- Programação lógica: considerada uma programação declarativa,
+na qual um programa pode modelar uma situação problema
+declarando qual resultado o programa deve obter, em vez de como
+ele deve ser obtido.
+
+
+Assinale a alternativa correta:
+
+Resposta letra D

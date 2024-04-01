@@ -1,0 +1,12 @@
+body {
+    background-image: url('imagens/wallpaper001.png');
+}
+h1{
+    color: rgb(68, 65, 65);
+    font-family: sans-serif;
+    text-align: center;
+}
+div{
+    background-color: white;
+    width: 390px;
+}

@@ -1,0 +1,49 @@
+﻿1. Todo sistema computacional é construído para se obter alguma solução 
+automatizada. Uma das áreas promissoras da computação é a mineração 
+de dados, que, como o nome sugere, se refere a um determinado 
+montante de dados e o modo como eles podem ser minerados para 
+gerar informações de valor. Dentro do processamento de informações, os 
+operadores matemáticos, relacionais e lógicos são essenciais, pois são a 
+base do processo.
+
+Considerando o comando resultado = a + b * (c – b) / a, e 
+os valores a b = = 2 3 , e c = 5 . Escolha a opção correta.
+
+Resposta letra A
+___________________________________________________________________
+2. Considerando o comando abaixo:
+
+printf("%d",((a > b) || (b < c) && (c < b)));
+
+É correto afirmar que:
+
+I – O resultado será um para a = 30, b = 20, c = 10
+
+			PORQUE
+
+II – Para a expressão lógica proposta, basta que uma das condições seja 
+verdadeira.
+
+Assinale a alternativa correta
+
+Resposta letra E
+___________________________________________________________________
+3. Algumas soluções em software necessitam de alocação dinâmica de 
+memória. Nesses casos, é comum utilizar estruturas de dados chamadas 
+de listas, filas, pilhas, árvores e grafos (EDELWEISS; GALANTE, 2009). Para 
+a alocação dinâmica, usam-se funções da biblioteca <stdlib.h>, tais 
+como a função malloc(tamanho).
+
+1. #include<stdlib.h>
+2. struct automovel{
+3. char modelo[20];
+4. int ano;
+5. };
+6. main(){
+7. struct automovel auto1;
+8. malloc(sizeof(auto1));
+9. }
+
+Considerando o código apresentado, escolha a alternativa correta:
+
+Resposta letra A

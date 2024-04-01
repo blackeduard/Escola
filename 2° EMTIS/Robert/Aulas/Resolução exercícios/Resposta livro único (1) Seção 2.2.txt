@@ -1,0 +1,54 @@
+﻿1. “Variáveis indexadas, ao contrário das variáveis tradicionais, armazenam 
+mais de um valor de mesmo tipo, e sã o ú teis para a manipulaç ã o de sé ries 
+de valores semelhantes, sejam elas uni ou multidimensionais” (SOFFNER, 
+2013, p. 87).
+
+A respeito das variáveis indexadas, analise as asserções abaixo e escolha a 
+opção correta.
+
+I – Para armazenar a idade de 15 pessoas em uma variável indexada, 
+precisamos alocar 16 posições, pois o compilador reserva o último espaço 
+para o caractere “\0”.
+II – Para armazenar um valor na última posição de uma variável indexada 
+unidimensional com tamanho 10, devemos atribuir o valor ao índice 9 
+da variável.
+III - Para armazenar um valor na primeira posição de uma variável 
+indexada unidimensional com tamanho 8, devemos atribuir o valor ao 
+índice 1 da variável.
+
+Resposta letra D
+_____________________________________________________________________________
+2. A formação de uma palavra ou frase é feita a partir de uma cadeia de 
+caracteres. No mundo da programação, essa estrutura é conhecida por 
+string e pode ser usada em todas as linguagens. Na linguagem C, uma 
+string é criada a partir de um vetor de caracteres, por meio do comando 
+char <variavel>[tamanho];
+
+A respeito dos vetores de caracteres em C, escolha a opção correta.
+
+
+Resposta letra D
+_____________________________________________________________________________
+3. Ponteiro é um tipo especial de variável usado para armazenar endereços 
+de memória. Esse recurso deu origem ao que se chama de “passagem por 
+valor” e “passagem por referência” em linguagens como Java e C#. Em 
+C, os ponteiros são usados para dar suporte a funções de alocação de 
+memória, proporcionando a criação de programas complexos. 
+Considere o seguinte código em C:
+
+1. #include<stdio.h>
+2.
+3. main(){
+4. 	int x = 10;
+5. 	int *pX= &x;
+6.
+7. 	printf("%x",&x);
+8. 	printf("%d",x);
+9. 	printf("%p",pX);
+10. 	printf("%d",*pX);
+11. 	printf("%p",&pX);
+12. )
+
+Considerando o código apresentado, escolha a opção correta.
+
+Resposta letra A

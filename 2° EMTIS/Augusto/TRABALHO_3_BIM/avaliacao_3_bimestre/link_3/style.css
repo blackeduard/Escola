@@ -1,0 +1,51 @@
+a{
+    color: red;
+}
+body{
+    background-color: black;
+    color: white;
+}
+table{
+    margin: auto;
+}
+table#t1, td{
+    border: 1px solid white;
+    width: 600px;
+}
+td#td1{
+    padding: 10px;
+}
+input#num{
+    width: 15px;
+    text-align: center;
+}
+input#num1, select{
+    width: 130px;
+}
+input#num2{
+    width: 60px;
+}
+p{
+    text-align: left;
+}
+h1{
+    color: lightblue;
+}
+h1, h2, form{
+    text-align: center;
+}
+td.t2{
+    border: 0;
+    width: 0;
+}
+table#t2{
+    margin-right: 100%;
+    width: 600px;
+}
+td.serie{
+    text-align: left;
+}
+td#p{
+    border: 0;
+    padding: 10px;
+}

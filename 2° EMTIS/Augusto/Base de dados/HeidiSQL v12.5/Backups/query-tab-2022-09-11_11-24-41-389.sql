@@ -1,0 +1,3 @@
+
+SELECT UUID()
+#SELECT curtime()

@@ -1,0 +1,46 @@
+
+-- SELECT
+-- 	* 
+-- FROM
+-- 	usuario U
+-- 	INNER JOIN pessoa P ON U.ID_PESSOA = P.ID_PESSOA 
+-- WHERE
+-- 	P.EMAIL_PESSOA = 'c@gmail.com' 
+-- 	#P.CPF_PESSOA = '02267393760'
+-- 	#P.CNPJ_PESSOA = '16996948000189'
+-- 	AND U.SENHA_USUARIO = '123' 
+-- 	#-->
+-- 	AND U.VERIFICADO = 1 
+-- 	AND U.ATIVO = 1 usuario
+-- 	AND P.ATIVO = 1 
+-- 	AND P.DT_CANCELAMENTO IS NULL
+-- 	#-->
+	
+
+
+#SELECT * FROM pessoa WHERE DT_CRIACAO BETWEEN '2023-01-21' AND '2023-01-21' #CURRENT_DATE()
+
+SELECT COUNT(*) AS ADMIN FROM usuario U
+INNER JOIN pessoa P ON ( U.ID_PESSOA = P.ID_PESSOA )
+INNER JOIN usuario_tipo UT ON ( U.ID_USUARIO_TIPO = UT.ID_USUARIO_TIPO ) 
+WHERE
+P.EMAIL_PESSOA = 'c@gmail.com' 
+#P.CPF_PESSOA = '02267393760'
+#P.CNPJ_PESSOA = '16996948000189'
+AND U.ATIVO = 1 
+AND P.ATIVO = 1 
+#AND UT.ID_USUARIO_TIPO = 2	#Usuário Comum
+AND UT.ID_USUARIO_TIPO = 1	#Usuário Admin
+
+              
+	
+#SELECT NOW(),NOW()+1;
+#SELECT CURDATE();
+
+
+
+
+
+
+
+docid539_ainquilino

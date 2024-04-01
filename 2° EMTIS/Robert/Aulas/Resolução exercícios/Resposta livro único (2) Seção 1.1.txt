@@ -1,0 +1,38 @@
+﻿1. Segundo Silva (2007), uma lista ligada, também conhecida como lista
+encadeada, é um conjunto de dados dispostos por uma sequência de
+nós, em que a relação de sucessão desses elementos é determinada por
+um ponteiro que indica a posição do próximo elemento, podendo estar
+ordenado ou não.
+
+Assinale a alternativa a seguir que apresenta a informação correta quanto à
+composição de um nó da lista ligada:
+
+Resposta letra D
+_________________________________________________
+2. Dada a sentença a seguir:
+Em uma lista, precisamos o tipo de dado no qual foram
+declarados os da lista e, por esse tipo de dados ocupar vários
+bytes na , precisaremos utilizar a função , que nos
+informa quantos bytes o tipo de elemento criado terá.
+
+Com base na sentença, assinale a alternativa que apresenta as palavras que
+completam a frase corretamente:
+
+Resposta letra C
+_________________________________________________
+3. Conforme Silva (2007), para trabalharmos com a lista encadeada,
+definimos um ponto inicial ou um ponteiro para o começo dela. A partir
+daí, podemos inserir elementos, remover ou realizar buscas nela.
+Dadas as afirmativas a seguir sobre procedimentos básicos de manipulação
+de uma lista:
+
+I. Criação ou definição da estrutura de uma lista.
+II. Inserção com base em um endereço como referência.
+III. Alocação de um endereço de nó para inserção na lista.
+IV. Remoção do nó com base em um elemento apenas.
+V. Deslocamento do nó removido da lista.
+
+Assinale a alternativa que contém as afirmativas corretas sobre
+procedimentos básicos de manipulação:
+
+Resposta letra D

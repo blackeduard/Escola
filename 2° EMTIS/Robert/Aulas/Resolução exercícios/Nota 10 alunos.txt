@@ -1,0 +1,118 @@
+﻿Crie um programa, que, pegue dez alunos.
+Some suas notas e dê as médias.
+Caso o aluno tenha 60% ou mais escreva aprovado.
+Caso contrário reprovado.
+
+Solução
+n1 = float(input("Nota primeiro aluno: "))
+
+n2 = float(input("Nota segundo aluno: "))
+
+n3 = float(input("Nota terceiro aluno: "))
+
+n4 = float(input("Nota quarto aluno: "))
+
+n5 = float(input("Nota quinto aluno: "))
+
+n6 = float(input("Nota sexto aluno: "))
+
+n7 = float(input("Nota sétimo aluno: "))
+
+n8 = float(input("Nota oitavo aluno: "))
+
+n9 = float(input("Nota nono aluno: "))
+
+n0 = float(input("Nota décimo aluno: "))
+
+media = (n1+n2+n3+n4+n5+n6+n7+n8+n9+n0)/10
+
+print("A media dos alunos é de {:.1f}".format(media))
+
+if n1 < media:
+  
+	print("Primeiro aluno reprovado")
+
+else:
+  
+	print("Primeiro aluno aprovado")
+
+
+if n2 < media:
+  
+	print("Segundo aluno reprovado")
+
+else:
+  
+	print("Segundo aluno aprovado")
+
+
+if n3 < media:
+  
+	print("Terceiro aluno reprovado")
+
+else:
+  
+	print("Terceiro aluno aprovado")
+
+
+if n4 < media:
+ 
+	print("Quarto aluno reprovado")
+
+else:
+  
+	print("Quarto aluno aprovado")
+
+
+if n5 < media:
+  
+	print("Quinto aluno reprovado")
+
+else:
+  
+	print("Quinto aluno aprovado")
+
+
+if n6 < media:
+  
+	print("Sexto aluno reprovado")
+
+else:
+  
+	print("Sexto aluno aprovado")
+
+
+if n7 < media:
+  
+	print("Sétimo aluno reprovado")
+
+else:
+ 
+	print("Sétimo aluno aprovado")
+
+
+if n8 < media:
+  
+	print("Oitavo aluno reprovado")
+
+else:
+  
+	print("Oitavo aluno aprovado")
+
+
+if n9 < media:
+  
+	print("Nono aluno reprovado")
+
+else:
+  
+	print("Nono aluno aprovado")
+
+
+if n0 < media:
+  
+	print("Décimo aluno reprovado")
+
+else:
+  
+	print("Décimo aluno aprovado")

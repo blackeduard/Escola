@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modelo utilizando Bootstrap 4 e JQuery</title>
+  <!-- Bootstrap CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Style para Carrossel -->
+  <link href="css/carousel.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- TOGGLE MENU -->
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="#">Modelo</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Item 01 Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Item 02 Menu</a>
+          </li>            
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <!-- TOGGLE MENU END -->
+
+  <main role="main">
+
+    <!-- CARROSSEL -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="first-slide d-block w-100" src="https://via.placeholder.com/1920x1080" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption text-left">
+              <h1>Título 1</h1>
+              <p>
+                O desenvolvimento contínuo de distintas formas de atuação é uma das consequências do remanejamento dos quadros funcionais.
+              </p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">botão 01</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="second-slide d-block w-100" src="https://via.placeholder.com/1920x1080" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Título 2</h1>
+              <p>
+                A determinação clara de objetivos maximiza as possibilidades por conta do remanejamento dos quadros funcionais.
+              </p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">botão 02</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="third-slide d-block w-100" src="https://via.placeholder.com/1920x1080" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption text-right">
+              <h1>Título 3</h1>
+              <p>
+                O fenômeno da Internet possibilita uma melhor visão global de todos os recursos funcionais envolvidos.
+              </p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">botão 03</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Próximo</span>
+      </a>
+    </div>
+    <!-- CARROSSEL END -->
+
+
+
+    <div class="container marketing">
+      
+      <!-- COLUNAS ABAIXO DO CARROSSEL -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="rounded-circle" src="https://via.placeholder.com/140x140" alt="Generic placeholder image" width="140" height="140">
+          <h2>Título 1</h2>
+          <p>
+            A mobilidade dos capitais internacionais representa uma abertura para a melhoria dos paradigmas corporativos.
+          </p>
+          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-lg-4">
+          <img class="rounded-circle" src="https://via.placeholder.com/140x140" alt="Generic placeholder image" width="140" height="140">
+          <h2>Título 2</h2>
+          <p>
+            Identificar pontos críticos nas transações comerciais possibilita uma melhor visão global dos conhecimentos.
+          </p>
+          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-lg-4">
+          <img class="rounded-circle" src="https://via.placeholder.com/140x140" alt="Generic placeholder image" width="140" height="140">
+          <h2>Título 3</h2>
+          <p>
+            Julgamento imparcial das eventualidades nos obriga formação de quadros que corresponde às necessidades.
+          </p>
+          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        </div>
+      </div>
+      <!-- COLUNAS ABAIXO DO CARROSSEL END -->
+
+
+
+
+      <!-- RECURSOS -->
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">A prática cotidiana <span class="text-muted">prova a renovação</span></h2>
+          <p class="lead">A nível organizacional, o novo modelo estrutural aqui preconizado cumpre um papel essencial na formulação de todos os recursos funcionais envolvidos.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-fluid mx-auto" src="https://via.placeholder.com/500x500" alt="">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading">Todas as questões devidamente ponderadas. <span class="text-muted">Empenho em analisar.</span></h2>
+          <p class="lead">O que temos que ter sempre em mente é que a crescente influência da mídia estende o alcance e a importância do investimento em reciclagem técnica.</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img class="featurette-image img-fluid mx-auto" src="https://via.placeholder.com/500x500" alt="">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Nunca é demais lembrar o peso. <span class="text-muted">Experiências acumuladas demonstram fenômeno.</span></h2>
+          <p class="lead">Ainda assim, existem dúvidas a respeito de como o desenvolvimento contínuo de distintas formas de atuação apresenta tendências no sentido de aprovar a manutenção do sistema de participação geral.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-fluid mx-auto" src="https://via.placeholder.com/500x500" alt="">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+      <!-- RECURSOS END -->
+
+    </div>
+
+
+
+    <!-- FOOTER -->
+    <footer class="container">
+      <p class="float-right"><a href="#">Voltar</a></p>
+      <p>&copy; 2023 Laura das Chagas, Inc. <b>&middot;</b> <a href="#">Item 01 Menu</a> <b>&middot;</b> <a href="#">Item 02 Menu</a></p>
+    </footer>
+  </main>
+
+
+  
+  <!-- Bootstrap e JavaScript
+  ================================================== -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

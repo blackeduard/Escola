@@ -1,0 +1,57 @@
+1. A recursividade é uma técnica de programação usada para tornar o
+código mais elegante, organizado, o que pode facilitar a manutenção. Essa
+técnica, em muitos casos, pode ser usada para substituir uma estrutura de
+repetição iterativa, por exemplo, uma que use o for.
+Analise as asserções a seguir e a relação proposta entre elas.
+
+I. As estruturas de repetição sempre podem ser substituídas por funções
+recursivas.
+
+			PORQUE
+
+II. Uma função recursiva funciona como um laço de repetição, o qual será
+interrompido somente quando o caso base for satisfeito.
+
+Resposta letra 
+______________________________________________________________
+2. Para criar uma função recursiva, a sintaxe nada difere das funções gerais,
+portanto, é necessário informar o tipo de retorno, o nome, e se recebe ou
+não parâmetros. O grande diferencial das funções recursivas e tradicionais
+é um comando no corpo da função, que invoca a si própria.
+Analise o código a seguir e escolha a opção que representa o que será
+impresso na linha 11.
+
+#include<stdio.h>
+int somar(int valor){
+	if(valor != 0){
+		return valor + somar(valor - 1);
+	}
+	else{
+		return valor;
+	}
+}
+int main(){
+	printf(“\n Resultado = %d”,somar(6));
+	return 0;
+}
+
+Resposta letra A
+______________________________________________________________
+3. A recursividade é uma técnica de programação que deve ser usada com
+cautela, pois a cada chamada à função novos recursos são alocados na memória,
+em um processo chamado de empilhamento, que cresce rapidamente com as
+chamadas, podendo acarretar em um estouro de memória.
+A respeito de funções recursivas analise as afirmações e escolha a
+opção correta.
+
+I. Existe uma classe específica de funções recursivas chamada de
+recursividade em cauda, que embora possua a mesma sintaxe no corpo da
+função, o comportamento é diferente das demais funções.
+II. Uma função é caracterizada como recursiva em cauda quando a
+chamada a si mesma é a última operação a ser feita no corpo da função.
+III. Em uma função que implementa a recursividade em cauda, a instância
+que fez a chamada recursiva, depende do resultado da próxima.
+IV. O uso da recursividade em cauda torna opcional o uso do caso base,
+pois a última instância retornará o valor final esperado.
+
+Resposta letra 

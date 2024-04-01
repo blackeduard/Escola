@@ -1,0 +1,7 @@
+Ficha do cliente
+Código:
+CPF:
+Nome:
+Rua:
+Bairro:
+Cidade:

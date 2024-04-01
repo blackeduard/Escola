@@ -1,0 +1,64 @@
+1. Dado um certo problema para ser resolvido por meio de um programa,
+a solução pode ser implementada em blocos de funcionalidades,
+técnica essa conhecida como dividir para conquistar. A aplicação dessa
+técnica em uma linguagem de programação pode ser feita por meio de
+funções ou procedimentos. A respeito de funções e procedimentos, análise 
+as afirmações a seguir:
+
+I. Funções e procedimentos possuem o mesmo objetivo, ou seja,
+resolver parte de um problema maior. Ambas técnicas farão o
+processamento de uma funcionalidade e retornarão um valor para
+“quem” chamou a subrotina.
+
+II. Em uma função criada para retornar um valor inteiro, o comando
+return não pode retornar outro tipo de valor.
+
+III. Uma função pode ser invocada quantas vezes for necessário em
+um programa.
+
+Escolha a alternativa que representa a resposta correta.
+
+Respostra letra
+___________________________________________________________
+2. Funções são usadas para organizar o código, evitando a repetição de
+linhas de comandos. Uma boa prática de programação é avaliar se um
+determinado trecho precisa ser escrito mais de uma vez. Se a resposta
+for sim, então esse trecho deve ser transformado em uma funcionalidade.
+Avalie o código a seguir e escolha a opção correta.
+
+#include<stdio.h>
+int somar(){
+	return 2 + 3.23;
+}
+int main(){
+	int resultado = 0;
+	resultado = somar();
+	printf(“O resultado da funcao e = %d”,resultado);
+	return 0;
+}
+
+Resposta letra D
+___________________________________________________________
+3. Vetores são estruturas de dados estáticas, ou seja, não são
+redimensionadas em tempo de execução.Uma vez criadas com tamanho
+N, esse tamanho se mantém fixo. Para criar uma função que retorna um
+vetor é preciso recorrer ao uso de ponteiros.
+Avalie o código a seguir e escolha a opção correta.
+
+#include<stdio.h>
+int* retornarVetor(){
+	static int v[10];
+	int a;
+	for(a = 0; a < 10; ++a) {
+		v[a] = 2 * a;
+	}
+	return v;
+}
+int main(){
+	int *p;
+	p = retornarVetor();
+	printf("Valor = %d",*(p + 2));
+	return 0;
+}
+
+Resposta letra C

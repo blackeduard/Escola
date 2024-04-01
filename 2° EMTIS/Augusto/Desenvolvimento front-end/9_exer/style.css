@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1, p{
+    color: white;
+    text-align: center;
+}
+p{
+    color: rgb(189, 177, 177);
+}
+div{
+    display: inline-block; /* Exibe uma div  ao lado da outra, em linha*/
+    width: 200px; /* Largura do bloco */
+    height: 200px; /* Altura do bloco*/
+    background-color: rgb(135, 84, 184); 
+    border: 2px solid white; /* Borda do bloco */
+}
+div#area01{ /* Configurações exclusivas do elemento com ID "area01" */
+    background-color: rgb(139, 3, 99);
+}
+div#area02{ /* Não é necessário colocar o nome da tag, basta o ID */
+    background-color: rgb(99, 109, 82);
+}
+div#area03{ /* Podemos atribuir propriedades a mais de um elemento */
+    background-color: rgb(128, 62, 62);
+}
+div#area05{
+    background-color: rgb(70, 152, 158);
+}
+div#area06{
+    background-color: darkkhaki;
+}

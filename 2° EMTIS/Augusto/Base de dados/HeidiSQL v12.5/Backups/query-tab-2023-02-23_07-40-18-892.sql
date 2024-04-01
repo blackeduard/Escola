@@ -1,0 +1,43 @@
+
+--     SELECT U.*, P.*, UT.*, UT.ID_USUARIO_TIPO AS ADMIN FROM usuario U 
+--           INNER JOIN pessoa P ON ( U.ID_PESSOA = P.ID_PESSOA ) 
+--           INNER JOIN usuario_tipo UT ON ( U.ID_USUARIO_TIPO = UT.ID_USUARIO_TIPO )
+--     WHERE U.NOME_USUARIO = 'ang1007@gmail.com'
+--     AND U.SENHA_USUARIO = '$2a$08$cSEyd3NkIzQ1XjUzMmRmZuknbFD3mFsOgOmROXCLs/Ml0vHpbQJj2'
+--                 AND U.ATIVO = 1 
+--                 AND UT.SYSTEM = 0
+--                 AND U.VERIFICADO = 1;
+                
+                #U.ID_USUARIO_TIPO
+
+
+-- UPDATE usuario
+-- SET DT_ULTIMO_ACESSO = '2023-02-23 08:08:20'
+-- WHERE ID_USUARIO = 1
+
+
+#UPDATE usuario SET SENHA_USUARIO = '$2a$08$cSEyd3NkIzQ1XjUzMmRmZuknbFD3mFsOgOmROXCLs/Ml0vHpbQJj2'/*'23-02-2023 08:59:56'*/ WHERE ID_USUARIO = '1'
+#SELECT * FROM usuario
+
+-- INSERT INTO auditoria(ID_USUARIO, NOME_USUARIO, ID_PESSOA, ACAO_EXECUTADA, TABELA_ACAO_EXECUTADA, PAGINA_ACAO_EXECUTADA, TOKEN_ACAO_EXECUTADA, DT_EXECUCAO)
+-- VALUES(1, 'ang1007@gmail.com', 1, 'L', 'usuario', 'Login.php', '8069a89c-5c5b-569d-98d4-74ad4585e9bc', '2023-02-23 12:35:20')
+
+#SELECT * FROM auditoria
+SELECT * FROM usuario U
+INNER JOIN pessoa P ON U.ID_PESSOA = P.ID_PESSOA
+#WHERE P.EMAIL_PESSOA = 'ang1007@gmail.com'
+WHERE U.NOME_USUARIO = 'ai@alugainquilino.com.br'
+	AND U.VERIFICADO = 1
+	AND U.ATIVO = 1
+	AND P.ATIVO = 1
+AND P.DT_CANCELAMENTO IS NULL #OR P.DT_CANCELAMENTO = NOW()
+
+-- UPDATE pessoa
+-- SET DT_CANCELAMENTO = NULL
+-- WHERE ID_PESSOA = 1
+
+
+
+#UPDATE pessoa  SET REDESOCIAL_LINKEDIN=(NULL) WHERE ID_PESSOA = 1
+
+SELECT mysql_insert_id()

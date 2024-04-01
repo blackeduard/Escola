@@ -1,0 +1,25 @@
+body, input, input, select{
+    background-color: black;
+    color: white;
+}
+table, th, td, input{
+    margin: auto;
+    border: 1px white solid;
+}
+th, td{
+    padding: 10px;
+}
+td#sexo{
+    padding: 4px;
+    text-align: center;
+}
+button{
+    width: 70px;
+    height: 30px;
+}
+td#enviar{
+    border: 0;
+}
+a{
+    color: red;
+}

@@ -1,0 +1,234 @@
+SQL Attr Comment Foreground<|||>3<|||>8421504
+SQL Attr Comment Background<|||>3<|||>536870911
+SQL Attr Comment Style<|||>3<|||>2
+SQL Attr ConditionalComment Foreground<|||>3<|||>8421504
+SQL Attr ConditionalComment Background<|||>3<|||>536870911
+SQL Attr ConditionalComment Style<|||>3<|||>2
+SQL Attr ConsoleOutput Foreground<|||>3<|||>536870911
+SQL Attr ConsoleOutput Background<|||>3<|||>536870911
+SQL Attr ConsoleOutput Style<|||>3<|||>5
+SQL Attr DataType Foreground<|||>3<|||>128
+SQL Attr DataType Background<|||>3<|||>536870911
+SQL Attr DataType Style<|||>3<|||>1
+SQL Attr DefaultPackages Foreground<|||>3<|||>536870911
+SQL Attr DefaultPackages Background<|||>3<|||>536870911
+SQL Attr DefaultPackages Style<|||>3<|||>1
+SQL Attr DelimitedIdentifier Foreground<|||>3<|||>32896
+SQL Attr DelimitedIdentifier Background<|||>3<|||>536870911
+SQL Attr DelimitedIdentifier Style<|||>3<|||>0
+SQL Attr Exception Foreground<|||>3<|||>536870911
+SQL Attr Exception Background<|||>3<|||>536870911
+SQL Attr Exception Style<|||>3<|||>2
+SQL Attr Function Foreground<|||>3<|||>8388608
+SQL Attr Function Background<|||>3<|||>536870911
+SQL Attr Function Style<|||>3<|||>1
+SQL Attr Identifier Foreground<|||>3<|||>32896
+SQL Attr Identifier Background<|||>3<|||>536870911
+SQL Attr Identifier Style<|||>3<|||>0
+SQL Attr Key Foreground<|||>3<|||>16711680
+SQL Attr Key Background<|||>3<|||>536870911
+SQL Attr Key Style<|||>3<|||>1
+SQL Attr Number Foreground<|||>3<|||>8388736
+SQL Attr Number Background<|||>3<|||>536870911
+SQL Attr Number Style<|||>3<|||>0
+SQL Attr PLSQL-ReservedWord Foreground<|||>3<|||>536870911
+SQL Attr PLSQL-ReservedWord Background<|||>3<|||>536870911
+SQL Attr PLSQL-ReservedWord Style<|||>3<|||>1
+SQL Attr ProcName Foreground<|||>3<|||>536870911
+SQL Attr ProcName Background<|||>3<|||>536870911
+SQL Attr ProcName Style<|||>3<|||>0
+SQL Attr Space Foreground<|||>3<|||>536870911
+SQL Attr Space Background<|||>3<|||>536870911
+SQL Attr Space Style<|||>3<|||>0
+SQL Attr SQLPlus-Command Foreground<|||>3<|||>536870911
+SQL Attr SQLPlus-Command Background<|||>3<|||>536870911
+SQL Attr SQLPlus-Command Style<|||>3<|||>1
+SQL Attr String Foreground<|||>3<|||>32768
+SQL Attr String Background<|||>3<|||>536870911
+SQL Attr String Style<|||>3<|||>0
+SQL Attr Symbol Foreground<|||>3<|||>16711680
+SQL Attr Symbol Background<|||>3<|||>536870911
+SQL Attr Symbol Style<|||>3<|||>0
+SQL Attr TableName Foreground<|||>3<|||>16711935
+SQL Attr TableName Background<|||>3<|||>536870911
+SQL Attr TableName Style<|||>3<|||>0
+SQL Attr Variable Foreground<|||>3<|||>8388736
+SQL Attr Variable Background<|||>3<|||>536870911
+SQL Attr Variable Style<|||>3<|||>0
+Language<|||>1<|||>pt_BR
+FieldEditor_Set<|||>3<|||>1
+Theme<|||>1<|||>Light
+FontSize<|||>3<|||>10
+TabWidth<|||>3<|||>2
+DataFontSize<|||>3<|||>8
+LowercaseHex<|||>3<|||>0
+Shortcut1_ecShiftTab<|||>3<|||>16459
+Shortcut1_ecFoldLevel1<|||>3<|||>0
+Shortcut1_ecFoldLevel2<|||>3<|||>0
+Shortcut1_ecFoldLevel3<|||>3<|||>0
+TabCloseOnDoubleClick<|||>3<|||>0
+SessionManager_WindowWidth<|||>3<|||>1496
+SessionManager_WindowHeight<|||>3<|||>764
+SessionManager_WindowLeft<|||>3<|||>272
+SessionManager_WindowTop<|||>3<|||>111
+ColWidths_connform.ListSessions<|||>1<|||>163,124,50,50,50,50,94
+ColsVisible_connform.ListSessions<|||>1<|||>0,1,4,6
+ColPositions_connform.ListSessions<|||>1<|||>0,1,2,3,4,5,6
+ColSort_connform.ListSessions<|||>1<|||>0,0
+MainWinOnMonitor<|||>3<|||>0
+MainWinWidth<|||>3<|||>993
+MainWinHeight<|||>3<|||>524
+ColWidths_MainForm.ListDatabases<|||>1<|||>150,80,50,50,50,50,50,50,50,50,120
+ColsVisible_MainForm.ListDatabases<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10
+ColPositions_MainForm.ListDatabases<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10
+ColSort_MainForm.ListDatabases<|||>1<|||>0,0
+ColWidths_MainForm.ListVariables<|||>1<|||>160,200,428
+ColsVisible_MainForm.ListVariables<|||>1<|||>0,1,2
+ColPositions_MainForm.ListVariables<|||>1<|||>0,1,2
+ColSort_MainForm.ListVariables<|||>1<|||>0,0
+ColWidths_MainForm.ListStatus<|||>1<|||>160,428,100,100
+ColsVisible_MainForm.ListStatus<|||>1<|||>0,1,2,3
+ColPositions_MainForm.ListStatus<|||>1<|||>0,1,2,3
+ColSort_MainForm.ListStatus<|||>1<|||>0,0
+ColWidths_MainForm.ListProcesses<|||>1<|||>70,80,80,80,80,50,50,298
+ColsVisible_MainForm.ListProcesses<|||>1<|||>0,1,2,3,4,5,6,7
+ColPositions_MainForm.ListProcesses<|||>1<|||>0,1,2,3,4,5,6,7
+ColSort_MainForm.ListProcesses<|||>1<|||>0,1
+ColWidths_MainForm.ListCommandStats<|||>1<|||>120,100,100,100,368
+ColsVisible_MainForm.ListCommandStats<|||>1<|||>0,1,2,3,4
+ColPositions_MainForm.ListCommandStats<|||>1<|||>0,1,2,3,4
+ColSort_MainForm.ListCommandStats<|||>1<|||>1,1
+ColWidths_MainForm.ListTables<|||>1<|||>238,70,70,120,120,70,100,50,70,70,70,70,70,90,120,70,70,70,50
+ColsVisible_MainForm.ListTables<|||>1<|||>0,1,2,3,4,5,6,18
+ColPositions_MainForm.ListTables<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18
+ColSort_MainForm.ListTables<|||>1<|||>0,0
+SessionManager_ListWidth<|||>3<|||>435
+LastSessions<|||>1<|||>
+LastActiveSession<|||>1<|||>Doc\docIdeias
+MainWinLeft<|||>3<|||>564
+MainWinTop<|||>3<|||>231
+AllowMultipleInstances<|||>3<|||>0
+Updatecheck<|||>3<|||>0
+SQLColMatchingBraceForeground<|||>1<|||>clBlack
+SQLColMatchingBraceBackground<|||>1<|||>clAqua
+FieldColor_Numeric<|||>3<|||>16711680
+FieldColor_Real<|||>3<|||>16711752
+FieldColor_Text<|||>3<|||>32768
+FieldColor_Binary<|||>3<|||>8388736
+FieldColor_Datetime<|||>3<|||>128
+FieldColor_Spatial<|||>3<|||>8421376
+FieldColor_Other<|||>3<|||>32896
+PreferencesWindowWidth<|||>3<|||>1176
+PreferencesWindowHeight<|||>3<|||>668
+MainWinMaximized<|||>3<|||>1
+UpdatecheckLastrun<|||>1<|||>2023-02-19 16:39:47
+DoUsageStatistics<|||>3<|||>1
+DisplayBars<|||>3<|||>1
+WebSearchBaseUrl<|||>1<|||>https://www.google.com/search?q=%query
+Shortcut1_actRefresh<|||>3<|||>0
+Shortcut1_actExecuteQuery<|||>3<|||>116
+querymemoheight<|||>3<|||>555
+queryhelperswidth<|||>3<|||>341
+dbtreewidth<|||>3<|||>379
+sqloutheight<|||>3<|||>50
+LastUsageStatisticCall<|||>1<|||>2023-02-08 10:32:16
+MemoEditorWidth<|||>3<|||>501
+MemoEditorHeight<|||>3<|||>201
+DateTimeEditor_CursorPos_Type4<|||>3<|||>0
+ColWidths_frmTableEditor.listColumns<|||>1<|||>47,197,154,93,63,87,50,120,130,140,100,100
+ColsVisible_frmTableEditor.listColumns<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10,11
+ColPositions_frmTableEditor.listColumns<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10,11
+ColSort_frmTableEditor.listColumns<|||>1<|||>-1,0
+ColWidths_frmTableEditor.treeIndexes<|||>1<|||>382,100,80,120
+ColsVisible_frmTableEditor.treeIndexes<|||>1<|||>0,1,2
+ColPositions_frmTableEditor.treeIndexes<|||>1<|||>0,1,2,3
+ColSort_frmTableEditor.treeIndexes<|||>1<|||>-1,0
+ColWidths_frmTableEditor.listForeignKeys<|||>1<|||>188,80,100,80,80,80
+ColsVisible_frmTableEditor.listForeignKeys<|||>1<|||>0,1,2,3,4,5
+ColPositions_frmTableEditor.listForeignKeys<|||>1<|||>0,1,2,3,4,5
+ColSort_frmTableEditor.listForeignKeys<|||>1<|||>-1,0
+ColWidths_frmTableEditor.listCheckConstraints<|||>1<|||>200,408
+ColsVisible_frmTableEditor.listCheckConstraints<|||>1<|||>0,1
+ColPositions_frmTableEditor.listCheckConstraints<|||>1<|||>0,1
+ColSort_frmTableEditor.listCheckConstraints<|||>1<|||>-1,0
+PromptSaveFileOnTabClose<|||>3<|||>0
+TableTools_WindowWidth<|||>3<|||>1030
+TableTools_WindowHeight<|||>3<|||>533
+FilterPanel<|||>3<|||>0
+AutoReconnect<|||>3<|||>1
+ColWidths_frmRoutineEditor.listParameters<|||>1<|||>50,358,90,70
+ColsVisible_frmRoutineEditor.listParameters<|||>1<|||>0,1,2,3
+ColPositions_frmRoutineEditor.listParameters<|||>1<|||>0,1,2,3
+ColSort_frmRoutineEditor.listParameters<|||>1<|||>-1,0
+QueryWarningsMessage<|||>3<|||>0
+SQLFile0<|||>1<|||>D:\PROJETOS\ALUGA_IN_QUILINO\BD\Consulta.sql
+SQLFile1<|||>1<|||>D:\PORTABLE\HeidiSQL v12.0\Backups\query-tab-2022-09-11_11-24-41-389.sql
+ThemePreviewWidth<|||>3<|||>920
+ThemePreviewHeight<|||>3<|||>484
+RealTrailingZeros<|||>3<|||>2
+Servers\Doc\SessionCreated<|||>1<|||>2022-06-10 20:11:56
+Servers\Doc\Folder<|||>3<|||>1
+Servers\Doc\docIdeias\SessionCreated<|||>1<|||>2022-06-10 20:12:02
+Servers\Doc\docIdeias\Host<|||>1<|||>ds3.hospedam.com
+Servers\Doc\docIdeias\WindowsAuth<|||>3<|||>0
+Servers\Doc\docIdeias\CleartextPluginEnabled<|||>3<|||>0
+Servers\Doc\docIdeias\User<|||>1<|||>docid539
+Servers\Doc\docIdeias\Password<|||>1<|||>5F3C565F306F6D6A80376D7036724C29315A7A2E5
+Servers\Doc\docIdeias\LoginPrompt<|||>3<|||>0
+Servers\Doc\docIdeias\Port<|||>1<|||>3306
+Servers\Doc\docIdeias\NetType<|||>3<|||>0
+Servers\Doc\docIdeias\Compressed<|||>3<|||>0
+Servers\Doc\docIdeias\LocalTimeZone<|||>3<|||>0
+Servers\Doc\docIdeias\QueryTimeout<|||>3<|||>30
+Servers\Doc\docIdeias\KeepAlive<|||>3<|||>20
+Servers\Doc\docIdeias\FullTableStatus<|||>3<|||>1
+Servers\Doc\docIdeias\Databases<|||>1<|||>docid539_fmendes
+Servers\Doc\docIdeias\Library<|||>1<|||>libmariadb.dll
+Servers\Doc\docIdeias\Comment<|||>1<|||>
+Servers\Doc\docIdeias\StartupScriptFilename<|||>1<|||>
+Servers\Doc\docIdeias\TreeBackground<|||>3<|||>536870911
+Servers\Doc\docIdeias\SshExecutable<|||>1<|||>plink.exe
+Servers\Doc\docIdeias\SSHtunnelHost<|||>1<|||>
+Servers\Doc\docIdeias\SSHtunnelHostPort<|||>3<|||>22
+Servers\Doc\docIdeias\SSHtunnelUser<|||>1<|||>
+Servers\Doc\docIdeias\SSHtunnelPassword<|||>1<|||>3
+Servers\Doc\docIdeias\SSHtunnelTimeout<|||>3<|||>4
+Servers\Doc\docIdeias\SSHtunnelPrivateKey<|||>1<|||>
+Servers\Doc\docIdeias\SSHtunnelPort<|||>3<|||>3307
+Servers\Doc\docIdeias\SSL_Active<|||>3<|||>0
+Servers\Doc\docIdeias\SSL_Key<|||>1<|||>
+Servers\Doc\docIdeias\SSL_Cert<|||>1<|||>
+Servers\Doc\docIdeias\SSL_CA<|||>1<|||>
+Servers\Doc\docIdeias\SSL_Cipher<|||>1<|||>
+Servers\Doc\docIdeias\IgnoreDatabasePattern<|||>1<|||>
+Servers\Doc\docIdeias\LogFileDdl<|||>3<|||>0
+Servers\Doc\docIdeias\LogFileDml<|||>3<|||>0
+Servers\Doc\docIdeias\LogFilePath<|||>1<|||>C:\Users\augusto\AppData\Roaming\HeidiSQL\Logs\%session\%db\%y%m%d.sql
+Servers\Doc\docIdeias\RefusedCount<|||>3<|||>8
+Servers\Doc\docIdeias\ServerVersionFull<|||>1<|||>8.0.32-cll-lve - MySQL Community Server - GPL
+Servers\Doc\docIdeias\ConnectCount<|||>3<|||>35
+Servers\Doc\docIdeias\ServerVersion<|||>3<|||>80032
+Servers\Doc\docIdeias\LastConnect<|||>1<|||>2023-02-19 16:35:31
+Servers\Doc\docIdeias\lastUsedDB<|||>1<|||>docid539_ainquilino
+Servers\Doc\docIdeias\SSHtunnelActive<|||>3<|||>0
+Servers\Doc\docIdeias\docid539_bdpcr|auth\MemoEditorHighlighter_Coluna 4<|||>1<|||>
+Servers\Doc\docIdeias\docid539_facedetect|\MemoEditorHighlighter_ID_USUARIO<|||>1<|||>
+Servers\Doc\docIdeias\docid539_facedetect|usuario\MemoEditorHighlighter_USU_EMAIL<|||>1<|||>
+Servers\Doc\docIdeias\docid539_facedetect|usuario\MemoEditorHighlighter_USU_UUID<|||>1<|||>
+Servers\Doc\docIdeias\docid539_fmendes|Cidade\MemoEditorHighlighter_COD_IBGE<|||>1<|||>
+Servers\Doc\docIdeias\QueryHistory\1<|||>1<|||>2023-01-23 23:47:55|docid539_ainquilino|172|SELECT<{{{><}}}>	P.CPF_PESSOA,<{{{><}}}>	P.CNPJ_PESSOA,<{{{><}}}>	P.EMAIL_PESSOA,<{{{><}}}>	UT.ID_USUARIO_TIPO <{{{><}}}>FROM<{{{><}}}>	usuario U<{{{><}}}>	INNER JOIN pessoa P ON ( U.ID_PESSOA = P.ID_PESSOA )<{{{><}}}>	INNER JOIN usuario_tipo UT ON ( U.ID_USUARIO_TIPO = UT.ID_USUARIO_TIPO ) <{{{><}}}>WHERE<{{{><}}}>	P.EMAIL_PESSOA = 'c@gmail.com' <{{{><}}}>	#P.CPF_PESSOA = '02267393760'<{{{><}}}>	#P.CNPJ_PESSOA = '16996948000189'<{{{><}}}>	AND U.ATIVO = 1 <{{{><}}}>	AND P.ATIVO = 1 <{{{><}}}>	AND UT.ID_USUARIO_TIPO = 2	#Usuário Comum<{{{><}}}>	#AND UT.ID_USUARIO_TIPO = 1	#Usuário Admin<{{{><}}}>	#AND P.DT_CANCELAMENTO IS NULL
+Servers\Doc\docIdeias\QueryHistory\3<|||>1<|||>2023-01-23 23:48:37|docid539_ainquilino|172|<{{{><}}}>-- SELECT<{{{><}}}>-- 	* <{{{><}}}>-- FROM<{{{><}}}>-- 	usuario U<{{{><}}}>-- 	INNER JOIN pessoa P ON U.ID_PESSOA = P.ID_PESSOA <{{{><}}}>-- WHERE<{{{><}}}>-- 	P.EMAIL_PESSOA = 'c@gmail.com' <{{{><}}}>-- 	#P.CPF_PESSOA = '02267393760'<{{{><}}}>-- 	#P.CNPJ_PESSOA = '16996948000189'<{{{><}}}>-- 	AND U.SENHA_USUARIO = '123' <{{{><}}}>-- 	#--><{{{><}}}>-- 	AND U.VERIFICADO = 1 <{{{><}}}>-- 	AND U.ATIVO = 1 <{{{><}}}>-- 	AND P.ATIVO = 1 <{{{><}}}>-- 	AND P.DT_CANCELAMENTO IS NULL<{{{><}}}>-- 	#--><{{{><}}}>	<{{{><}}}><{{{><}}}><{{{><}}}>#SELECT * FROM pessoa WHERE DT_CRIACAO BETWEEN '2023-01-21' AND '2023-01-21' #CURRENT_DATE()<{{{><}}}><{{{><}}}>SELECT<{{{><}}}>	P.CPF_PESSOA,<{{{><}}}>	P.CNPJ_PESSOA,<{{{><}}}>	P.EMAIL_PESSOA,<{{{><}}}>	UT.ID_USUARIO_TIPO <{{{><}}}>FROM<{{{><}}}>	usuario U<{{{><}}}>	INNER JOIN pessoa P ON ( U.ID_PESSOA = P.ID_PESSOA )<{{{><}}}>	INNER JOIN usuario_tipo UT ON ( U.ID_USUARIO_TIPO = UT.ID_USUARIO_TIPO ) <{{{><}}}>WHERE<{{{><}}}>	P.EMAIL_PESSOA = 'c@gmail.com' <{{{><}}}>	#P.CPF_PESSOA = '02267393760'<{{{><}}}>	#P.CNPJ_PESSOA = '16996948000189'<{{{><}}}>	AND U.ATIVO = 1 <{{{><}}}>	AND P.ATIVO = 1 <{{{><}}}>	AND UT.ID_USUARIO_TIPO = 2	#Usuário Comum<{{{><}}}>	#AND UT.ID_USUARIO_TIPO = 1	#Usuário Admin<{{{><}}}>	#AND P.DT_CANCELAMENTO IS NULL<{{{><}}}><{{{><}}}><{{{><}}}><{{{><}}}>	<{{{><}}}>#SELECT NOW(),NOW()+1;<{{{><}}}>#SELECT CURDATE();<{{{><}}}><{{{><}}}><{{{><}}}>#docid539_bdpcrdocid539_ainquilino
+Servers\Doc\docIdeias\QueryHistory\2<|||>1<|||>2023-01-23 23:51:17|docid539_ainquilino|172|<{{{><}}}>-- SELECT<{{{><}}}>-- 	* <{{{><}}}>-- FROM<{{{><}}}>-- 	usuario U<{{{><}}}>-- 	INNER JOIN pessoa P ON U.ID_PESSOA = P.ID_PESSOA <{{{><}}}>-- WHERE<{{{><}}}>-- 	P.EMAIL_PESSOA = 'c@gmail.com' <{{{><}}}>-- 	#P.CPF_PESSOA = '02267393760'<{{{><}}}>-- 	#P.CNPJ_PESSOA = '16996948000189'<{{{><}}}>-- 	AND U.SENHA_USUARIO = '123' <{{{><}}}>-- 	#--><{{{><}}}>-- 	AND U.VERIFICADO = 1 <{{{><}}}>-- 	AND U.ATIVO = 1 <{{{><}}}>-- 	AND P.ATIVO = 1 <{{{><}}}>-- 	AND P.DT_CANCELAMENTO IS NULL<{{{><}}}>-- 	#--><{{{><}}}>	<{{{><}}}><{{{><}}}><{{{><}}}>#SELECT * FROM pessoa WHERE DT_CRIACAO BETWEEN '2023-01-21' AND '2023-01-21' #CURRENT_DATE()<{{{><}}}><{{{><}}}>SELECT COUNT(*),<{{{><}}}>	P.CPF_PESSOA,<{{{><}}}>	P.CNPJ_PESSOA,<{{{><}}}>	P.EMAIL_PESSOA,<{{{><}}}>	UT.ID_USUARIO_TIPO <{{{><}}}>FROM<{{{><}}}>	usuario U<{{{><}}}>	INNER JOIN pessoa P ON ( U.ID_PESSOA = P.ID_PESSOA )<{{{><}}}>	INNER JOIN usuario_tipo UT ON ( U.ID_USUARIO_TIPO = UT.ID_USUARIO_TIPO ) <{{{><}}}>WHERE<{{{><}}}>	P.EMAIL_PESSOA = 'c@gmail.com' <{{{><}}}>	#P.CPF_PESSOA = '02267393760'<{{{><}}}>	#P.CNPJ_PESSOA = '16996948000189'<{{{><}}}>	AND U.ATIVO = 1 <{{{><}}}>	AND P.ATIVO = 1 <{{{><}}}>	AND UT.ID_USUARIO_TIPO = 2	#Usuário Comum<{{{><}}}>	#AND UT.ID_USUARIO_TIPO = 1	#Usuário Admin<{{{><}}}>	#AND P.DT_CANCELAMENTO IS NULL<{{{><}}}><{{{><}}}><{{{><}}}><{{{><}}}>	<{{{><}}}>#SELECT NOW(),NOW()+1;<{{{><}}}>#SELECT CURDATE();<{{{><}}}><{{{><}}}>
+Servers\Doc\docIdeias\QueryHistory\5<|||>1<|||>2023-01-23 23:52:29|docid539_ainquilino|172|<{{{><}}}>-- SELECT<{{{><}}}>-- 	* <{{{><}}}>-- FROM<{{{><}}}>-- 	usuario U<{{{><}}}>-- 	INNER JOIN pessoa P ON U.ID_PESSOA = P.ID_PESSOA <{{{><}}}>-- WHERE<{{{><}}}>-- 	P.EMAIL_PESSOA = 'c@gmail.com' <{{{><}}}>-- 	#P.CPF_PESSOA = '02267393760'<{{{><}}}>-- 	#P.CNPJ_PESSOA = '16996948000189'<{{{><}}}>-- 	AND U.SENHA_USUARIO = '123' <{{{><}}}>-- 	#--><{{{><}}}>-- 	AND U.VERIFICADO = 1 <{{{><}}}>-- 	AND U.ATIVO = 1 <{{{><}}}>-- 	AND P.ATIVO = 1 <{{{><}}}>-- 	AND P.DT_CANCELAMENTO IS NULL<{{{><}}}>-- 	#--><{{{><}}}>	<{{{><}}}><{{{><}}}><{{{><}}}>#SELECT * FROM pessoa WHERE DT_CRIACAO BETWEEN '2023-01-21' AND '2023-01-21' #CURRENT_DATE()<{{{><}}}><{{{><}}}>SELECT COUNT(*)#,<{{{><}}}>	#P.CPF_PESSOA,<{{{><}}}>	#P.CNPJ_PESSOA,<{{{><}}}>	#P.EMAIL_PESSOA,<{{{><}}}>	#UT.ID_USUARIO_TIPO <{{{><}}}>FROM<{{{><}}}>	usuario U<{{{><}}}>	INNER JOIN pessoa P ON ( U.ID_PESSOA = P.ID_PESSOA )<{{{><}}}>	INNER JOIN usuario_tipo UT ON ( U.ID_USUARIO_TIPO = UT.ID_USUARIO_TIPO ) <{{{><}}}>WHERE<{{{><}}}>	P.EMAIL_PESSOA = 'c@gmail.com' <{{{><}}}>	#P.CPF_PESSOA = '02267393760'<{{{><}}}>	#P.CNPJ_PESSOA = '16996948000189'<{{{><}}}>	AND U.ATIVO = 1 <{{{><}}}>	AND P.ATIVO = 1 <{{{><}}}>	AND UT.ID_USUARIO_TIPO = 2	#Usuário Comum<{{{><}}}>	#AND UT.ID_USUARIO_TIPO = 1	#Usuário Admin<{{{><}}}>	#AND P.DT_CANCELAMENTO IS NULL<{{{><}}}><{{{><}}}><{{{><}}}><{{{><}}}>	<{{{><}}}>#SELECT NOW(),NOW()+1;<{{{><}}}>#SELECT CURDATE();<{{{><}}}><{{{><}}}>
+Servers\Doc\docIdeias\QueryHistory\4<|||>1<|||>2023-01-23 23:52:41|docid539_ainquilino|172|<{{{><}}}>-- SELECT<{{{><}}}>-- 	* <{{{><}}}>-- FROM<{{{><}}}>-- 	usuario U<{{{><}}}>-- 	INNER JOIN pessoa P ON U.ID_PESSOA = P.ID_PESSOA <{{{><}}}>-- WHERE<{{{><}}}>-- 	P.EMAIL_PESSOA = 'c@gmail.com' <{{{><}}}>-- 	#P.CPF_PESSOA = '02267393760'<{{{><}}}>-- 	#P.CNPJ_PESSOA = '16996948000189'<{{{><}}}>-- 	AND U.SENHA_USUARIO = '123' <{{{><}}}>-- 	#--><{{{><}}}>-- 	AND U.VERIFICADO = 1 <{{{><}}}>-- 	AND U.ATIVO = 1 <{{{><}}}>-- 	AND P.ATIVO = 1 <{{{><}}}>-- 	AND P.DT_CANCELAMENTO IS NULL<{{{><}}}>-- 	#--><{{{><}}}>	<{{{><}}}><{{{><}}}><{{{><}}}>#SELECT * FROM pessoa WHERE DT_CRIACAO BETWEEN '2023-01-21' AND '2023-01-21' #CURRENT_DATE()<{{{><}}}><{{{><}}}>SELECT COUNT(*)#,<{{{><}}}>	#P.CPF_PESSOA,<{{{><}}}>	#P.CNPJ_PESSOA,<{{{><}}}>	#P.EMAIL_PESSOA,<{{{><}}}>	#UT.ID_USUARIO_TIPO <{{{><}}}>FROM<{{{><}}}>	usuario U<{{{><}}}>	INNER JOIN pessoa P ON ( U.ID_PESSOA = P.ID_PESSOA )<{{{><}}}>	INNER JOIN usuario_tipo UT ON ( U.ID_USUARIO_TIPO = UT.ID_USUARIO_TIPO ) <{{{><}}}>WHERE<{{{><}}}>	P.EMAIL_PESSOA = 'c@gmail.com' <{{{><}}}>	#P.CPF_PESSOA = '02267393760'<{{{><}}}>	#P.CNPJ_PESSOA = '16996948000189'<{{{><}}}>	AND U.ATIVO = 1 <{{{><}}}>	AND P.ATIVO = 1 <{{{><}}}>	#AND UT.ID_USUARIO_TIPO = 2	#Usuário Comum<{{{><}}}>	AND UT.ID_USUARIO_TIPO = 1	#Usuário Admin<{{{><}}}>	#AND P.DT_CANCELAMENTO IS NULL<{{{><}}}><{{{><}}}><{{{><}}}><{{{><}}}>	<{{{><}}}>#SELECT NOW(),NOW()+1;<{{{><}}}>#SELECT CURDATE();<{{{><}}}><{{{><}}}>
+Servers\Doc\docIdeias\QueryHistory\6<|||>1<|||>2023-01-23 23:52:51|docid539_ainquilino|172|<{{{><}}}>-- SELECT<{{{><}}}>-- 	* <{{{><}}}>-- FROM<{{{><}}}>-- 	usuario U<{{{><}}}>-- 	INNER JOIN pessoa P ON U.ID_PESSOA = P.ID_PESSOA <{{{><}}}>-- WHERE<{{{><}}}>-- 	P.EMAIL_PESSOA = 'c@gmail.com' <{{{><}}}>-- 	#P.CPF_PESSOA = '02267393760'<{{{><}}}>-- 	#P.CNPJ_PESSOA = '16996948000189'<{{{><}}}>-- 	AND U.SENHA_USUARIO = '123' <{{{><}}}>-- 	#--><{{{><}}}>-- 	AND U.VERIFICADO = 1 <{{{><}}}>-- 	AND U.ATIVO = 1 <{{{><}}}>-- 	AND P.ATIVO = 1 <{{{><}}}>-- 	AND P.DT_CANCELAMENTO IS NULL<{{{><}}}>-- 	#--><{{{><}}}>	<{{{><}}}><{{{><}}}><{{{><}}}>#SELECT * FROM pessoa WHERE DT_CRIACAO BETWEEN '2023-01-21' AND '2023-01-21' #CURRENT_DATE()<{{{><}}}><{{{><}}}>SELECT COUNT(*)<{{{><}}}>	#P.CPF_PESSOA,<{{{><}}}>	#P.CNPJ_PESSOA,<{{{><}}}>	#P.EMAIL_PESSOA,<{{{><}}}>	#UT.ID_USUARIO_TIPO <{{{><}}}>FROM<{{{><}}}>	usuario U<{{{><}}}>	INNER JOIN pessoa P ON ( U.ID_PESSOA = P.ID_PESSOA )<{{{><}}}>	INNER JOIN usuario_tipo UT ON ( U.ID_USUARIO_TIPO = UT.ID_USUARIO_TIPO ) <{{{><}}}>WHERE<{{{><}}}>	P.EMAIL_PESSOA = 'c@gmail.com' <{{{><}}}>	#P.CPF_PESSOA = '02267393760'<{{{><}}}>	#P.CNPJ_PESSOA = '16996948000189'<{{{><}}}>	AND U.ATIVO = 1 <{{{><}}}>	AND P.ATIVO = 1 <{{{><}}}>	#AND UT.ID_USUARIO_TIPO = 2	#Usuário Comum<{{{><}}}>	AND UT.ID_USUARIO_TIPO = 1	#Usuário Admin<{{{><}}}>	#AND P.DT_CANCELAMENTO IS NULL<{{{><}}}><{{{><}}}><{{{><}}}><{{{><}}}>	<{{{><}}}>#SELECT NOW(),NOW()+1;<{{{><}}}>#SELECT CURDATE();<{{{><}}}><{{{><}}}>
+Servers\Doc\docIdeias\QueryHistory\8<|||>1<|||>2023-01-26 06:08:33|docid539_ainquilino|187|<{{{><}}}>-- SELECT<{{{><}}}>-- 	* <{{{><}}}>-- FROM<{{{><}}}>-- 	usuario U<{{{><}}}>-- 	INNER JOIN pessoa P ON U.ID_PESSOA = P.ID_PESSOA <{{{><}}}>-- WHERE<{{{><}}}>-- 	P.EMAIL_PESSOA = 'c@gmail.com' <{{{><}}}>-- 	#P.CPF_PESSOA = '02267393760'<{{{><}}}>-- 	#P.CNPJ_PESSOA = '16996948000189'<{{{><}}}>-- 	AND U.SENHA_USUARIO = '123' <{{{><}}}>-- 	#--><{{{><}}}>-- 	AND U.VERIFICADO = 1 <{{{><}}}>-- 	AND U.ATIVO = 1 <{{{><}}}>-- 	AND P.ATIVO = 1 <{{{><}}}>-- 	AND P.DT_CANCELAMENTO IS NULL<{{{><}}}>-- 	#--><{{{><}}}>	<{{{><}}}><{{{><}}}><{{{><}}}>#SELECT * FROM pessoa WHERE DT_CRIACAO BETWEEN '2023-01-21' AND '2023-01-21' #CURRENT_DATE()<{{{><}}}><{{{><}}}>SELECT COUNT(*) AS ADMIN<{{{><}}}>	#P.CPF_PESSOA,<{{{><}}}>	#P.CNPJ_PESSOA,<{{{><}}}>	#P.EMAIL_PESSOA,<{{{><}}}>	#UT.ID_USUARIO_TIPO <{{{><}}}>FROM<{{{><}}}>	usuario U<{{{><}}}>	INNER JOIN pessoa P ON ( U.ID_PESSOA = P.ID_PESSOA )<{{{><}}}>	INNER JOIN usuario_tipo UT ON ( U.ID_USUARIO_TIPO = UT.ID_USUARIO_TIPO ) <{{{><}}}>WHERE<{{{><}}}>	P.EMAIL_PESSOA = 'c@gmail.com' <{{{><}}}>	#P.CPF_PESSOA = '02267393760'<{{{><}}}>	#P.CNPJ_PESSOA = '16996948000189'<{{{><}}}>	AND U.ATIVO = 1 <{{{><}}}>	AND P.ATIVO = 1 <{{{><}}}>	#AND UT.ID_USUARIO_TIPO = 2	#Usuário Comum<{{{><}}}>	AND UT.ID_USUARIO_TIPO = 1	#Usuário Admin<{{{><}}}>	#AND P.DT_CANCELAMENTO IS NULL<{{{><}}}><{{{><}}}><{{{><}}}><{{{><}}}>	<{{{><}}}>#SELECT NOW(),NOW()+1;<{{{><}}}>#SELECT CURDATE();<{{{><}}}><{{{><}}}>
+Servers\Doc\docIdeias\QueryHistory\7<|||>1<|||>2023-01-26 06:10:11|docid539_ainquilino|172|<{{{><}}}>-- SELECT<{{{><}}}>-- 	* <{{{><}}}>-- FROM<{{{><}}}>-- 	usuario U<{{{><}}}>-- 	INNER JOIN pessoa P ON U.ID_PESSOA = P.ID_PESSOA <{{{><}}}>-- WHERE<{{{><}}}>-- 	P.EMAIL_PESSOA = 'c@gmail.com' <{{{><}}}>-- 	#P.CPF_PESSOA = '02267393760'<{{{><}}}>-- 	#P.CNPJ_PESSOA = '16996948000189'<{{{><}}}>-- 	AND U.SENHA_USUARIO = '123' <{{{><}}}>-- 	#--><{{{><}}}>-- 	AND U.VERIFICADO = 1 <{{{><}}}>-- 	AND U.ATIVO = 1 <{{{><}}}>-- 	AND P.ATIVO = 1 <{{{><}}}>-- 	AND P.DT_CANCELAMENTO IS NULL<{{{><}}}>-- 	#--><{{{><}}}>	<{{{><}}}><{{{><}}}><{{{><}}}>#SELECT * FROM pessoa WHERE DT_CRIACAO BETWEEN '2023-01-21' AND '2023-01-21' #CURRENT_DATE()<{{{><}}}><{{{><}}}>SELECT COUNT(*) AS ADMIN<{{{><}}}>	#P.CPF_PESSOA,<{{{><}}}>	#P.CNPJ_PESSOA,<{{{><}}}>	#P.EMAIL_PESSOA,<{{{><}}}>	#UT.ID_USUARIO_TIPO <{{{><}}}>FROM<{{{><}}}>	usuario U<{{{><}}}>	INNER JOIN pessoa P ON ( U.ID_PESSOA = P.ID_PESSOA )<{{{><}}}>	INNER JOIN usuario_tipo UT ON ( U.ID_USUARIO_TIPO = UT.ID_USUARIO_TIPO ) <{{{><}}}>WHERE<{{{><}}}>	P.EMAIL_PESSOA = 'c@gmail.com' <{{{><}}}>	#P.CPF_PESSOA = '02267393760'<{{{><}}}>	#P.CNPJ_PESSOA = '16996948000189'<{{{><}}}>	AND U.ATIVO = 1 <{{{><}}}>	AND P.ATIVO = 1 <{{{><}}}>	AND UT.ID_USUARIO_TIPO = 2	#Usuário Comum<{{{><}}}>	#AND UT.ID_USUARIO_TIPO = 1	#Usuário Admin<{{{><}}}>	#AND P.DT_CANCELAMENTO IS NULL<{{{><}}}><{{{><}}}><{{{><}}}><{{{><}}}>	<{{{><}}}>#SELECT NOW(),NOW()+1;<{{{><}}}>#SELECT CURDATE();<{{{><}}}><{{{><}}}>
+Servers\Doc\docIdeias\QueryHistory\9<|||>1<|||>2023-01-26 06:23:34|docid539_ainquilino|172|SELECT COUNT(*) AS ADMIN FROM usuario U<{{{><}}}><{{{><}}}>        INNER JOIN pessoa P ON (U.ID_PESSOA = P.ID_PESSOA) <{{{><}}}><{{{><}}}>        INNER JOIN usuario_tipo UT ON (U.ID_USUARIO_TIPO = UT.ID_USUARIO_TIPO)  WHERE P.EMAIL_PESSOA = 'c@gmail.com' AND U.ATIVO = 1<{{{><}}}><{{{><}}}>              AND P.ATIVO = 1 <{{{><}}}><{{{><}}}>              AND UT.ID_USUARIO_TIPO = 1
+Servers\Doc\docIdeias\QueryHistory\10<|||>1<|||>2023-01-26 06:26:53|docid539_ainquilino|188|<{{{><}}}>-- SELECT<{{{><}}}>-- 	* <{{{><}}}>-- FROM<{{{><}}}>-- 	usuario U<{{{><}}}>-- 	INNER JOIN pessoa P ON U.ID_PESSOA = P.ID_PESSOA <{{{><}}}>-- WHERE<{{{><}}}>-- 	P.EMAIL_PESSOA = 'c@gmail.com' <{{{><}}}>-- 	#P.CPF_PESSOA = '02267393760'<{{{><}}}>-- 	#P.CNPJ_PESSOA = '16996948000189'<{{{><}}}>-- 	AND U.SENHA_USUARIO = '123' <{{{><}}}>-- 	#--><{{{><}}}>-- 	AND U.VERIFICADO = 1 <{{{><}}}>-- 	AND U.ATIVO = 1 <{{{><}}}>-- 	AND P.ATIVO = 1 <{{{><}}}>-- 	AND P.DT_CANCELAMENTO IS NULL<{{{><}}}>-- 	#--><{{{><}}}>	<{{{><}}}><{{{><}}}><{{{><}}}>#SELECT * FROM pessoa WHERE DT_CRIACAO BETWEEN '2023-01-21' AND '2023-01-21' #CURRENT_DATE()<{{{><}}}><{{{><}}}>SELECT COUNT(*) AS ADMIN<{{{><}}}>	#P.CPF_PESSOA,<{{{><}}}>	#P.CNPJ_PESSOA,<{{{><}}}>	#P.EMAIL_PESSOA,<{{{><}}}>	#UT.ID_USUARIO_TIPO <{{{><}}}>FROM<{{{><}}}>	usuario U<{{{><}}}>	INNER JOIN pessoa P ON ( U.ID_PESSOA = P.ID_PESSOA )<{{{><}}}>	INNER JOIN usuario_tipo UT ON ( U.ID_USUARIO_TIPO = UT.ID_USUARIO_TIPO ) <{{{><}}}>WHERE<{{{><}}}>	P.EMAIL_PESSOA = 'c@gmail.com' <{{{><}}}>	#P.CPF_PESSOA = '02267393760'<{{{><}}}>	#P.CNPJ_PESSOA = '16996948000189'<{{{><}}}>	AND U.ATIVO = 1 <{{{><}}}>	AND P.ATIVO = 1 <{{{><}}}>	AND UT.ID_USUARIO_TIPO = 2	#Usuário Comum<{{{><}}}>	#AND UT.ID_USUARIO_TIPO = 1	#Usuário Admin<{{{><}}}>	#AND P.DT_CANCELAMENTO IS NULL<{{{><}}}><{{{><}}}><{{{><}}}><{{{><}}}>              <{{{><}}}>	<{{{><}}}>#SELECT NOW(),NOW()+1;<{{{><}}}>#SELECT CURDATE();<{{{><}}}><{{{><}}}>
+Servers\Doc\docIdeias\QueryHistory\11<|||>1<|||>2023-01-26 22:12:25|docid539_ainquilino|171|<{{{><}}}>-- SELECT<{{{><}}}>-- 	* <{{{><}}}>-- FROM<{{{><}}}>-- 	usuario U<{{{><}}}>-- 	INNER JOIN pessoa P ON U.ID_PESSOA = P.ID_PESSOA <{{{><}}}>-- WHERE<{{{><}}}>-- 	P.EMAIL_PESSOA = 'c@gmail.com' <{{{><}}}>-- 	#P.CPF_PESSOA = '02267393760'<{{{><}}}>-- 	#P.CNPJ_PESSOA = '16996948000189'<{{{><}}}>-- 	AND U.SENHA_USUARIO = '123' <{{{><}}}>-- 	#--><{{{><}}}>-- 	AND U.VERIFICADO = 1 <{{{><}}}>-- 	AND U.ATIVO = 1 <{{{><}}}>-- 	AND P.ATIVO = 1 <{{{><}}}>-- 	AND P.DT_CANCELAMENTO IS NULL<{{{><}}}>-- 	#--><{{{><}}}>	<{{{><}}}><{{{><}}}><{{{><}}}>#SELECT * FROM pessoa WHERE DT_CRIACAO BETWEEN '2023-01-21' AND '2023-01-21' #CURRENT_DATE()<{{{><}}}><{{{><}}}>SELECT COUNT(*) AS ADMIN<{{{><}}}>	#P.CPF_PESSOA,<{{{><}}}>	#P.CNPJ_PESSOA,<{{{><}}}>	#P.EMAIL_PESSOA,<{{{><}}}>	#UT.ID_USUARIO_TIPO <{{{><}}}>FROM<{{{><}}}>	usuario U<{{{><}}}>	INNER JOIN pessoa P ON ( U.ID_PESSOA = P.ID_PESSOA )<{{{><}}}>	INNER JOIN usuario_tipo UT ON ( U.ID_USUARIO_TIPO = UT.ID_USUARIO_TIPO ) <{{{><}}}>WHERE<{{{><}}}>	P.EMAIL_PESSOA = 'c@gmail.com' <{{{><}}}>	#P.CPF_PESSOA = '02267393760'<{{{><}}}>	#P.CNPJ_PESSOA = '16996948000189'<{{{><}}}>	AND U.ATIVO = 1 <{{{><}}}>	AND P.ATIVO = 1 <{{{><}}}>	#AND UT.ID_USUARIO_TIPO = 2	#Usuário Comum<{{{><}}}>	AND UT.ID_USUARIO_TIPO = 1	#Usuário Admin<{{{><}}}>	#AND P.DT_CANCELAMENTO IS NULL<{{{><}}}><{{{><}}}><{{{><}}}><{{{><}}}>              <{{{><}}}>	<{{{><}}}>#SELECT NOW(),NOW()+1;<{{{><}}}>#SELECT CURDATE();<{{{><}}}><{{{><}}}>
+Servers\Doc\docIdeias\QueryHistory\13<|||>1<|||>2023-01-26 22:13:47|docid539_ainquilino|172|<{{{><}}}>-- SELECT<{{{><}}}>-- 	* <{{{><}}}>-- FROM<{{{><}}}>-- 	usuario U<{{{><}}}>-- 	INNER JOIN pessoa P ON U.ID_PESSOA = P.ID_PESSOA <{{{><}}}>-- WHERE<{{{><}}}>-- 	P.EMAIL_PESSOA = 'c@gmail.com' <{{{><}}}>-- 	#P.CPF_PESSOA = '02267393760'<{{{><}}}>-- 	#P.CNPJ_PESSOA = '16996948000189'<{{{><}}}>-- 	AND U.SENHA_USUARIO = '123' <{{{><}}}>-- 	#--><{{{><}}}>-- 	AND U.VERIFICADO = 1 <{{{><}}}>-- 	AND U.ATIVO = 1 <{{{><}}}>-- 	AND P.ATIVO = 1 <{{{><}}}>-- 	AND P.DT_CANCELAMENTO IS NULL<{{{><}}}>-- 	#--><{{{><}}}>	<{{{><}}}><{{{><}}}><{{{><}}}>#SELECT * FROM pessoa WHERE DT_CRIACAO BETWEEN '2023-01-21' AND '2023-01-21' #CURRENT_DATE()<{{{><}}}><{{{><}}}>SELECT COUNT(*) AS ADMIN FROM usuario U<{{{><}}}>	INNER JOIN pessoa P ON ( U.ID_PESSOA = P.ID_PESSOA )<{{{><}}}>	INNER JOIN usuario_tipo UT ON ( U.ID_USUARIO_TIPO = UT.ID_USUARIO_TIPO ) <{{{><}}}>WHERE<{{{><}}}>	P.EMAIL_PESSOA = 'c@gmail.com' <{{{><}}}>	#P.CPF_PESSOA = '02267393760'<{{{><}}}>	#P.CNPJ_PESSOA = '16996948000189'<{{{><}}}>	AND U.ATIVO = 1 <{{{><}}}>	AND P.ATIVO = 1 <{{{><}}}>	AND UT.ID_USUARIO_TIPO = 2	#Usuário Comum<{{{><}}}>	#AND UT.ID_USUARIO_TIPO = 1	#Usuário Admin<{{{><}}}>	#AND P.DT_CANCELAMENTO IS NULL<{{{><}}}><{{{><}}}><{{{><}}}><{{{><}}}>              <{{{><}}}>	<{{{><}}}>#SELECT NOW(),NOW()+1;<{{{><}}}>#SELECT CURDATE();<{{{><}}}><{{{><}}}>
+Servers\Doc\docIdeias\QueryHistory\12<|||>1<|||>2023-01-26 22:14:22|docid539_ainquilino|172|<{{{><}}}>-- SELECT<{{{><}}}>-- 	* <{{{><}}}>-- FROM<{{{><}}}>-- 	usuario U<{{{><}}}>-- 	INNER JOIN pessoa P ON U.ID_PESSOA = P.ID_PESSOA <{{{><}}}>-- WHERE<{{{><}}}>-- 	P.EMAIL_PESSOA = 'c@gmail.com' <{{{><}}}>-- 	#P.CPF_PESSOA = '02267393760'<{{{><}}}>-- 	#P.CNPJ_PESSOA = '16996948000189'<{{{><}}}>-- 	AND U.SENHA_USUARIO = '123' <{{{><}}}>-- 	#--><{{{><}}}>-- 	AND U.VERIFICADO = 1 <{{{><}}}>-- 	AND U.ATIVO = 1 <{{{><}}}>-- 	AND P.ATIVO = 1 <{{{><}}}>-- 	AND P.DT_CANCELAMENTO IS NULL<{{{><}}}>-- 	#--><{{{><}}}>	<{{{><}}}><{{{><}}}><{{{><}}}>#SELECT * FROM pessoa WHERE DT_CRIACAO BETWEEN '2023-01-21' AND '2023-01-21' #CURRENT_DATE()<{{{><}}}><{{{><}}}>SELECT COUNT(*) AS ADMIN FROM usuario U<{{{><}}}>	INNER JOIN pessoa P ON ( U.ID_PESSOA = P.ID_PESSOA )<{{{><}}}>	INNER JOIN usuario_tipo UT ON ( U.ID_USUARIO_TIPO = UT.ID_USUARIO_TIPO ) <{{{><}}}>WHERE<{{{><}}}>	P.EMAIL_PESSOA = 'c@gmail.com' <{{{><}}}>	#P.CPF_PESSOA = '02267393760'<{{{><}}}>	#P.CNPJ_PESSOA = '16996948000189'<{{{><}}}>	AND U.ATIVO = 1 <{{{><}}}>	AND P.ATIVO = 1 <{{{><}}}>	#AND UT.ID_USUARIO_TIPO = 2	#Usuário Comum<{{{><}}}>	AND UT.ID_USUARIO_TIPO = 1	#Usuário Admin<{{{><}}}>	#AND P.DT_CANCELAMENTO IS NULL<{{{><}}}><{{{><}}}><{{{><}}}><{{{><}}}>              <{{{><}}}>	<{{{><}}}>#SELECT NOW(),NOW()+1;<{{{><}}}>#SELECT CURDATE();<{{{><}}}><{{{><}}}>
+Servers\Doc\docIdeias\QueryHistory\14<|||>1<|||>2023-01-26 22:45:01|docid539_ainquilino|172|<{{{><}}}>-- SELECT<{{{><}}}>-- 	* <{{{><}}}>-- FROM<{{{><}}}>-- 	usuario U<{{{><}}}>-- 	INNER JOIN pessoa P ON U.ID_PESSOA = P.ID_PESSOA <{{{><}}}>-- WHERE<{{{><}}}>-- 	P.EMAIL_PESSOA = 'c@gmail.com' <{{{><}}}>-- 	#P.CPF_PESSOA = '02267393760'<{{{><}}}>-- 	#P.CNPJ_PESSOA = '16996948000189'<{{{><}}}>-- 	AND U.SENHA_USUARIO = '123' <{{{><}}}>-- 	#--><{{{><}}}>-- 	AND U.VERIFICADO = 1 <{{{><}}}>-- 	AND U.ATIVO = 1 <{{{><}}}>-- 	AND P.ATIVO = 1 <{{{><}}}>-- 	AND P.DT_CANCELAMENTO IS NULL<{{{><}}}>-- 	#--><{{{><}}}>	<{{{><}}}><{{{><}}}><{{{><}}}>#SELECT * FROM pessoa WHERE DT_CRIACAO BETWEEN '2023-01-21' AND '2023-01-21' #CURRENT_DATE()<{{{><}}}><{{{><}}}>SELECT COUNT(*) AS ADMIN FROM usuario U<{{{><}}}>	INNER JOIN pessoa P ON ( U.ID_PESSOA = P.ID_PESSOA )<{{{><}}}>	INNER JOIN usuario_tipo UT ON ( U.ID_USUARIO_TIPO = UT.ID_USUARIO_TIPO ) <{{{><}}}>WHERE<{{{><}}}>	P.EMAIL_PESSOA = 'c@gmail.com' <{{{><}}}>	#P.CPF_PESSOA = '02267393760'<{{{><}}}>	#P.CNPJ_PESSOA = '16996948000189'<{{{><}}}>	AND U.ATIVO = 1 <{{{><}}}>	AND P.ATIVO = 1 <{{{><}}}>	#AND UT.ID_USUARIO_TIPO = 2	#Usuário Comum<{{{><}}}>	AND UT.ID_USUARIO_TIPO = 1	#Usuário Admin<{{{><}}}><{{{><}}}>              <{{{><}}}>	<{{{><}}}>#SELECT NOW(),NOW()+1;<{{{><}}}>#SELECT CURDATE();<{{{><}}}><{{{><}}}>
+Servers\Doc\docIdeias\QueryHistory\16<|||>1<|||>2023-01-26 22:54:05|docid539_ainquilino|172|<{{{><}}}>-- SELECT<{{{><}}}>-- 	* <{{{><}}}>-- FROM<{{{><}}}>-- 	usuario U<{{{><}}}>-- 	INNER JOIN pessoa P ON U.ID_PESSOA = P.ID_PESSOA <{{{><}}}>-- WHERE<{{{><}}}>-- 	P.EMAIL_PESSOA = 'c@gmail.com' <{{{><}}}>-- 	#P.CPF_PESSOA = '02267393760'<{{{><}}}>-- 	#P.CNPJ_PESSOA = '16996948000189'<{{{><}}}>-- 	AND U.SENHA_USUARIO = '123' <{{{><}}}>-- 	#--><{{{><}}}>-- 	AND U.VERIFICADO = 1 <{{{><}}}>-- 	AND U.ATIVO = 1 usuario<{{{><}}}>-- 	AND P.ATIVO = 1 <{{{><}}}>-- 	AND P.DT_CANCELAMENTO IS NULL<{{{><}}}>-- 	#--><{{{><}}}>	<{{{><}}}><{{{><}}}><{{{><}}}>#SELECT * FROM pessoa WHERE DT_CRIACAO BETWEEN '2023-01-21' AND '2023-01-21' #CURRENT_DATE()<{{{><}}}><{{{><}}}>SELECT COUNT(*) AS ADMIN FROM usuario U<{{{><}}}>	INNER JOIN pessoa P ON ( U.ID_PESSOA = P.ID_PESSOA )<{{{><}}}>	INNER JOIN usuario_tipo UT ON ( U.ID_USUARIO_TIPO = UT.ID_USUARIO_TIPO ) <{{{><}}}>WHERE<{{{><}}}>	P.EMAIL_PESSOA = 'c@gmail.com' <{{{><}}}>	#P.CPF_PESSOA = '02267393760'<{{{><}}}>	#P.CNPJ_PESSOA = '16996948000189'<{{{><}}}>	AND U.ATIVO = 1 <{{{><}}}>	AND P.ATIVO = 1 <{{{><}}}>	#AND UT.ID_USUARIO_TIPO = 2	#Usuário Comum<{{{><}}}>	AND UT.ID_USUARIO_TIPO > 1	#Usuário Admin<{{{><}}}><{{{><}}}>              <{{{><}}}>	<{{{><}}}>#SELECT NOW(),NOW()+1;<{{{><}}}>#SELECT CURDATE();<{{{><}}}><{{{><}}}>
+Servers\Doc\docIdeias\QueryHistory\17<|||>1<|||>2023-01-26 22:54:14|docid539_ainquilino|156|<{{{><}}}>-- SELECT<{{{><}}}>-- 	* <{{{><}}}>-- FROM<{{{><}}}>-- 	usuario U<{{{><}}}>-- 	INNER JOIN pessoa P ON U.ID_PESSOA = P.ID_PESSOA <{{{><}}}>-- WHERE<{{{><}}}>-- 	P.EMAIL_PESSOA = 'c@gmail.com' <{{{><}}}>-- 	#P.CPF_PESSOA = '02267393760'<{{{><}}}>-- 	#P.CNPJ_PESSOA = '16996948000189'<{{{><}}}>-- 	AND U.SENHA_USUARIO = '123' <{{{><}}}>-- 	#--><{{{><}}}>-- 	AND U.VERIFICADO = 1 <{{{><}}}>-- 	AND U.ATIVO = 1 usuario<{{{><}}}>-- 	AND P.ATIVO = 1 <{{{><}}}>-- 	AND P.DT_CANCELAMENTO IS NULL<{{{><}}}>-- 	#--><{{{><}}}>	<{{{><}}}><{{{><}}}><{{{><}}}>#SELECT * FROM pessoa WHERE DT_CRIACAO BETWEEN '2023-01-21' AND '2023-01-21' #CURRENT_DATE()<{{{><}}}><{{{><}}}>SELECT COUNT(*) AS ADMIN FROM usuario U<{{{><}}}>	INNER JOIN pessoa P ON ( U.ID_PESSOA = P.ID_PESSOA )<{{{><}}}>	INNER JOIN usuario_tipo UT ON ( U.ID_USUARIO_TIPO = UT.ID_USUARIO_TIPO ) <{{{><}}}>WHERE<{{{><}}}>	P.EMAIL_PESSOA = 'c@gmail.com' <{{{><}}}>	#P.CPF_PESSOA = '02267393760'<{{{><}}}>	#P.CNPJ_PESSOA = '16996948000189'<{{{><}}}>	AND U.ATIVO = 1 <{{{><}}}>	AND P.ATIVO = 1 <{{{><}}}>	#AND UT.ID_USUARIO_TIPO = 2	#Usuário Comum<{{{><}}}>	AND UT.ID_USUARIO_TIPO = 1	#Usuário Admin<{{{><}}}><{{{><}}}>              <{{{><}}}>	<{{{><}}}>#SELECT NOW(),NOW()+1;<{{{><}}}>#SELECT CURDATE();<{{{><}}}><{{{><}}}>

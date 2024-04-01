@@ -1,0 +1,31 @@
+main{
+    background-color: rgb(153, 148, 209);
+    border-radius: 10px;
+    padding: 10px;
+    color: #373737ff;
+    box-shadow: 10px 10px 15px rgba(124, 119, 170, 0.288);
+    width: 70%;
+    margin: auto;
+    text-align: justify;
+}
+body{
+    background-image: linear-gradient(to left,#b2abf2ff, #9381ffff);
+}
+h1{
+    text-align: center;
+    color: #332d2d;
+    text-shadow: 1px 1px 3px #332d2d;
+}
+h2{
+    color: #b2abf2ff;
+}
+
+/*
+
+--battleship-gray: #828e82ff;
+--linen: #ffeddfff;
+--tropical-indigo: #9381ffff;
+--periwinkle: #b2abf2ff;
+--jet: #373737ff;
+
+*/

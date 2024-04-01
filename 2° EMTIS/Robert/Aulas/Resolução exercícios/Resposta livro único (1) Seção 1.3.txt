@@ -1,0 +1,36 @@
+﻿1. Segundo Joyanes (2011), define-se um programa de computador
+como sendo um conjunto de instruções, seria mais o menos assim:
+você direciona uma ordem para o computador e o mesmo executa uma
+determinada tarefa.
+Analise se as afirmativas abaixo fazem parte das regras de criação de um
+programa de computador
+
+I- Definir e analisar o problema a ser solucionado.
+
+II- Criar um algoritmo ou um diagrama de fluxo.
+
+III- Realizar o pseudocódigo.
+
+De acordo com a sua análise responda a alternativa correta:
+
+Resposta letra B
+_____________________________________________________________________________
+2. As variáveis são locais reservados na memória para armazenamento dos
+dados, cada uma possui um nome próprio para sua identificação. Existe um
+tipo variável para cada representação da informação, não podendo assim,
+um determinado tipo de variável, ser usada em situações controversas.
+De acordo com o texto acima, responda a alternativa correta:
+
+Resposta letra C
+_____________________________________________________________________________
+3. Analise a aplicação abaixo da formatação da função printf():
+printf (“O resultado final das aplicações foram %f”, result);
+Perceba que o valor da variável “result” será posicionado no local do “%f”
+Porque “%f” é uma formatação para um dado do tipo flutuante.
+
+Analise a asserção acima e responda a alternativa correta:
+
+Resposta letra B
+
+
+

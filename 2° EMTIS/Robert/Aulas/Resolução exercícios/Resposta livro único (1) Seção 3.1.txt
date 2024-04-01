@@ -1,0 +1,35 @@
+1. Podemos dizer que o comando “else” é uma forma de negar o que foi
+colocado em uma situação do comando “if”. Sendo assim, “else” é o caso
+contrário do comando “if”.
+Funciona da seguinte forma:
+if <(condic¸a~o)>
+{
+<conjunto de comandos>;
+}
+else
+{
+<conjunto de comandos>;
+}
+Assinale a alternativa que melhor se compõe à contextualização acima:
+
+Resposta letra D
+__________________________________________________________________
+2. A estrutura condicional encadeada, também é conhecida como ifs
+aninhados, segundo Schildt (1997), é um comando if que é o objeto de
+outros if e else. Em resumo, um comando else sempre estará ligado ao
+comando if de seu nível de aninhamento.
+Assinale a alternativa que corresponde à sintaxe da estrutura
+condicional encadeada:
+
+Resposta letra B
+__________________________________________________________________
+3. A Estrutura Condicional de Seleção de Casos, “switch-case”, segundo
+Schildt (1997, p. 35) “testa sucessivamente o valor de uma expressão contra
+uma lista de constantes inteiras ou de caractere”, ou seja, quando os valores
+são avaliados o comando é executado.
+
+Levando em consideração a estrutura condicional de seleção utilizando
+casos, qual a principal função dos comandos default e break? Assinale a
+alternativa correta:
+
+Resposta letra A

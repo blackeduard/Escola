@@ -1,0 +1,10 @@
+K = 50
+GG = 75
+T = 76
+N = 45
+D = 5/100
+r1 = K * D
+r2 = GG * D
+r3 = T * D
+r4 = N * D
+print(" Kaio = {} / Gabriel = {} / Thiago = {} / Nathan = {}".format(r1, r2, r3, r4))

@@ -1,0 +1,43 @@
+﻿1. Variáveis são usadas para guardar valores temporariamente na memória 
+de trabalho. A linguagem C oferece recursos para que seja possível 
+conhecer o endereço de memória que foi alocado. Durante a execução de 
+um programa, uma variável pode assumir qualquer valor desde que esteja 
+de acordo com o tipo que foi especificado na sua criação.
+
+A respeito dos tipos primitivos de variáveis, escolha a opção correta.
+
+Resposta letra E
+_____________________________________________________________________________
+2. Constantes são usadas para guardar temporariamente valores fixos 
+na memória de trabalho. O valor armazenado em uma constante não 
+pode ser alterado em tempo de execução e essa é a principal diferença 
+com relação às variáveis. Na linguagem C, existem algumas constantes já 
+definidas na biblioteca math.h.
+
+A respeito das constantes na linguagem C, escolha a opção correta.
+
+Reposta letra A
+_____________________________________________________________________________
+3. A linguagem C de programação utiliza especificadores de formato para 
+identificar o tipo de valor guardado nas variáveis e constantes. Eles devem 
+ser usados tanto para leitura de um valor, como para a impressão. Quando 
+um programa é executado, o compilador usa esses elementos para fazer 
+as devidas referências e conexões, por isso o uso correto é fundamental 
+para os resultados.
+Considerando o código apresentado, analise as asserções e escolha a 
+opção correta.
+
+1. #include<stdio.h>
+2. void main(){
+3. int idade = 0;
+4. float salario = 0;
+5. char a_letra = ‘a’;
+6. char A_letra = ‘A’;
+7. }
+
+I- O comando scanf(“%f”,&idade); guardará o valor digitado na 
+variável idade.
+II- O comando printf(“%d”,a_letra); imprimirá a letra a na tela.
+III- O comando printf(“%c”,A_letra); imprimirá a letra A na tela.
+
+Resposta letra D

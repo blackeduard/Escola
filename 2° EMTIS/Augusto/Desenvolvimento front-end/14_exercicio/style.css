@@ -1,0 +1,13 @@
+#circle{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    border-radius: 80px;
+}
+#circle_in_circle{
+    background-color: rgba(224, 75, 75, 0.836);
+    height: 70px;
+    width: 70px;
+    border-radius: 80px;
+    margin: auto;
+}

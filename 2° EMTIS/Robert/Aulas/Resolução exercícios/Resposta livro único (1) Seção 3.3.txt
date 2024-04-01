@@ -1,0 +1,60 @@
+1. Segundo Manzano (2013), podemos dizer que o programa abaixo executa
+as seguintes instruções:
+
+I- Inicia o contador de índice, variável I, como 0 (zero), em um contador até 5.
+
+II- Lê os cinco valores, um a um.
+
+III- Verificar se o elemento é par; se sim, efetuar a soma dos elementos.
+
+Apresentar o total de todos os elementos pares da matriz.
+
+1. #include <stdio.h>
+2.
+3. int main() {
+4.    int A[5];
+5.	int I, SOMA = 0;
+6.	printf("\nSomatorio de elementos\n\n");
+7.	for (I = 1; I <= 4; I ++){
+8.	    printf("\nInforme um valor para o elemento nr. %2d: ", I);
+9.	    scanf("%d", &A[I]);
+10.	}
+11.	for (I = 1; I <= 4; I ++){
+12.	    if (A[I] % 2 != 0){
+13.	        SOMA += A[I];
+14.	    }
+15.	}
+16.	printf("\nA soma dos elementos equivale a: %4d\n\n", SOMA);
+17.	return 0;
+18. }
+
+Após a análise do código, selecione a alternativa correta:
+
+Resposta letra B
+________________________________________________________
+2. Quando trabalhamos com o comando “for”, podemos encontrar
+três expressões separadas por ponto e vírgula. A primeira expressão é a
+Inicialização, que é executada uma única vez, antes de começar o laço. A
+segunda é a condição final, em que é realizado um teste que determina
+se a condição é verdadeira ou falsa e, caso seja verdadeira, permanece no
+laço, caso falsa, encerra o laço e passa para a próxima instrução. A última
+expressão é executada depois dos comandos. Qual é o nome dado para
+esta última expressão?
+Assinale a alternativa correta:
+
+Resposta letra D
+________________________________________________________
+3. Analise o código do programa abaixo, em que foi utilizada a estrutura de
+repetição com variável de controle:
+1.	 #include <stdio.h>
+2.	 main()
+3.	 {
+4.	 int contador; //variável de controle do loop
+5.	 for(contador = 1; contador <= 10; contador++)
+6.	 {
+7.	 printf("%d ", contador);
+8.	 }
+9.	 return(0);
+10.	 }
+
+Resposta letra E
