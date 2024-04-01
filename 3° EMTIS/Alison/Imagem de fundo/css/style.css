@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: linear-gradient(to bottom, orange, yellow, red);
+    background-attachment: fixed;
+}
+main{
+    margin: 50px;
+    background-image: url("../img/Fire_fox.png");
+    background-position: center;
+    opacity: 85%;
+    padding: 10px 15px;
+    border-radius: 20px 0px;
+    box-shadow: 5px 5px 30px rgba(41, 28, 4, 0.493);
+}
+h1{
+    margin: 5px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2{
+    text-align: end;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p{
+    margin-top: 10px;
+    text-indent: 25px;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+}
