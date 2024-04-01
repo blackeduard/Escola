@@ -15,6 +15,7 @@ main{
     padding: 10px 15px;
     border-radius: 20px 0px;
     box-shadow: 5px 5px 30px rgba(41, 28, 4, 0.493);
+    max-width: 1000px;
 }
 h1{
     margin: 5px;
