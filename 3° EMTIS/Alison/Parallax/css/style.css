@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    font-size: 2em;
+}
+h2{
+    font-size: 1.5em;
+}
+div.container{
+    margin: 5px 0 30px 40px;
+}
+div.container > p{
+    text-indent: 25px;
+}
+section.module_parallax{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    width: 100;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+}
+.bg1{
+    background-image: url("../img/");
+}
+.bg2{
+    background-image: url("../img/");
+}
+.bg3{
+    background-image: url("../img/");
+}
