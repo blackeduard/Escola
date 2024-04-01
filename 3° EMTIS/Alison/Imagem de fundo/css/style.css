@@ -8,6 +8,7 @@ body{
     background-attachment: fixed;
 }
 main{
+    margin: auto;
     margin: 50px;
     background-image: url("../img/Fire_fox.png");
     background-position: center;
