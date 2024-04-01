@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="LAB-25"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-18 03:36:21 "/>
+        <attribute name="created" value="TEFCLTI1O0xBQjI1OzIwMjQtMDMtMTg7IjAzOjE1OjQ3ICI7MTg2MA=="/>
+        <attribute name="edited" value="TEFCLTI1O0xBQjI1OzIwMjQtMDMtMTg7IjAzOjM2OjIxICI7MTsxOTYz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="primo, num, alt" type="Integer" array="False" size=""/>
+            <assign variable="num" expression="2"/>
+            <assign variable="alt" expression="0"/>
+            <output expression="&quot;Digite o valor para saber se o n&#250;mero &#233; PRIMO: &quot;" newline="True"/>
+            <input variable="primo"/>
+            <while expression="primo != num">
+                <if expression="primo % num == 0">
+                    <then>
+                        <assign variable="alt" expression="alt+1"/>
+                    </then>
+                    <else/>
+                </if>
+                <assign variable="num" expression="num + 1"/>
+            </while>
+            <if expression="alt == 0">
+                <then>
+                    <output expression="&quot;O n&#250;mero '&quot;&amp; primo &amp; &quot;' &#233; PRIMO&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;O n&#250;mero '&quot;&amp; primo &amp; &quot;' N&#195;O &#233; PRIMO&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

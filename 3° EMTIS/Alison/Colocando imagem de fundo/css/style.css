@@ -1,0 +1,9 @@
+body{
+    background-image: url(../img/beach-sunset.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    color: rgb(230, 169, 238);
+    text-align: center;
+}

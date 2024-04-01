@@ -1,0 +1,29 @@
+:root{
+    --color0: #7cfef0ff;
+    --color1: #6bffb8ff;
+    --color2: #2ceaa3ff;
+    --color3: #28965aff;
+    --color4: #2a6041ff;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    color: var(--color4);
+    font-family: sans-serif;
+}
+.container > p{
+    text-indent: 15px;
+}
+.container{
+    max-width: 760px;
+    padding: 0 20px;
+}
+section.module p{
+    margin-bottom: 40px;
+}
+section.title_section{
+    text-align: end;
+    padding-right: 1em;
+}
