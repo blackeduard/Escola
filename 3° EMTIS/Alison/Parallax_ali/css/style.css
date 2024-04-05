@@ -13,8 +13,18 @@ header li{
     list-style: none;
 }
 header a{
-    color: #000;
+    color: black;
+    background-color: rgb(180, 180, 180);
+    padding: 10px;
+    border-radius: 10px;
     text-decoration: none;
+}
+header a:hover{
+    color: grey;
+}
+header a:active{
+    color: lightgrey;
+    background-color: rgb(219, 219, 219);
 }
 body{
     margin: 0;
@@ -44,6 +54,8 @@ main{
 }
 section.module p{
     margin-bottom: 40px;
+    text-indent: 15px;
+    text-align: justify;
 }
 section.module:last-child{
     margin-bottom: 0;
