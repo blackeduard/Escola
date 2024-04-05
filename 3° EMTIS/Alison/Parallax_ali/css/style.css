@@ -5,25 +5,85 @@
     --color3: #28965aff;
     --color4: #2a6041ff;
 }
-*{
-    padding: 0;
-    margin: 0;
-}
 body{
-    color: var(--color4);
+    margin: 0;
+    padding: 0;
+    color: #242424;
     font-family: sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
-.container > p{
-    text-indent: 15px;
+h1, h2, h3, h4, h5, h6{
+    font-weight: 900;
+    color: #000;
+}
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+}
+main{
+    display: block;
+    background-color: #fff;
 }
 .container{
+    width: 100%;
     max-width: 760px;
+    margin: 0 auto;
     padding: 0 20px;
 }
 section.module p{
     margin-bottom: 40px;
 }
-section.title_section{
-    text-align: end;
-    padding-right: 1em;
+section.module:last-child{
+    margin-bottom: 0;
+}
+section.module h2{
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+section.module.content{
+    padding: 40px 0px;
+    background-color: #ece7d5;
+}
+section.module.parallax{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+section.module.parallax:after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    background: -moz-linear-gradient(to bottom, rgb(0,0,0,0), rgba(0,0,0,0 40%, #000 100%));
+    background: -webkit-linear-gradient(to bottom, rgb(0,0,0,0), rgba(0,0,0,0 40%, #000 100%));
+    background: linear-gradient(to bottom, rgb(0,0,0,0), rgba(0,0,0,0 40%, #000 100%));
+}
+section.module.parallax-1{
+    background-image: url("../img/wallpaper005.jpg");
+}
+section.module.parallax-2{
+    background-image: url("../img/wallpaper004.jpg");
+}
+section.module.parallax-3{
+    background-image: url("../img/wallpaper006.jpg");
+}
+section.module.parallax h1{
+    text-shadow: 10px 10px 50px #0000007c;
+    text-align: center;
+    font-size: 78px;
+    z-index: 50;
+    text-transform: uppercase;
 }
