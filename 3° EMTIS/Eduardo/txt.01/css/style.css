@@ -2,28 +2,20 @@
     padding: 0;
     margin: 0;
 }
-body{
-    width: 98vh;
-}
 .container{
-    margin: 15px 5px;
+    margin: 50px 0px;
 }
 div{
-    background: purple;
-    color: white;
-    height: 200px;
-    font-family: sans-serif;
-    text-align: center;
+    height: 1200px;
+    background-position: top;
+    background-color: rgb(175, 175, 175);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 .box_1{
     background-image: url("../img/image_3.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 .box_3{
     background-image: url("../img/images_2.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }

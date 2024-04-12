@@ -1,35 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+:root{
+    --font01: 'Comfortaa', sans-serif;
+    --font02: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    --font03: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 *{
     margin: 0px;
     padding: 0px;
 }
-h1{
-    font-size: 2em;
+body{
+    margin-bottom: 50px;
+    background-color: rgb(212, 196, 181);
 }
-h2{
-    font-size: 1.5em;
+/* Cabeçalho do site */
+header > a img{
+    width: 400px;
+    border: 3px  black;
+    display: inline;
+}
+header > nav ul{
+    list-style: none;
+    display: flex;
+}
+/* Corpo do site */
+p{
+    font-family: var(--font03);
+    line-height: 25px;
+    font-weight: lighter;
+    text-indent: 15px;
+    font-size: 1.7vmax;
+}
+div#text_in{
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 0 110px rgba(5, 0, 92, 0.253);
+    border-radius: 5px;
+    color: white;
+    width: 35vmax;
+    height: 25vmax;
+    background-position: center;
+    transform: translate(0, 20%);
+    margin: auto;
+    padding: 30px;
+}
+div#text_in p{
+    text-align: justify;
+    line-height: 2vmax;
 }
 div.container{
-    margin: 5px 0 30px 40px;
+    padding: 50px 15px;
+    text-align: justify;
 }
-div.container > p{
-    text-indent: 25px;
+div.container h2{
+    font-size: 2.3vmax;
+    text-transform: uppercase;
+    padding-bottom: 5px;
 }
 section.module_parallax{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100vh !important;
-    width: 100;
-    position: relative;
-    overflow: hidden;
-    background-position: 50% 50%;
+    text-transform: uppercase;
+    text-align: end;
+    font-family: var(--font02);
+    font-size: 2vmax;
+    padding: 15px;
 }
-.bg1{
-    background-image: url("../img/");
+section.image{
+    height: 43vmax;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgb(185, 185, 185);
 }
-.bg2{
-    background-image: url("../img/");
+section#bg1{
+    background-image: url("../img/day.png");
 }
-.bg3{
-    background-image: url("../img/");
+section#bg2{
+    background-image: url("../img/afternoon.png");
+}
+section#bg3{
+    background-image: url("../img/night.jpg");
+    padding: 15px 0;
 }
