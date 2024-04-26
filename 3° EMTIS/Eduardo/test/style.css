@@ -23,11 +23,11 @@ header nav > ul > li > a:hover{
     text-decoration: underline overline;
     transition: 1s;
 }
-header > nav a{
+header nav a#button{
     padding: 5px 30px;
     text-decoration: none;
 }
-header > nav a#button:hover{
+header a#button:hover{
     color: white;
     background-color: black;
 }
