@@ -29,7 +29,13 @@ def listar_usuarios():
         print(usuario)
     conexao.close()
 
-# Função para deletar um usuárioa
+# Função para deletar um usuário
 def deletar_usuario(id):
+    conexao = sqlite3.connect('aluno.db')
+    cursor = conexao.cursor()
+    cursor.execute('''DELETE FROM usuarios where id = ?''',(id,))
+
+# Função para atualizar os dados de um usuário
+def atualizar_usuario(id, nome, idade):
     conexao = sqlite3.connect('aluno.db')
     cursor = conexao.cursor()
