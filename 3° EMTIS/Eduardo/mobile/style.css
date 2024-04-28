@@ -13,75 +13,41 @@ body{
     color: white;
     background-image: url('img/coding_img.png');
 }
-div.site{
-    display: flex;
-    flex-direction: column;
-}
-/* TODO ** Cabeçalho ** */
 header{
-    width: 100%;
+    text-align: center;
 }
 .container{
     display: flex;
-    align-items: center;
-    text-align: center;
-    margin: 8px 0 0 10px;
+    flex-direction: column;
 }
-header #img{
-    width: 30%;
+.container img{
+    margin-top: 10px;
 }
-header #menu{
-    width: 70%;
-}
-header > #menu nav{
-    padding: 20px;
-}
-header #menu nav > ul{
-    list-style-type: none;
+nav > ul {
+    margin: 10px 0;
     display: flex;
     justify-content: space-evenly;
+    list-style: none;
 }
-header #menu nav > ul > li > a{
+nav > ul a{
     color: white;
-    position: relative;
+    text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2em;
-    font-weight: bold;
-    text-decoration: none;
-    padding: 5px;
 }
-header #menu nav > ul > li > a::after, header nav > ul > li > a::before{
-    content: "";
-    position: absolute;
-    height: 1px;
-    width: 0;
-    background-color: white;
-    transition: 0.5s;
+hr{
+    margin: 0 5px;
 }
-header #menu nav > ul > li > a::after{
-    left: 0;
-    top: 0;
-}
-header #menu nav > ul > li > a::before{
-    right: 0;
-    bottom: 0;
-}
-header #menu nav > ul > li > a:hover::after, header nav > ul > li > a:hover::before{
-    width: 100%;
-}
-hr#break{
-    margin: 10px 5px;
-}
-/* TODO ** Corpo ** */
-/* -- Sobre mim Ínicio -- */
+
 section#Sobre-mim {
-    margin-top: 50px;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
 }
 main section#Sobre-mim > img{
-    margin: 0 60px;
-    height: 250px;
+    margin: 45px 0;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     box-shadow: 0 0 10px rgba(128, 0, 128, 0.4);
     cursor: pointer;
@@ -93,7 +59,6 @@ main section#Sobre-mim > img:hover{
     box-shadow: 0 0 40px rgba(128, 0, 128, 1);
 }
 main div#AboutMe{
-    background-color: rgba(0, 0, 0, 0.5);
     padding: 15px;
     border-radius: 20px;
     display: flex;
@@ -169,4 +134,3 @@ footer > a.media:hover{
     color: black;
     background-color: white;
 }
-
