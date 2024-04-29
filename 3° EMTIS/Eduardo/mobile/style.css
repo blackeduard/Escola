@@ -98,7 +98,6 @@ main div#Works{
 }
 main div#Works ul{
     list-style: none;
-    columns: 2;
 }
 main div.box{
     text-align: center;
@@ -107,12 +106,17 @@ main div.box{
 }
 main div.box h2 a{
     color: white;
+    font-variant: small-caps;
     text-decoration: none;
+}
+main div.box h2 a:hover{
+    color: white;
 }
 /* -- Códigos Fim -- */
 /* TODO ** Rodapé ** */
 footer{
-    margin-top: 72%;
+    position: relative;
+    bottom: 0;
     text-align: center;
     padding: 20px 0;
     background-color: rgba(7, 0, 36, 0.021);
