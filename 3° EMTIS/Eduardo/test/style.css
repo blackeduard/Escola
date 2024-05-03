@@ -203,6 +203,7 @@ body{
         justify-content: space-evenly;
     }
     nav > ul a{
+        position: relative;
         color: white;
         text-decoration: none;
         font-family: Arial, Helvetica, sans-serif;
@@ -217,13 +218,15 @@ body{
         transition: 0.5s;
     }
     header #menu nav > ul > li > a::after{
-
+        left: 0;
+        bottom: -3px;
     }
     header #menu nav > ul > li > a::before{
-
+        right: 0;
+        top: -3px;
     }
     header #menu nav > ul > li > a:hover::after, header nav > ul > li > a:hover::before{
-        
+        width: 100%;
     }
     hr{
         margin: 0 5px;
@@ -287,6 +290,7 @@ body{
         color: white;
         background-color: rgba(128, 0, 128, 0.418);
         padding: 10px;
+        width: 100%;
         font-size: 1.5em;
         font-variant: small-caps;
         text-decoration: none;
