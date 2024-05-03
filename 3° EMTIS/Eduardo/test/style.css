@@ -206,7 +206,7 @@ body{
         color: white;
         text-decoration: none;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 1.2em;
+        font-size: 3vmin;
     }
     header #menu nav > ul > li > a::after, header nav > ul > li > a::before{
         content: "";
@@ -217,15 +217,13 @@ body{
         transition: 0.5s;
     }
     header #menu nav > ul > li > a::after{
-        left: 0;
-        top: -1;
+
     }
     header #menu nav > ul > li > a::before{
-        right: 0;
-        bottom: 0;
+
     }
     header #menu nav > ul > li > a:hover::after, header nav > ul > li > a:hover::before{
-        width: 20%;
+        
     }
     hr{
         margin: 0 5px;
