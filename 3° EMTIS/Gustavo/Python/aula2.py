@@ -65,3 +65,8 @@ while True:
     elif escolha == '4':
         id = int(input("Digite o ID do usuário a ser deletado: "))
         deletar_usuario(id)
+    elif escolha == '5':
+        print("Saindo do Programa...")
+        break
+    else:
+        
