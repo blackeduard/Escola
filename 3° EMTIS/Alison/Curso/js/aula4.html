@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frutas</title>
+</head>
+<body>
+    <script>
+        var frutas = ['Laranja', 'Uva', 'Pera']
+        /*Imprimindo na caixa de diálogo o conteúdo do array 'frutas' utilizando o laço 'for'*/
+        for (var i = 0; i < frutas.length; i++){
+            alert(`Nome da Fruta contida no Array: ${frutas[i]}`)
+        }
+        /*Imprimindo na caixa e diálogo o conteúdo do array 'frutas' utilizando o laço 'for/in'*/
+        for (var fruta in frutas){
+            alert(`Nome da Fruta contida no Array: ${frutas[fruta]}`)
+        }
+    </script>
+</body>
+</html>
