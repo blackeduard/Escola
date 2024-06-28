@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frutas 2</title>
+</head>
+<body>
+    <script>
+        var frutas = ['Laranja', 'Uva', 'Limão']
+        var alunos = [] // Array vazio
+        var alunos = ['Alex', 'Anna', 'João'] // Array de strings
+        var notas = [10.0, 9.5, 9.5] // Array de números decimais
+        var mistura = ['Um', 2, 3, 'Quatro'] // Array de diversos tipos de dados
+
+        var alunos = new Array()
+        var alunos = new Array('Alex', 'Anna', 'João')
+
+        var alunos = ['Alex', 'Anna', 'João']
+        alert(alunos[0])
+
+        alunos.push('Helena')
+
+        alunos.push('Helena', 'Maria')
+
+        frutas[frutas.length] = 'Maria'
+
+        var alunos = ['Alex', 'Anna', 'João']
+        alunos.splice(3,0,'Helena')
+        alert(alunos) // Imprimirá 'Alex', 'Anna', 'João', 'Helena'
+
+        var alunos = ['Alex', 'Anna', 'João']
+        alunos.splice(1,1,'Helena')
+        alert(alunos) // Imprimirá 'Alex', 'Helena', 'João'
+
+        delete frutas[0]
+
+        frutas.pop()
+
+        frutas.shift()
+
+        var primos = [2,3,5,7,11,13,17]
+        primos.splice(2,2)
+        alert(primos) // Imprimirá 2,3,11,13,17
+        
+        var primos = [2,3,5,7,11,13,17]
+        alert(primos.length) // Imprimirá 7
+        primos.length = 4
+        alert(primos.length) // Imprimirá 4
+
+    </script>
+</body>
+</html>
