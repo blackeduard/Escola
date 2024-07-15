@@ -4,9 +4,9 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="usuario"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2024-07-15 02:19:51 "/>
+        <attribute name="saved" value="2024-07-15 02:26:05 "/>
         <attribute name="created" value="dXN1YXJpbztERVNLVE9QLVI3UVZBODE7MjAyNC0wNy0xNTsiMDE6NDM6MDggIjszMDI1"/>
-        <attribute name="edited" value="dXN1YXJpbztERVNLVE9QLVI3UVZBODE7MjAyNC0wNy0xNTsiMDI6MTk6NTEgIjsxOzMxMzU="/>
+        <attribute name="edited" value="dXN1YXJpbztERVNLVE9QLVI3UVZBODE7MjAyNC0wNy0xNTsiMDI6MjY6MDUgIjsyOzMxMzM="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -52,7 +52,7 @@
                         </if>
                     </else>
                 </if>
-                <output expression="&quot;Deseja fechar a calculadora? (use sim ou n&#227;o)&quot;" newline="True"/>
+                <output expression="&quot;Deseja realizar mais uma conta? (use sim ou n&#227;o)&quot;" newline="True"/>
                 <input variable="fechar"/>
                 <while expression="fechar != &quot;sim&quot; &amp;&amp; fechar != &quot;n&#227;o&quot;">
                     <output expression="&quot;Digite novamente...&quot;" newline="True"/>
