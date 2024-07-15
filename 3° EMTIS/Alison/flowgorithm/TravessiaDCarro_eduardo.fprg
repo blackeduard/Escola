@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="usuario"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-07-15 01:43:01 "/>
+        <attribute name="created" value="dXN1YXJpbztERVNLVE9QLVI3UVZBODE7MjAyNC0wNy0xNTsiMDE6MDY6NTQgIjszMDI1"/>
+        <attribute name="edited" value="dXN1YXJpbztERVNLVE9QLVI3UVZBODE7MjAyNC0wNy0xNTsiMDE6NDM6MDEgIjsxOzMxMjY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Esse algoritmo ajuda o cliente a atravessar a rua, com seguran&#231;a"/>
+            <declare name="nome, carro" type="String" array="False" size=""/>
+            <output expression="&quot;Digite seu nome&quot;" newline="True"/>
+            <input variable="nome"/>
+            <output expression="&quot;Voc&#234; consegue ver algum carro vindo? (use sim ou n&#227;o)&quot;" newline="True"/>
+            <input variable="carro"/>
+            <while expression="carro != &quot;sim&quot; &amp;&amp; carro != &quot;n&#227;o&quot;">
+                <output expression="&quot;Digite novamente...&quot;" newline="True"/>
+                <input variable="carro"/>
+            </while>
+            <if expression="carro == &quot;sim&quot;">
+                <then>
+                    <while expression="carro == &quot;sim&quot;">
+                        <output expression="&quot;Ainda vem carro &quot;&amp;nome&amp;&quot;, espere!&quot;" newline="True"/>
+                        <output expression="&quot;Esta vendo mais algum carro?&quot;" newline="True"/>
+                        <input variable="carro"/>
+                        <while expression="carro != &quot;sim&quot; &amp;&amp; carro != &quot;n&#227;o&quot;">
+                            <output expression="&quot;Digite novamente...&quot;" newline="True"/>
+                            <input variable="carro"/>
+                        </while>
+                    </while>
+                    <output expression="&quot;Voc&#234; j&#225; pode atravessar &quot;&amp;nome" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Voc&#234; j&#225; pode atravessar &quot;&amp;nome" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

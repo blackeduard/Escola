@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="usuario"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-07-15 02:19:51 "/>
+        <attribute name="created" value="dXN1YXJpbztERVNLVE9QLVI3UVZBODE7MjAyNC0wNy0xNTsiMDE6NDM6MDggIjszMDI1"/>
+        <attribute name="edited" value="dXN1YXJpbztERVNLVE9QLVI3UVZBODE7MjAyNC0wNy0xNTsiMDI6MTk6NTEgIjsxOzMxMzU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sinal, fechar" type="String" array="False" size=""/>
+            <declare name="valor1, valor2, resultado" type="Integer" array="False" size=""/>
+            <assign variable="fechar" expression="&quot;n&#227;o&quot;"/>
+            <while expression="fechar == &quot;n&#227;o&quot;">
+                <output expression="&quot;Informe o sinal da express&#227;o&quot;" newline="True"/>
+                <output expression="&quot;Soma = +  Subtra&#231;&#227;o = -&quot; &amp;ToChar(13)&amp; &quot;Divis&#227;o = /   Multiplica&#231;&#227;o = *&quot;" newline="True"/>
+                <input variable="sinal"/>
+                <while expression="sinal != &quot;+&quot; &amp;&amp; sinal != &quot;-&quot; &amp;&amp; sinal != &quot;/&quot; &amp;&amp; sinal != &quot;*&quot;">
+                    <output expression="&quot;Digite novamente...&quot;" newline="True"/>
+                    <input variable="sinal"/>
+                </while>
+                <output expression="&quot;Digite o primeiro valor&quot;" newline="True"/>
+                <input variable="valor1"/>
+                <output expression="&quot;Digite o segundo valor&quot;" newline="True"/>
+                <input variable="valor2"/>
+                <if expression="sinal == &quot;+&quot;">
+                    <then>
+                        <assign variable="resultado" expression="valor1+valor2"/>
+                        <output expression="valor1&amp;&quot; + &quot;&amp;valor2&amp;&quot; = &quot;&amp;resultado" newline="True"/>
+                    </then>
+                    <else>
+                        <if expression="sinal == &quot;-&quot;">
+                            <then>
+                                <assign variable="resultado" expression="valor1-valor2"/>
+                                <output expression="valor1&amp;&quot; - &quot;&amp;valor2&amp;&quot; = &quot;&amp;resultado" newline="True"/>
+                            </then>
+                            <else>
+                                <if expression="sinal == &quot;/&quot;">
+                                    <then>
+                                        <assign variable="resultado" expression="valor1/valor2"/>
+                                        <output expression="valor1&amp;&quot; / &quot;&amp;valor2&amp;&quot; =&quot;&amp;resultado" newline="True"/>
+                                    </then>
+                                    <else>
+                                        <assign variable="resultado" expression="valor1*valor2"/>
+                                        <output expression="valor1&amp;&quot; * &quot;&amp;valor2&amp;&quot; = &quot;&amp;resultado" newline="True"/>
+                                    </else>
+                                </if>
+                            </else>
+                        </if>
+                    </else>
+                </if>
+                <output expression="&quot;Deseja fechar a calculadora? (use sim ou n&#227;o)&quot;" newline="True"/>
+                <input variable="fechar"/>
+                <while expression="fechar != &quot;sim&quot; &amp;&amp; fechar != &quot;n&#227;o&quot;">
+                    <output expression="&quot;Digite novamente...&quot;" newline="True"/>
+                    <input variable="fechar"/>
+                </while>
+            </while>
+            <output expression="&quot;Finalizando...&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
