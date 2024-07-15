@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="usuario"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-07-15 03:52:58 "/>
+        <attribute name="created" value="dXN1YXJpbztERVNLVE9QLVI3UVZBODE7MjAyNC0wNy0xNTsiMDM6Mjk6NTUgIjszMDMz"/>
+        <attribute name="edited" value="dXN1YXJpbztERVNLVE9QLVI3UVZBODE7MjAyNC0wNy0xNTsiMDM6NTI6NTggIjsxOzMxNDA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="opcao" type="String" array="False" size=""/>
+            <declare name="V, R, I" type="Real" array="False" size=""/>
+            <declare name="contador" type="Integer" array="False" size=""/>
+            <assign variable="contador" expression="1"/>
+            <comment text="Calcular lei de Ohm"/>
+            <output expression="&quot;O que voc&#234; deseja calcular?&quot;" newline="True"/>
+            <output expression="&quot;Tens&#227;o = V&quot; &amp;ToChar(13)&amp; &quot;Resist&#234;ncia = R&quot; &amp;ToChar(13)&amp; &quot;Intensidade da Corrente = I&quot;" newline="True"/>
+            <input variable="opcao"/>
+            <while expression="opcao != &quot;V&quot; &amp;&amp; opcao != &quot;I&quot; &amp;&amp; opcao != &quot;R&quot;">
+                <output expression="&quot;Digite novamente...&quot;" newline="True"/>
+                <input variable="opcao"/>
+                <assign variable="contador" expression="contador + 1"/>
+                <if expression="contador == 5">
+                    <then>
+                        <output expression="&quot;Encerrando... erro de digita&#231;&#227;o mais de 5 vezes, tente novamente..&quot;" newline="True"/>
+                        <breakpoint expression="" always="True"/>
+                    </then>
+                    <else/>
+                </if>
+            </while>
+            <if expression="opcao == &quot;V&quot;">
+                <then>
+                    <output expression="&quot;Informe o valor da Resist&#234;ncia&quot;" newline="True"/>
+                    <input variable="R"/>
+                    <output expression="&quot;Informe o valor da Intensidade da Corrente&quot;" newline="True"/>
+                    <input variable="I"/>
+                    <assign variable="V" expression="R*I"/>
+                    <output expression="&quot;O valor da Tens&#227;o &#233; de &quot;&amp;V&amp;&quot;V&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="opcao == &quot;R&quot;">
+                        <then>
+                            <output expression="&quot;Informe o valor da Tens&#227;o&quot;" newline="True"/>
+                            <input variable="V"/>
+                            <output expression="&quot;Informe o valor da Intensidade&quot;" newline="True"/>
+                            <input variable="I"/>
+                            <assign variable="R" expression="V/I"/>
+                            <output expression="&quot;O valor da Resist&#234;ncia &#233; de &quot;&amp;R&amp;&quot;&#937;&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Informe o valor da Tens&#227;o&quot;" newline="True"/>
+                            <input variable="V"/>
+                            <output expression="&quot;Informe o valor da Resist&#234;ncia&quot;" newline="True"/>
+                            <input variable="R"/>
+                            <assign variable="I" expression="V/R"/>
+                            <output expression="&quot;O valor da Intensidade da Corrente &#233; de &quot;&amp;I&amp;&quot;A&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
