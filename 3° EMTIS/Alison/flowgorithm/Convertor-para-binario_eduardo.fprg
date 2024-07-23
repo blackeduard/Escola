@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="eduardo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-07-22 05:04:43 "/>
+        <attribute name="created" value="ZWR1YXJkbztUQVRZRFVEVTsyMDI0LTA3LTIyOyIwMzo0ODowOSAiOzI1NjY="/>
+        <attribute name="edited" value="ZWR1YXJkbztUQVRZRFVEVTsyMDI0LTA3LTIyOyIwNTowNDo0MyAiOzI7MjY2Nw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="bin" type="Integer" array="True" size="51"/>
+            <declare name="binario" type="String" array="False" size=""/>
+            <declare name="numorg, contador" type="Integer" array="False" size=""/>
+            <output expression="&quot;Escreva um n&#250;mero para convert&#234;-lo para bin&#225;rio&quot;" newline="True"/>
+            <input variable="numorg"/>
+            <for variable="contador" start="0" end="10" direction="inc" step="1">
+                <assign variable="bin[contador]" expression="numorg%2"/>
+                <assign variable="numorg" expression="numorg/2"/>
+            </for>
+            <assign variable="binario" expression="&quot;&quot;"/>
+            <for variable="contador" start="10" end="0" direction="dec" step="1">
+                <assign variable="binario" expression="binario &amp; bin[contador]"/>
+            </for>
+            <output expression="&quot;O seu n&#250;mero em base bin&#225;ria equivale a '&quot;&amp;binario&amp;&quot;'.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
