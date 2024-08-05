@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="eduardo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-08-01 12:01:45 "/>
+        <attribute name="created" value="ZWR1YXJkbztUQVRZRFVEVTsyMDI0LTA3LTMxOyIxMTo0MDozNCAiOzI1NTU="/>
+        <attribute name="edited" value="ZWR1YXJkbztUQVRZRFVEVTsyMDI0LTA4LTAxOyIxMjowMTo0NSAiOzE7MjY2MQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="c, n1, n2, termo, resultado" type="Integer" array="False" size=""/>
+            <assign variable="c" expression="1"/>
+            <assign variable="n1" expression="-1"/>
+            <assign variable="n2" expression="1"/>
+            <output expression="&quot;Digite quantos termos voc&#234; quer mostrar da Sequ&#234;ncia de Fibonacci&quot;" newline="True"/>
+            <input variable="termo"/>
+            <while expression="c != termo + 1">
+                <assign variable="resultado" expression="n1 + n2"/>
+                <if expression="termo == 1">
+                    <then>
+                        <output expression="&quot;(0)&quot;" newline="True"/>
+                    </then>
+                    <else>
+                        <if expression="c == 1">
+                            <then>
+                                <output expression="&quot;(&quot;&amp; resultado &amp;&quot;, &quot;" newline="False"/>
+                            </then>
+                            <else>
+                                <if expression="c != termo">
+                                    <then>
+                                        <output expression="resultado &amp;&quot;, &quot;" newline="False"/>
+                                    </then>
+                                    <else>
+                                        <output expression="resultado &amp;&quot;)&quot;" newline="True"/>
+                                    </else>
+                                </if>
+                            </else>
+                        </if>
+                    </else>
+                </if>
+                <assign variable="n1" expression="n2"/>
+                <assign variable="n2" expression="resultado"/>
+                <assign variable="c" expression="c + 1"/>
+            </while>
+            <output expression="&quot;Fim do Programa...&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

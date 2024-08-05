@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="eduardo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-07-30 07:48:02 "/>
+        <attribute name="created" value="ZWR1YXJkbztUQVRZRFVEVTsyMDI0LTA3LTMwOyIwNzozMDoyMiAiOzI1NTU="/>
+        <attribute name="edited" value="ZWR1YXJkbztUQVRZRFVEVTsyMDI0LTA3LTMwOyIwNzo0ODowMiAiOzE7MjY3MA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num, fatorial, contador" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite um n&#250;mero para saber seu fatorial:&quot;" newline="True"/>
+            <input variable="num"/>
+            <assign variable="fatorial" expression="num"/>
+            <for variable="contador" start="1" end="num" direction="inc" step="1">
+                <if expression="contador != num">
+                    <then>
+                        <assign variable="fatorial" expression="fatorial*(num-contador)"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <output expression="num&amp;&quot;! = &quot;&amp; fatorial" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

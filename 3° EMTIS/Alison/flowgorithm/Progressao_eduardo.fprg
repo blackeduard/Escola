@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="eduardo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-07-31 11:08:58 "/>
+        <attribute name="created" value="ZWR1YXJkbztUQVRZRFVEVTsyMDI0LTA3LTMwOyIwOTo1OTo0NyAiOzI1NzU="/>
+        <attribute name="edited" value="ZWR1YXJkbztUQVRZRFVEVTsyMDI0LTA3LTMxOyIxMTowODo1OCAiOzI7MjY3NA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="p1, r, verificador, c, resultado, marcador, c1" type="Integer" array="False" size=""/>
+            <assign variable="c" expression="1"/>
+            <assign variable="marcador" expression="1"/>
+            <assign variable="verificador" expression="1"/>
+            <output expression="&quot;Digite o primeiro termo da P.A.&quot;" newline="True"/>
+            <input variable="p1"/>
+            <output expression="&quot;Digite a raz&#227;o da P.A.&quot;" newline="True"/>
+            <input variable="r"/>
+            <while expression="verificador != 0">
+                <if expression="marcador == 1">
+                    <then>
+                        <if expression="r == 0">
+                            <then>
+                                <output expression="&quot;A P.A. &#233; constante&quot;" newline="True"/>
+                            </then>
+                            <else>
+                                <if expression="r &gt; 0">
+                                    <then>
+                                        <output expression="&quot;A P.A. &#233; crescente&quot;" newline="True"/>
+                                    </then>
+                                    <else>
+                                        <output expression="&quot;A P.A. &#233; decrescente&quot;" newline="True"/>
+                                    </else>
+                                </if>
+                            </else>
+                        </if>
+                        <while expression="c != 11">
+                            <assign variable="resultado" expression="p1 + (c-1)*r"/>
+                            <if expression="c == 1">
+                                <then>
+                                    <output expression="&quot;(&quot;&amp;resultado&amp;&quot;,&quot;" newline="False"/>
+                                </then>
+                                <else>
+                                    <if expression="c != 10">
+                                        <then>
+                                            <output expression="&quot; &quot;&amp;resultado&amp;&quot;,&quot;" newline="False"/>
+                                        </then>
+                                        <else>
+                                            <output expression="&quot; &quot;&amp;resultado&amp;&quot;)&quot;" newline="True"/>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                            <assign variable="c" expression="c + 1"/>
+                        </while>
+                        <assign variable="c1" expression="c"/>
+                    </then>
+                    <else>
+                        <while expression="c != verificador">
+                            <assign variable="resultado" expression="p1 + (c1-1)*r"/>
+                            <if expression="verificador == c + 1">
+                                <then>
+                                    <output expression="&quot; &quot;&amp;resultado" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot; &quot;&amp;resultado&amp;&quot;,&quot;" newline="False"/>
+                                </else>
+                            </if>
+                            <assign variable="c" expression="c + 1"/>
+                            <assign variable="c1" expression="c1 + 1"/>
+                        </while>
+                    </else>
+                </if>
+                <output expression="&quot;Digite quantos termos deseja ver a mais(0 encerra)&quot;" newline="True"/>
+                <input variable="verificador"/>
+                <assign variable="c" expression="0"/>
+                <assign variable="marcador" expression="marcador + 1"/>
+            </while>
+            <output expression="&quot;Fim do Programa...&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
