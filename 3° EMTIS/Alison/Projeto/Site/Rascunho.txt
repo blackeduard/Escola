@@ -1,0 +1,16 @@
+Nome do site: 
+	3SafeUI
+Fontes:
+	(Ver na hora de programar)
+Cores:
+	--dark-purple: #242038ff;
+	--amethyst: #9067c6ff;
+	--tropical-indigo: #8d86c9ff;
+	--french-gray: #cac4ceff;
+	--linen: #f7ece1ff;
+Matérias:
+	Front-end
+	Desenvolvimento Sistemas
+	Fundamento  de Segurança
+Modelo:
+	https://wireframepro.mockflow.com/view/MQkcduEoVqb

@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+:root{
+    --color01: #242038ff;
+    --color02: #9067c6ff;
+    --color03: #8d86c9ff;
+    --color04: #cac4ceff;
+    --color05: #f7ece1ff;
+}
+@media screen and (min-width:1024px){
+    /* ! Menu */
+    @media (min-width: 1150px){
+        .navbar-brand > img{
+            content: url('../../img/3Safe-Logo.png');
+        }
+    }
+    .navbar{
+        background-color: var(--color01);
+    }
+    .navbar-toggler{
+        background-color: white;
+    }
+    .dropdown-menu{
+        width: 20%;
+    }
+    /* ! Front-End */
+    #front-end{
+        background-color: grey;
+    }
+    main .materia{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        padding: 1em 0;
+        align-items: center;
+    }
+    main .materia > article{
+        display: inline-block;
+        max-width: 740px;
+        padding: 20px 0;
+        color: white;
+        background-color: black
+    }
+    main .materia > article > h1{
+        font-size: 30px;
+    }
+    main .materia .profissional{
+        margin: 50px 0;
+        width: 1005px;
+        background-color: rgba(255, 255, 255, 0.05);
+    }
+    main .materia .profissional img{
+        width: 90%;
+    }
+    main .materia > article > a{
+        display: block;
+        width: 197px;
+        padding: 15px;
+        margin: auto;
+        background-color: white;
+        text-decoration: none;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1023px){
+
+}
+@media screen and (min-width:767px){
+
+}
