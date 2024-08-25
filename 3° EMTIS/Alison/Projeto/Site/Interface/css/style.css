@@ -30,7 +30,8 @@ body{
 }
 /* ! Conteúdo */
 main{
-    width: 400px;
+    min-width: 200px;
+    max-width: 400px;
     text-align: justify;
     display: flex;
     justify-content: center;
@@ -290,15 +291,15 @@ main{
         font-weight: 600;
     }
     .modal{
-        width: 100%;
+        width: 100vw;
         visibility: none;
         position: absolute;
         right: 0;
-        padding: 50px 20px;
+        padding: 10px;
         color: black;
         background-color: rgba(255, 255, 255, 0.6);
         backdrop-filter: blur(10px);
-        min-width: 450px;
+        min-width: 350px;
     }
     .modal .apresentacao{
         align-items: center;
