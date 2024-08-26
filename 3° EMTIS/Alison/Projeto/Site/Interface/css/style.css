@@ -19,14 +19,13 @@ body{
     background-repeat: no-repeat;
     background-position: center center;
 }
-.naoSelecionavel {
-    -webkit-touch-callout: none;  /* iPhone OS, Safari */
-    -webkit-user-select: none;    /* Chrome, Safari 3 */
-    -khtml-user-select: none;     /* Safari 2 */
-    -moz-user-select: none;       /* Firefox */
-    -ms-user-select: none;        /* IE10+ */
-    user-select: none;            /* Possível implementação no futuro */
-    /* cursor: default; */
+.naoSelecionavel /* Não selecionar texto */{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 /* ! Conteúdo */
 main{
@@ -99,8 +98,6 @@ main{
         visibility: visible;
     }
     .janela-modal{
-        transform: translateX(100%); /*! Deixar 100%*/
-        position: fixed; /*! Deixar FIXED*/
         display: flex;
         top: 0;
         right: 0;
@@ -108,6 +105,8 @@ main{
         width: 100vw;
         overflow-y: scroll;
         transition: 1s;
+        transform: translateX(100%); /*! Deixar 100%*/
+        position: fixed; /*! Deixar FIXED*/
         visibility: hidden; /*! Deixar HIDDEN*/
     }
     .janela-modal .sign{
@@ -226,6 +225,11 @@ main{
     .modal .orientadores #texto{
         text-align: justify;
         padding: 0 10px;
+    }
+    .modal .orientadores #texto q{
+        font-family: 'Rubik', sans-serif;
+        font-weight: 100;
+        font-style: italic;
     }
     .modal .fechar{
         position: fixed;
@@ -376,6 +380,11 @@ main{
         width: 128px;
         height: 128px;
         border-radius: 50%;
+    }
+    .modal .orientadores #texto q{
+        font-family: 'Rubik', sans-serif;
+        font-weight: 100;
+        font-style: italic;
     }
     .modal .fechar{
         position: fixed;
