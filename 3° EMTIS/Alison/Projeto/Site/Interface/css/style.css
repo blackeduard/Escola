@@ -266,8 +266,6 @@ main{
         font-size: 3em;
     }
     .janela-modal{
-        transform: translateY(-100%); /*! Deixar -100%*/
-        position: fixed; /*! Deixar FIXED*/
         top: 0;
         right: 0;
         bottom: 0;
@@ -276,6 +274,8 @@ main{
         transition: 1s;
         scrollbar-width: none; /* Firefox */
         -ms-overflow-style: none; /* Internet Explorer e Edge */
+        transform: translateY(-100%); /*! Deixar -100%*/
+        position: fixed; /*! Deixar FIXED*/
         visibility: hidden; /*! Deixar HIDDEN*/
     }
     .janela-modal::-webkit-scrollbar{
