@@ -17,7 +17,7 @@ html{
     /* ! Menu */
     @media (min-width: 1150px){
         .navbar-brand > img{
-            content: url('../../img/3Safe-Logo.png');
+            content: url('../../../img/3Safe-Logo.png');
         }
     }
     .navbar{
