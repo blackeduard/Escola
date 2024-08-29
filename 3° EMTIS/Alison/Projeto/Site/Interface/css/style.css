@@ -128,7 +128,7 @@ main{
         right: 0;
         padding: 50px 20px;
         color: black;
-        background-color: rgba(255, 255, 255, 0.6);
+        background-color: rgba(139, 139, 181, 0.6);
         backdrop-filter: blur(10px);
         min-width: 450px;
         width: 550px;

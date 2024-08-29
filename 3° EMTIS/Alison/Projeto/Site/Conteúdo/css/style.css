@@ -13,7 +13,7 @@ html{
     --color04: #cac4ceff;
     --color05: #f7ece1ff;
 }
-@media screen and (min-width:1024px){
+/* @media screen and (min-width:1024px){ */
     /* ! Menu */
     @media (min-width: 1150px){
         .navbar-brand > img{
@@ -67,9 +67,9 @@ html{
         text-decoration: none;
     }
 }
-@media screen and (min-width:768px) and (max-width:1023px){
+/* @media screen and (min-width:768px) and (max-width:1023px){
 
 }
 @media screen and (min-width:767px){
 
-}
+} */
