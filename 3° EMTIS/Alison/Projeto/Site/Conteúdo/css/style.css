@@ -68,26 +68,26 @@ html{
     }
     .conteudo{
         background-color: yellow;
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-between;
+        padding: 50px;
     }
-    .conteudo #FAQ{
+    .conteudo .FAQ{
+        color: black;
+        font-weight: 500;
         background-color: blue;
     }
-    .conteudo .introducao{
+    .conteudo .container{
+        display: flex;
+    }
+    .conteudo .left, .conteudo .right{
         display: flex;
         flex-direction: column;
+        width: 50%;
+        
+    }
+    .conteudo .right{
         justify-content: center;
-    }
-    .conteudo .introducao h2{
-        text-align: center;
-    }
-    .conteudo .introducao p{
-        text-align: justify;
-    }
-    .conteudo .accordion{
-        margin: 50px;
+        align-items: center;
+        padding: 20px;
     }
 }
 /* @media screen and (min-width:768px) and (max-width:1023px){
