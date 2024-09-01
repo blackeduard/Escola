@@ -21,7 +21,7 @@ html{
         }
     }
     .navbar{
-        background-color: var(--color01);
+        background-color: green;
     }
     .navbar-toggler{
         background-color: white;
@@ -29,10 +29,7 @@ html{
     .dropdown-menu{
         width: 20%;
     }
-    /* ! Front-End */
-    #front-end{
-        background-color: grey;
-    }
+    /* ! Primeira área */
     main .materia{
         text-align: center;
         display: flex;
@@ -44,8 +41,6 @@ html{
         display: inline-block;
         max-width: 740px;
         padding: 20px 0;
-        color: white;
-        background-color: black
     }
     main .materia > article > h1{
         font-size: 30px;
@@ -63,31 +58,88 @@ html{
         width: 197px;
         padding: 15px;
         margin: auto;
-        background-color: white;
+        background-color: grey;
         text-decoration: none;
     }
+    main .materia > article > a:hover{
+        background-color: rgb(169, 169, 169);
+    }
+    /* ! Segunda área */
     .conteudo{
-        background-color: yellow;
         padding: 50px;
+        display: flex;
+        justify-content: space-around;
     }
     .conteudo .FAQ{
-        color: black;
-        font-weight: 500;
-        background-color: blue;
-    }
-    .conteudo .container{
         display: flex;
+        color: black;
+        font-weight: 400;
     }
     .conteudo .left, .conteudo .right{
         display: flex;
         flex-direction: column;
         width: 50%;
-        
+        padding: 0 10px;
+    }
+    .conteudo .right{
+        gap: 10%;
+    }
+    .conteudo .right p{
+        font-weight: 400;
+        width: 80%;
+    }
+    .conteudo .faq_text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .conteudo .faq_text p{
+        font-weight: 400;
+        width: 300px;
+        text-align: center;
+    }
+    .conteudo .left{
+        padding: 50px;
     }
     .conteudo .right{
         justify-content: center;
         align-items: center;
-        padding: 20px;
+    }
+    .accordion-button::after{
+        background-image: url('../../../img/plus-regular-24.png');
+        transition: all 0.2s;
+    }
+    .accordion-button:not(.collapsed)::after{
+        background-image: url('../../../img/minus-regular-24.png');
+    }
+    /* ! Terceira área */
+    .job{
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+    }
+    .job article p{
+        text-align: center;
+        width: 500px;
+        font-size: 0.8em;
+    }
+    .job article h2{
+        text-align: center;
+    }
+    .boxcard{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .card{
+        width: 18rem;
+    }
+    .card-text{
+        text-align: justify;
     }
 }
 /* @media screen and (min-width:768px) and (max-width:1023px){

@@ -1,4 +1,4 @@
-Nome do site: 
+﻿Nome do site: 
 	3SafeUI
 Fontes:
 	(Ver na hora de programar)
@@ -8,9 +8,35 @@ Cores:
 	--tropical-indigo: #8d86c9ff;
 	--french-gray: #cac4ceff;
 	--linen: #f7ece1ff;
-Mat�rias:
+Matérias:
 	Front-end
+	(https://querobolsa.com.br/carreiras-e-profissoes/desenvolvedor-front-end#accordion-0)
+
+							-=-=- Trabalhos -=-=-
+						Desenvolvedor de Interface
+						Designer de experiência do usuário
+						Desenvolvedor Front-end
+							=-=--=-=-=-=-=-=-=-=
+
 	Desenvolvimento Sistemas
-	Fundamento  de Seguran�a
+	(https://querobolsa.com.br/cursos-e-faculdades/analise-e-desenvolvimento-de-sistemas#about_course)
+
+							-=-=- Trabalhos -=-=-
+						Desenvolvedor de Software
+						Engenheiro de Sistemas
+						Analista de Sistemas
+							=-=--=-=-=-=-=-=-=-=
+
+	Fundamento  de Segurança
+	(https://querobolsa.com.br/cursos-e-faculdades/seguranca-da-informacao#about_course)
+	
+							-=-=- Trabalhos -=-=-
+						Analista de Segurança da Informação
+						Engenheiro de Segurança da Informação
+						Consultor de Segurança da Informação
+							=-=--=-=-=-=-=-=-=-=
 Modelo:
 	https://wireframepro.mockflow.com/view/MQkcduEoVqb
+Link:
+	https://scrollrevealjs.org/guide/customization.html
+	https://getbootstrap.com/docs/5.3/getting-started/introduction/
