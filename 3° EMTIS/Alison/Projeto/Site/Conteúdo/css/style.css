@@ -29,6 +29,7 @@ html{
     }
     .navbar a{
         font-weight: 600;
+        margin: auto;
     }
     .navbar-collapse{
         justify-content: end;
