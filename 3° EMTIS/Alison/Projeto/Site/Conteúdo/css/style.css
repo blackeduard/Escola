@@ -15,19 +15,23 @@ html{
 }
 /* @media screen and (min-width:1024px){ */
     /* ! Menu */
-    @media (min-width: 1150px){
+    .navbar-brand > img{
+        height: 45px;
+    }
+    @media (min-width: px){
         .navbar-brand > img{
             content: url('../../../img/3Safe-Logo.png');
         }
     }
     .navbar{
-        background-color: green;
+        background-color: green !important;
+        width: 100%;
     }
-    .navbar-toggler{
-        background-color: white;
+    .navbar a{
+        font-weight: 600;
     }
-    .dropdown-menu{
-        width: 20%;
+    .navbar-collapse{
+        justify-content: end;
     }
     /* ! Primeira área */
     main .materia{
@@ -43,7 +47,6 @@ html{
         padding: 20px 0;
     }
     main .materia > article > h1{
-        font-size: 30px;
     }
     main .materia .profissional{
         margin: 50px 0;

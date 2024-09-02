@@ -301,7 +301,7 @@ main{
         right: 0;
         padding: 10px;
         color: black;
-        background-color: rgba(255, 255, 255, 0.6);
+        background-color: rgba(255, 255, 255, 0.2);
         backdrop-filter: blur(10px);
         min-width: 350px;
         padding-bottom: 50px;
