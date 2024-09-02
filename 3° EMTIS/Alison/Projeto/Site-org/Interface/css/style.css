@@ -94,7 +94,7 @@ main{
         right: 0;
         transition: transform 1s;
     }
-    .janela-modal.abrir {
+    .janela-modal.abrir{
         transform: translateX(0); /*! Deixar 0 */
         visibility: visible; /*! Deixar visible */
     }
@@ -149,6 +149,7 @@ main{
         height: 64px;
         width: 64px;
         border-radius: 50%;
+        cursor: pointer;
         transition: 1s;
     }
     .modal .apresentacao #imagem img:hover{
@@ -156,12 +157,6 @@ main{
     }
     .modal .apresentacao #nome{
         grid-area: nome;
-    }
-    .modal .apresentacao #nome h2{
-        transition: 0.5s;
-    }
-    .modal .apresentacao #nome h2:hover{
-        transform: scale(1.02);
     }
     .modal .apresentacao #texto{
         grid-area: texto;
@@ -217,11 +212,6 @@ main{
         height: 80px;
         width: 80px;
         border-radius: 50%;
-        transition: 1s;
-    }
-    .modal .orientadores img:hover{
-        transition: 1s;
-        transform: scale(1.1);
     }
     .modal .orientadores #texto{
         text-align: justify;
