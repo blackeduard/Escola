@@ -3,77 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Em Construção</title>
     <style>
-        .area {
-            max-width: 800px;
-            margin: 40px auto;
-            padding: 20px;
-            background-color: #f9f9f9;
-            border: 1px solid #ddd;
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .container {
+            background-color: #f0f0f0;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-
-        .cards {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-
-        .card {
-            margin: 20px;
-            padding: 20px;
-            width: 250px;
-            background-color: #fff;
-            border: 1px solid #ddd;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        .card h3 {
-            margin-top: 0;
-        }
-
-        .card p {
+        .countdown {
+            font-size: 24px;
+            font-weight: bold;
             margin-bottom: 20px;
-        }
-
-        button {
-            background-color: #4CAF50;
-            color: #fff;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-
-        button:hover {
-            background-color: #3e8e41;
         }
     </style>
 </head>
 <body>
-    <div class="area">
-    <h2>Front-end Development Area</h2>
-        <div class="cards">
-            <div class="card">
-            <h3>Junior Front-end Developer</h3>
-            <p>Salary: R$ 4,000 - R$ 6,000 per month</p>
-            <p>Description: As a junior front-end developer, you will be responsible for building responsive and interactive user interfaces for web applications. You will work closely with designers and back-end developers to ensure a seamless user experience.</p>
-            <button>Saiba mais</button>
-            </div>
-            <div class="card">
-            <h3>Mid-level Front-end Developer</h3>
-            <p>Salary: R$ 8,000 - R$ 12,000 per month</p>
-            <p>Description: As a mid-level front-end developer, you will lead the development of complex web applications, ensuring high-quality code and optimal performance. You will also mentor junior developers and contribute to the improvement of the development process.</p>
-            <button>Saiba mais</button>
-            </div>
-            <div class="card">
-            <h3>Senior Front-end Developer</h3>
-            <p>Salary: R$ 15,000 - R$ 20,000 per month</p>
-            <p>Description: As a senior front-end developer, you will be responsible for architecting and leading the development of large-scale web applications. You will also contribute to the development of new technologies and best practices, and lead the front-end development team.</p>
-            <button>Saiba mais</button>
-            </div>
-        </div>
+    <div class="container">
+        <h1>3SafeUI</h1>
+        <p>Estamos trabalhando nisso! Por favor, volte em breve.</p>
+        <p class="countdown" id="countdown"></p>
+        <script>
+            const countdownDate = new Date("2024-09-13T00:00:00.000Z");
+            const countdownElement = document.getElementById("countdown");
+
+            function updateCountdown() {
+                const now = new Date();
+                const timeRemaining = countdownDate - now;
+                const days = Math.floor(timeRemaining / (1000 * 60 * 60 * 24));
+                const hours = Math.floor((timeRemaining % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                const minutes = Math.floor((timeRemaining % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
+
+                countdownElement.textContent = `${days} : ${hours} : ${minutes} : ${seconds}`;
+            }
+
+            updateCountdown();
+            setInterval(updateCountdown, 1000);
+        </script>
     </div>
 </body>
 </html>
