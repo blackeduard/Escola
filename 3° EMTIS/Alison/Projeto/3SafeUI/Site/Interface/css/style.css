@@ -14,7 +14,7 @@
 }
 body{
     color: black;
-    background-image: url('../../../img/interface-04.jpg');
+    background-image: url('../../../img/interface-01.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -38,12 +38,12 @@ main{
     height: 100vh;
     text-align: center;
     margin: auto;
-    color: white;
 }
 .content > h1{
     font-family: 'Rubik', sans-serif;
     font-weight: 500;
     font-size: 4em;
+    color: rgb(0, 0, 0);
     text-shadow: 10px 0 30px rgba(36, 32, 56, 0.5);
 }
 .content > p{
@@ -55,7 +55,6 @@ main{
 .button{
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 15px;
 }
 .btn{
     font-family: Arial, Helvetica, sans-serif;
@@ -68,17 +67,17 @@ main{
     padding: 5px 40px;
     transition: 0.5s;
 }
+.btn:active{
+    transform: translateY(0);
+    background-color: rgb(90, 83, 179);
+    box-shadow: 0 0 15px rgba(36, 32, 56, 0.5);
+}
 /* ? Pc, Notebook, Tablet */
 @media screen and (min-width: 800px){
     .btn:hover{
         transform: scale(1.05) translateY(-1.5px);
         background-color: rgb(90, 83, 192);
         box-shadow: 0 0 30px rgba(36, 32, 56, 0.7);
-    }
-    .btn:active{
-        transform: translateY(0);
-        background-color: rgb(90, 83, 179);
-        box-shadow: 0 0 15px rgba(36, 32, 56, 0.5);
     }
     #sign-2{
         display: none;
@@ -90,8 +89,7 @@ main{
     .sign{
         position: absolute;
         cursor: pointer;
-        font-size: 5em;
-        color: white;
+        font-size: 3em;
         top: 45%;
         right: 0;
         transition: transform 1s;
@@ -151,6 +149,11 @@ main{
         height: 64px;
         width: 64px;
         border-radius: 50%;
+        cursor: pointer;
+        transition: 1s;
+    }
+    .modal .apresentacao #imagem img:hover{
+        transform: scale(1.1);
     }
     .modal .apresentacao #nome{
         grid-area: nome;
@@ -198,9 +201,9 @@ main{
         display: grid;
         grid-template-areas:
             'imagem imagem'
-            'nome nome';
+            'nome nome'
+            'texto texto';
         justify-content: center;
-        gap: 10px 50%;
     }
     .modal .orientadores #imagem{
         text-align: center;
@@ -209,6 +212,15 @@ main{
         height: 80px;
         width: 80px;
         border-radius: 50%;
+    }
+    .modal .orientadores #texto{
+        text-align: justify;
+        padding: 0 10px;
+    }
+    .modal .orientadores #texto q{
+        font-family: 'Rubik', sans-serif;
+        font-weight: 100;
+        font-style: italic;
     }
     .modal .fechar{
         position: fixed;
@@ -233,7 +245,6 @@ main{
         cursor: pointer;
         font-size: 3em;
         top: 0;
-        color: white;
         right: 45%;
         transition: transform 1s;
     }
@@ -292,8 +303,8 @@ main{
         grid-template-areas:
             'imagem'
             'nome'
-            'redes'
-            'texto';
+            'texto'
+            'redes';
     }
     .modal .apresentacao #imagem{
         grid-area: imagem;
@@ -310,11 +321,22 @@ main{
     .modal .apresentacao #nome h2{
         font-size: 1.4em;
     }
+    .modal .apresentacao #texto{
+        grid-area: texto;
+    }
+    .modal .apresentacao #texto > q{
+        text-indent: 10px;
+        font-style: italic;
+        font-family: 'Rubik', sans-serif;
+        font-weight: 100;
+        text-indent: 10px;
+        padding-top: 50px;
+    }
     .modal .apresentacao #texto ul{
         text-align: center;
         list-style-type: none;
         padding: 10px;
-        width: 20rem;
+        width: 200px;
         margin: 5px auto;
         border: solid black;
         border-top: 10px;
@@ -342,18 +364,19 @@ main{
         display: grid;
         grid-template-areas:
             'imagem imagem'
-            'nome nome';
+            'nome nome'
+            'texto texto';
         text-align: center;
-    }
-    .modal #orientador{
-        border-top: 2px solid rgba(255, 255, 255, 0.2);
-        padding-top: 10px;
-        margin-top: 20px;
     }
     .modal .orientadores img{
         width: 128px;
         height: 128px;
         border-radius: 50%;
+    }
+    .modal .orientadores #texto q{
+        font-family: 'Rubik', sans-serif;
+        font-weight: 100;
+        font-style: italic;
     }
     .modal .fechar{
         position: fixed;

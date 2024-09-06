@@ -1,0 +1,12 @@
+:root{
+      --color01: #242038ff;
+      --color02:#9067c6ff;
+      --color03: #8d86c9ff;
+      --color04: #cac4ceff;
+      --color05: #f7ece1ff;
+
+}
+body{
+   margin: auto;
+   text-align: center;
+}

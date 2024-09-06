@@ -1,0 +1,36 @@
+-- Paleta e Tipografias --
+
+https://coolors.co/030b40-19288a-33419c-252733-cacee6
+
+=====
+
+Tipografias
+	Rubik
+	Arial
+	Hind
+	sans-serif
+	system-ui
+
+-- CHAT-GPT | RESUMO --
+1. Rubik
+Características: Rubik é uma tipografia sans-serif com um estilo moderno e geométrico. Tem uma aparência amigável e legível, com formas arredondadas que conferem uma sensação de acessibilidade e modernidade.
+Uso no Site: Ideal para títulos, cabeçalhos ou elementos que precisam chamar a atenção. Sua aparência limpa e moderna pode ajudar a criar uma identidade visual atraente e consistente, além de melhorar a legibilidade em tamanhos maiores.
+2. Arial
+Características: Arial é uma tipografia sans-serif amplamente usada, conhecida por sua simplicidade e legibilidade. É uma escolha clássica e neutra que se adapta bem a uma variedade de contextos.
+Uso no Site: Pode ser utilizada para corpo de texto e elementos onde a legibilidade é crucial. Sua familiaridade e simplicidade garantem que o texto seja fácil de ler em diferentes tamanhos e dispositivos.
+3. Hind
+Características: Hind é uma tipografia sans-serif com uma estrutura clara e bem definida, projetada para legibilidade em tamanhos menores. Tem um estilo moderno e eficiente.
+Uso no Site: Ótima para textos em corpo e elementos de interface do usuário (UI) que precisam ser muito legíveis. Sua clareza torna-a adequada para seções de conteúdo e navegação.
+4. Sans-serif
+Características: "Sans-serif" refere-se a qualquer fonte sem serifa, caracterizada por suas linhas limpas e falta de traços nas extremidades das letras. É geralmente usada para criar uma aparência moderna e clara.
+Uso no Site: Pode ser utilizada para garantir que o texto seja limpo e fácil de ler. Como uma categoria geral, pode ser aplicada em várias áreas do site para manter a coesão visual e melhorar a legibilidade.
+5. System-ui
+Características: "System-ui" é uma tipografia que utiliza a fonte padrão do sistema operacional do usuário, como San Francisco no macOS ou Segoe UI no Windows. Isso assegura uma integração nativa e uma aparência consistente com o sistema operacional.
+Uso no Site: Pode ser usada para garantir que o texto se ajuste bem ao sistema do usuário, oferecendo uma experiência consistente e otimizada para leitura. Ideal para elementos que não precisam de uma tipografia personalizada, como textos de interface e elementos padrão.
+Resumo da Escolha:
+	Rubik traz modernidade e estilo para títulos e destaques.
+	Arial oferece simplicidade e legibilidade para textos gerais.
+	Hind proporciona clareza e legibilidade para corpo de texto e elementos de UI.
+	Sans-serif mantém a aparência limpa e moderna.
+	System-ui garante compatibilidade e integração com o sistema do usuário.
+Usar essas tipografias em conjunto pode criar uma hierarquia visual eficaz e uma experiência de leitura agradável no seu site 3SafeUI.
