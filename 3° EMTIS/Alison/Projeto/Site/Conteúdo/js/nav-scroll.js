@@ -1,5 +1,5 @@
-let scrollEvent = null;
-let clickEvent = null;
+let scrollEvent = null
+let clickEvent = null
 
 const nav = document.getElementById('menu')
 const navHeight = 60

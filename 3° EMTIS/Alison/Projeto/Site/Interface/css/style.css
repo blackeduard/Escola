@@ -73,7 +73,7 @@ main{
     transition: 0.5s;
 }
 /* ? Pc, Notebook, Tablet */
-@media screen and (min-width: 800px){
+@media screen and (min-width: 768px){
     .btn:hover{
         transform: scale(1.05) translateY(-1.5px);
         background-color: rgb(90, 83, 192);
@@ -224,7 +224,7 @@ main{
     }
 }
 /* ? Celulares */
-@media screen and (max-width: 800px){
+@media screen and (max-width: 768px){
     #sign-1{
         display: none;
     }
