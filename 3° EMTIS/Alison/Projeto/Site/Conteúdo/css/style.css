@@ -238,9 +238,13 @@ main .materia > article > a:hover{
     content: ' \279C';
 }
 /* ! Rodapé */
-
-footer a img{
-    height: 50px;
+div#footer{
+    background-color: var(--color01);
+}
+div#footer.container{
+    margin: 0;
+    max-width: 100%;
+    color: #0d6efd;
 }
 @media screen and (min-width:768px){
     .navigator .container-fluid, .navigator #abrir{
