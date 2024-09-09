@@ -60,7 +60,7 @@ nav#menu{
 }
 nav#menu button.sign{
     border: none;
-    color: blue;
+    color: white;
     background-color: var(--color01);
 }
 .nav-pills a{
@@ -74,7 +74,7 @@ nav#menu button.sign{
 }
 .nav-pills .nav-link.active{
     background-color: rgb(0, 0, 0, 0);
-    color: red;
+    color: var(--color02);
 }
 /* ! Primeira área */
 main .materia{
@@ -93,6 +93,18 @@ main .materia #front-end-text abbr{
     text-decoration: none;
     cursor: default;
     font-weight: 600;
+}
+main .materia .btn{
+    color: black;
+    background-color: var(--color02);
+}
+main .materia .btn:hover{
+    background-color: var(--color03);
+}
+main .materia .btn:active{
+    color: rgb(156, 156, 156);
+    border: 1px solid black;
+    background-color: #393c7f;
 }
 main .materia .profissional{
     margin: 50px 0;
@@ -225,6 +237,11 @@ main .materia > article > a:hover{
 .job .card-body .link::after{
     content: ' \279C';
 }
+/* ! Rodapé */
+
+footer a img{
+    height: 50px;
+}
 @media screen and (min-width:768px){
     .navigator .container-fluid, .navigator #abrir{
         display: none;
@@ -235,6 +252,10 @@ main .materia > article > a:hover{
         backdrop-filter: blur(5px);
         top: 0;
         z-index: 999;
+    }
+    nav#menu.scrolled .sign{
+        background-color: rgb(0, 0, 0, 0);
+        color: white;
     }
     nav#menu.scrolled+main{
         margin-top: 90px;
