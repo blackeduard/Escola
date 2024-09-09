@@ -294,6 +294,9 @@ div#footer ul{
         display: flex;
         flex-wrap: wrap;
     }
+    .navigator .nav .btn-group .sign{
+        background-color: rgb(0, 0, 0, 0);
+    }
     .navigator ul.dropdown-menu.show{
         position: static !important;
         transform: none !important;
