@@ -33,11 +33,13 @@ body{
         content: url('../../../img/3Safe-Logo.png');
     }
 }
+div.navigator{
+    background-color: var(--color01);
+}
 div#img{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: black;
 }
 div#img #logo{
     margin: 16px 0 0 0;
@@ -51,7 +53,6 @@ ul.nav{
 nav#menu{
     width: 100%;
     justify-content: center;
-    background-color: black;
     transition: top 0.3s ease-in-out;
 }
 .btn-group{
@@ -60,17 +61,20 @@ nav#menu{
 nav#menu button.sign{
     border: none;
     color: blue;
-    background-color: black;
+    background-color: var(--color01);
 }
 .nav-pills a{
-    background-color: none;
+    color: white;
+}
+.nav-pills .dropdown-menu.show li a{
+    color: black;
 }
 .nav-pills .nav-item:not(:first-child) .nav-link{
     padding-right: 5px;
 }
 .nav-pills .nav-link.active{
+    background-color: rgb(0, 0, 0, 0);
     color: red;
-    background-color: black;
 }
 /* ! Primeira área */
 main .materia{
@@ -225,11 +229,10 @@ main .materia > article > a:hover{
     .navigator .container-fluid, .navigator #abrir{
         display: none;
     }
-    .navigator{
-        background-color: black;
-    }
     nav#menu.scrolled{
         position: fixed;
+        background-color: #030b4090;
+        backdrop-filter: blur(5px);
         top: 0;
         z-index: 999;
     }
@@ -244,12 +247,9 @@ main .materia > article > a:hover{
       }
 }
 @media screen and (max-width:768px){
+    /* ! Navegador */
     .navigator nav#menu{
         display: none !important;
-    }
-    /* ! Navegador */
-    .navigator{
-        background-color: black;
     }
     .navigator > .container{
         display: flex;
