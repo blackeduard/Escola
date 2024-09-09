@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap');
+:root{
+    --color01: #2C3036ff;
+    --color02: #3C4B61ff;
+    --color03: #3E6094ff;
+    --color04: #2C6AC7ff;
+    --color05: #0567FAff;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    color: black;
+    background-image: url('../../../img/interface-04.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    text-size-adjust: none;
+}
+.naoSelecionavel /* Não selecionar texto */{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+/* ! Conteúdo */
+main{
+    min-width: 200px;
+    max-width: 400px;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    margin: auto;
+    color: white;
+}
+.content > h1{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 4em;
+    text-shadow: 10px 0 30px rgba(36, 32, 56, 0.5);
+}
+.content > p{
+    margin: 0 0 20px 0;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    text-shadow: 5px 2px 10px rgba(36, 32, 56, 0.5);
+}
+.button{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 15px;
+}
+.btn{
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(52, 38, 175);
+    border-radius: 7px;
+    box-shadow: 0 0 15px rgba(36, 32, 56, 0.5);
+    padding: 5px 40px;
+    transition: 0.5s;
+}
+/* ? Pc, Notebook, Tablet */
+@media screen and (min-width: 800px){
+    .btn:hover{
+        transform: scale(1.05) translateY(-1.5px);
+        background-color: rgb(90, 83, 192);
+        box-shadow: 0 0 30px rgba(36, 32, 56, 0.7);
+    }
+    .btn:active{
+        transform: translateY(0);
+        background-color: rgb(90, 83, 179);
+        box-shadow: 0 0 15px rgba(36, 32, 56, 0.5);
+    }
+    #sign-2{
+        display: none;
+    }
+    #fechar-2{
+        display: none;
+    }
+    /* ? Modal */
+    .sign{
+        position: absolute;
+        cursor: pointer;
+        font-size: 5em;
+        color: white;
+        top: 45%;
+        right: 0;
+        transition: transform 1s;
+    }
+    .janela-modal.abrir{
+        transform: translateX(0); /*! Deixar 0 */
+        visibility: visible; /*! Deixar visible */
+    }
+    .janela-modal{
+        display: flex;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 100vw;
+        overflow-y: scroll;
+        transition: 1s;
+        transform: translateX(100%); /*! Deixar 100%*/
+        position: fixed; /*! Deixar FIXED*/
+        visibility: hidden; /*! Deixar HIDDEN*/
+    }
+    .janela-modal .sign{
+        display: flex;
+        visibility: visible;
+    }
+    .janela-modal.abrir .sign{
+        display: none;
+    }
+    .janela-modal h1, .janela-modal h2{
+        font-family: 'Hind', Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-weight: 600;
+    }
+    .modal{
+        visibility: none;
+        position: absolute;
+        right: 0;
+        padding: 50px 20px;
+        color: black;
+        background-color: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(10px);
+        min-width: 450px;
+        width: 550px;
+    }
+    .modal .apresentacao{
+        align-items: center;
+        display: grid;
+        grid-template-columns: 64px;
+        grid-template-areas:
+            'imagem nome'
+            'texto texto'
+            'redes redes';
+    }
+    .modal .apresentacao #imagem{
+        grid-area: imagem;
+    }
+    .modal .apresentacao img{
+        height: 64px;
+        width: 64px;
+        border-radius: 50%;
+    }
+    .modal .apresentacao #nome{
+        grid-area: nome;
+    }
+    .modal .apresentacao #texto{
+        grid-area: texto;
+    }
+    .modal .apresentacao #texto > q{
+        text-indent: 10px;
+        font-style: italic;
+        font-family: 'Rubik', sans-serif;
+        font-weight: 100;
+        text-align: justify;
+    }
+    .modal .apresentacao #texto ul{
+        font-family: 'Rubik', sans-serif;
+        font-weight: 400;
+        padding: 5px 50px;
+    }
+    .modal .apresentacao #redes{
+        grid-area: redes;
+        padding: 15px 0 10px 0;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: space-evenly;
+    }
+    .modal .apresentacao #redes .rede{
+        width: 33%;
+    }
+    .modal .apresentacao .rede a{
+        transition: 0.5s;
+        font-size: 2em;
+        color: black;
+        display: inline-block;
+    }
+    .modal .apresentacao .rede a:hover{
+        transform: scale(1.2) translateY(-2px);
+        text-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    }
+    .modal hr{
+        margin: 10px 0;
+    }
+    .modal .orientadores{
+        display: grid;
+        grid-template-areas:
+            'imagem imagem'
+            'nome nome';
+        justify-content: center;
+        gap: 10px 50%;
+    }
+    .modal .orientadores #imagem{
+        text-align: center;
+    }
+    .modal .orientadores img{
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+    }
+    .modal .fechar{
+        position: fixed;
+        cursor: pointer;
+        text-align: center;
+        width: 96%;
+        margin: auto;
+        font-size: 2.5em;
+    }
+}
+/* ? Celulares */
+@media screen and (max-width: 800px){
+    #sign-1{
+        display: none;
+    }
+    #fechar-1{
+        display: none;
+    }
+    /* ? Modal */
+    .sign{
+        position: absolute;
+        cursor: pointer;
+        font-size: 3em;
+        top: 0;
+        color: white;
+        right: 45%;
+        transition: transform 1s;
+    }
+    .janela-modal.abrir {
+        transform: translateX(0);
+        visibility: visible; /*! Deixar VISIBLE*/
+    }
+    .janela-modal .fechar{
+        position: fixed;
+        font-size: 3em;
+    }
+    .janela-modal{
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 100vw;
+        overflow-y: scroll;
+        transition: 1s;
+        scrollbar-width: none; /* Firefox */
+        -ms-overflow-style: none; /* Internet Explorer e Edge */
+        transform: translateY(-100%); /*! Deixar -100%*/
+        position: fixed; /*! Deixar FIXED*/
+        visibility: hidden; /*! Deixar HIDDEN*/
+    }
+    .janela-modal::-webkit-scrollbar{
+        display: none;
+    }
+    .janela-modal .sign{
+        display: flex;
+        visibility: visible;
+    }
+    .janela-modal.abrir .sign{
+        display: none;
+    }
+    .janela-modal h1, .janela-modal h2{
+        font-family: 'Hind', Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-weight: 600;
+    }
+    .modal{
+        width: 100vw;
+        visibility: none;
+        position: absolute;
+        right: 0;
+        padding: 10px;
+        color: black;
+        background-color: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(10px);
+        min-width: 350px;
+        padding-bottom: 50px;
+    }
+    .modal .apresentacao{
+        align-items: center;
+        display: grid;
+        display: grid;
+        grid-template-areas:
+            'imagem'
+            'nome'
+            'redes'
+            'texto';
+    }
+    .modal .apresentacao #imagem{
+        grid-area: imagem;
+        text-align: center;
+    }
+    .modal .apresentacao img{
+        height: 128px;
+        width: 128px;
+        border-radius: 50%;
+    }
+    .modal .apresentacao #nome{
+        grid-area: nome;
+    }
+    .modal .apresentacao #nome h2{
+        font-size: 1.4em;
+    }
+    .modal .apresentacao #texto ul{
+        text-align: center;
+        list-style-type: none;
+        padding: 10px;
+        width: 20rem;
+        margin: 5px auto;
+        border: solid black;
+        border-top: 10px;
+        border-bottom: 10px;
+        font-family: 'Rubik', sans-serif;
+        font-weight: 400;
+    }
+    .modal .apresentacao #redes{
+        grid-area: redes;
+        padding: 15px 0 10px 0;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: space-evenly;
+    }
+    .modal .apresentacao #redes .rede{
+        width: 25%;
+    }
+    .modal .apresentacao .rede a{
+        color: black;
+        display: inline-block;
+        font-size: 3em;
+    }
+    .modal .orientadores{
+        display: grid;
+        grid-template-areas:
+            'imagem imagem'
+            'nome nome';
+        text-align: center;
+    }
+    .modal #orientador{
+        border-top: 2px solid rgba(255, 255, 255, 0.2);
+        padding-top: 10px;
+        margin-top: 20px;
+    }
+    .modal .orientadores img{
+        width: 128px;
+        height: 128px;
+        border-radius: 50%;
+    }
+    .modal .fechar{
+        position: fixed;
+        cursor: pointer;
+        left: 45%;
+        font-size: 2.5em;
+    }
+    .modal .fechar#fechar-2{
+        transform: rotate(0deg);
+        transition: 0.5s;
+    }
+    .janela-modal.abrir #fechar-2{
+        transition: 1s;
+        transform: rotate(90deg);
+    }
+}

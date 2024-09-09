@@ -1,6 +1,0 @@
-INTERFACE
-	- CSS e JS feitos
-CONTEÚDO
-	- Ñ Completo
-ESCRITO
-	- Ñ Feito
