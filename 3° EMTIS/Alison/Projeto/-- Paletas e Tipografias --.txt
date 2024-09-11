@@ -12,25 +12,37 @@ Tipografias
 	system-ui
 
 -- CHAT-GPT | RESUMO --
-1. Rubik
-Características: Rubik é uma tipografia sans-serif com um estilo moderno e geométrico. Tem uma aparência amigável e legível, com formas arredondadas que conferem uma sensação de acessibilidade e modernidade.
-Uso no Site: Ideal para títulos, cabeçalhos ou elementos que precisam chamar a atenção. Sua aparência limpa e moderna pode ajudar a criar uma identidade visual atraente e consistente, além de melhorar a legibilidade em tamanhos maiores.
-2. Arial
-Características: Arial é uma tipografia sans-serif amplamente usada, conhecida por sua simplicidade e legibilidade. É uma escolha clássica e neutra que se adapta bem a uma variedade de contextos.
-Uso no Site: Pode ser utilizada para corpo de texto e elementos onde a legibilidade é crucial. Sua familiaridade e simplicidade garantem que o texto seja fácil de ler em diferentes tamanhos e dispositivos.
-3. Hind
-Características: Hind é uma tipografia sans-serif com uma estrutura clara e bem definida, projetada para legibilidade em tamanhos menores. Tem um estilo moderno e eficiente.
-Uso no Site: Ótima para textos em corpo e elementos de interface do usuário (UI) que precisam ser muito legíveis. Sua clareza torna-a adequada para seções de conteúdo e navegação.
-4. Sans-serif
-Características: "Sans-serif" refere-se a qualquer fonte sem serifa, caracterizada por suas linhas limpas e falta de traços nas extremidades das letras. É geralmente usada para criar uma aparência moderna e clara.
-Uso no Site: Pode ser utilizada para garantir que o texto seja limpo e fácil de ler. Como uma categoria geral, pode ser aplicada em várias áreas do site para manter a coesão visual e melhorar a legibilidade.
-5. System-ui
-Características: "System-ui" é uma tipografia que utiliza a fonte padrão do sistema operacional do usuário, como San Francisco no macOS ou Segoe UI no Windows. Isso assegura uma integração nativa e uma aparência consistente com o sistema operacional.
-Uso no Site: Pode ser usada para garantir que o texto se ajuste bem ao sistema do usuário, oferecendo uma experiência consistente e otimizada para leitura. Ideal para elementos que não precisam de uma tipografia personalizada, como textos de interface e elementos padrão.
-Resumo da Escolha:
-	Rubik traz modernidade e estilo para títulos e destaques.
-	Arial oferece simplicidade e legibilidade para textos gerais.
-	Hind proporciona clareza e legibilidade para corpo de texto e elementos de UI.
-	Sans-serif mantém a aparência limpa e moderna.
-	System-ui garante compatibilidade e integração com o sistema do usuário.
-Usar essas tipografias em conjunto pode criar uma hierarquia visual eficaz e uma experiência de leitura agradável no seu site 3SafeUI.
+Características das Tipografias:
+
+Rubik:
+Rubik é uma tipografia sans-serif com um estilo moderno e geométrico. Suas formas arredondadas oferecem uma sensação de acessibilidade e clareza, tornando-a ideal para títulos, cabeçalhos e elementos que precisam chamar a atenção. A aparência limpa e amigável da Rubik ajuda a criar uma identidade visual distinta e pode ser usada para destacar informações importantes, como seções principais do site sobre Front-end, Desenvolvimento de Sistemas e Fundamentos de Segurança.
+
+Arial:
+Arial é uma tipografia sans-serif amplamente utilizada, conhecida por sua simplicidade e versatilidade. Com linhas limpas e uma estrutura clara, Arial é uma escolha sólida para textos de corpo e conteúdo geral. Sua legibilidade em diferentes tamanhos faz dela uma boa opção para a descrição de conceitos técnicos e explicações detalhadas sobre as matérias abordadas no site.
+
+Hind:
+Hind é uma tipografia sans-serif projetada com ênfase na legibilidade em tamanhos menores. Suas linhas definidas e claras garantem que o texto permaneça legível e acessível, mesmo em dispositivos móveis ou em interfaces densas. É ideal para conteúdos detalhados e textos que exigem alta legibilidade, como explicações técnicas e instruções sobre desenvolvimento de sistemas e fundamentos de segurança.
+
+Sans-Serif:
+Sans-serif refere-se a qualquer fonte sem serifas, caracterizada por suas linhas limpas e ausência de traços decorativos. Fontes sans-serif, como Rubik, Arial e Hind, são preferidas em contextos digitais por sua clareza e legibilidade. Elas são perfeitas para um site técnico, onde a eficiência na comunicação visual é essencial.
+
+System-ui:
+System-ui é uma tipografia que usa a fonte padrão do sistema operacional do usuário, garantindo uma aparência consistente e familiar em diferentes plataformas. É uma escolha prática para interfaces e elementos secundários, pois se adapta ao estilo do sistema do visitante, proporcionando uma experiência de leitura que parece nativa e integrada com o ambiente do usuário.
+
+Paleta de Cores do Site:
+
+A paleta de cores do seu site combina tons de azul e cores neutras para criar um design visualmente atraente e coerente, adequado para um site que explora Front-end, Desenvolvimento de Sistemas e Fundamentos de Segurança. Aqui está uma breve descrição de cada cor e sua aplicação:
+
+#13293D (Azul Marinho Escuro): Um tom profundo e sofisticado que transmite confiança e profissionalismo. Ideal para seções importantes e elementos de destaque, como cabeçalhos e menus, que ajudam a estabelecer a autoridade do site.
+
+#006494 (Azul Médio): Um azul vibrante que pode ser usado para chamar a atenção para elementos interativos, como botões e links. Esse tom também é útil para destacar informações cruciais nas áreas de Front-end e Desenvolvimento de Sistemas.
+
+#247BA0 (Azul Claro): Um tom suave de azul que proporciona um contraste agradável com os elementos mais escuros, ótimo para fundos de seções e áreas que precisam de uma sensação de clareza e abertura.
+
+#1B98E0 (Azul Céu): Um azul enérgico que pode ser usado para adicionar vitalidade e destacar elementos importantes, como chamadas à ação e seções principais relacionadas aos Fundamentos de Segurança.
+
+#E8F1F2 (Cinza Claro): Um tom neutro que oferece um fundo leve e equilibrado, ideal para áreas de conteúdo extensivo e descrições detalhadas, garantindo que o texto permaneça legível e fácil de ler.
+
+#000000 (Preto): Uma cor clássica que oferece alto contraste e legibilidade, ideal para textos e detalhes críticos. O preto pode ser usado para garantir que informações essenciais sobre todas as matérias abordadas no site sejam facilmente visíveis.
+
+Essa paleta de cores e a seleção de tipografias são projetadas para criar uma experiência de usuário clara, atraente e eficiente, apoiando a compreensão e exploração dos tópicos técnicos do seu site.
