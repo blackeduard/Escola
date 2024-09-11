@@ -13,11 +13,13 @@ body{
     text-size-adjust: none;
 }
 :root{
-    --color01: #030b40;
-    --color02: #19288a;
-    --color03: #33419c;
-    --color04: #252733;
-    --color05: #cacee6;
+    --color01: #000000;
+    --color02: #030b40;
+    --color03: #19288a;
+    --color04: #33419c;
+    --color05: #252733;
+    --color06: #cacee6;
+    --color07: #ffffff;
 }
 .notSelect /* Não selecionar texto */{ 
     -webkit-touch-callout: none;
@@ -30,11 +32,11 @@ body{
 /* ! Menu */
 @media (min-width: 768px){
     div#img .logo{
-        content: url('../../../img/3Safe-Logo.png');
+        content: url('../../img/3Safe-Logo.png');
     }
 }
 div.navigator{
-    background-color: var(--color04);
+    background-color: var(--color05);
 }
 div#img{
     display: flex;
@@ -74,7 +76,7 @@ nav#menu button.sign{
 }
 .nav-pills .nav-link.active{
     background-color: rgb(0, 0, 0, 0);
-    color: var(--color02);
+    color: var(--color04);
 }
 /* ! Primeira área */
 main .materia{
@@ -90,20 +92,19 @@ main .materia > article{
     padding: 20px 0;
 }
 main .materia #front-end-text abbr{
-    text-decoration: none;
     cursor: default;
     font-weight: 600;
 }
 main .materia .btn{
-    color: black;
-    background-color: var(--color02);
+    color: var(--color07);
+    background-color: var(--color03);
 }
 main .materia .btn:hover{
-    background-color: var(--color03);
+    background-color: var(--color04);
 }
 main .materia .btn:active{
     color: rgb(156, 156, 156);
-    border: 1px solid black;
+    border: 1px solid var(--color01);
     background-color: #393c7f;
 }
 main .materia .profissional{
@@ -133,7 +134,7 @@ main .materia > article > a:hover{
 }
 .conteudo .FAQ{
     display: flex;
-    color: black;
+    color: var(--color01);
     font-weight: 400;
 }
 .conteudo .left, .conteudo .right{
@@ -171,16 +172,15 @@ main .materia > article > a:hover{
     text-align: center;
 }
 .conteudo .right p abbr{
-    text-decoration: none;
     cursor: default;
     font-weight: 600;
 }
 .accordion-button::after{
-    background-image: url('../../../img/plus-regular-24.png');
+    background-image: url('../../img/plus-regular-24.png');
     transition: all 0.2s;
 }
 .accordion-button:not(.collapsed)::after{
-    background-image: url('../../../img/minus-regular-24.png');
+    background-image: url('../../img/minus-regular-24.png');
 }
 /* ! Terceira área */
 .job{
@@ -213,12 +213,17 @@ main .materia > article > a:hover{
 .job .card-img-top{
     height: 150px;
 }
-.job .card-body .card-text{
-    text-align: justify;
-}
 .job .card-body{
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+.job .card-body .card-title{
+    text-align: center;
+}
+.job .card-body .card-text{
+    text-align: justify;
+    height: 143.89px;
 }
 .job .card-body .info{
     display: flex;
@@ -226,29 +231,49 @@ main .materia > article > a:hover{
     justify-content: space-between;
     margin: 0 0 8px;
 }
+.job .card-body .price{
+    background-color: var(--color03);
+    color: white;
+    width: 80%;
+    text-align: center;
+    border-radius: 8px 0;
+    margin-bottom: 8px;
+}
 .job .card-body .price::before{
     content: 'R$ ';
     font-style: italic;
 }
 .job .card-body .link{
-    font-weight: 500;
+    color: var(--color04);
     text-decoration: none;
+    font-weight: bold;
 }
 .job .card-body .link::after{
     content: ' \279C';
 }
 /* ! Rodapé */
 div#footer{
-    background-color: var(--color04);
+    background-color: var(--color05);
 }
 div#footer.container{
     margin: 0;
     max-width: 100%;
-    color: #0d6efd;
+    color: var(--color07);
 }
 div#footer ul{
-    border-bottom: 1px solid var(--color02) !important;
+    border-bottom: 1px solid var(--color07) !important;
 }
+div#footer ul li a{
+    color: var(--color07);
+    transition: 0.5s;
+}
+div#footer ul li a:hover{
+    color: rgb(195, 195, 195);
+}
+div#footer ul li a:active{
+    color: grey;
+}
+/* * Computador */
 @media screen and (min-width:768px){
     .navigator .container-fluid, .navigator #abrir{
         display: none;
@@ -272,12 +297,22 @@ div#footer ul{
     }
     nav#menu.esconder {
         top: -75px; /* Altura do navegador */
-      }
+    }
+    #footer ul{
+        display: none;
+    }
+    #footer p{
+        margin: 1em 0;
+    }
 }
+/* * Celular */
 @media screen and (max-width:768px){
     /* ! Navegador */
     .navigator nav#menu{
         display: none !important;
+    }
+    abbr{
+        text-decoration: none !important;
     }
     .navigator > .container{
         display: flex;
@@ -312,8 +347,8 @@ div#footer ul{
     }
     .navigator .sign{
         border: 0;
-        background-color: black;
-        color: white;
+        background-color: var(--color01);
+        color: var(--color07);
     }
     .navigator button#abrir{
         margin-top: 16px;
@@ -323,7 +358,7 @@ div#footer ul{
     }
     .nav-pills .nav-link.active{
         color: blue;
-        background-color: black;
+        background-color: var(--color01);
     }
     /* ! Conteudo */
     .conteudo .FAQ{

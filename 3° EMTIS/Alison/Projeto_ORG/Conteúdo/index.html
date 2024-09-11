@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conteúdo | 3SafeUI</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="../img/favicon-1.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- ? Navegador -->
+    <div class="navigator">
+      <div class="container">
+        <div id="img">
+          <a href="../index.html" id="logo"
+            ><img src="../img/3-Logo.png" alt="" class="logo"
+          /></a>
+        </div>
+        <button
+          type="button"
+          id="abrir"
+          class="btn"
+          data-bs-toggle="collapse"
+          data-bs-target="#menu"
+        >
+          <i class="bx bx-menu"></i>
+        </button>
+      </div>
+      <!-- ! Primeiro Menu -->
+      <nav id="menu" class="collapse navbar-collapse d-flex py-3">
+        <ul class="nav nav-pills">
+          <li class="nav-item"><a href="#" class="nav-link link">Início</a></li>
+          <li class="nav-item">
+            <div class="btn-group">
+              <a href="#front-end" class="nav-link link">Front-end</a>
+              <button type="button" class="sign" data-bs-toggle="dropdown">
+                <i class="bx bx-caret-down"></i>
+              </button>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item link" href="#content-1"
+                    >Perguntas Frequentes</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item link" href="#job-1">Trabalhos</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item">
+            <div class="btn-group">
+              <a href="#fundamento-seguranca" class="nav-link link"
+                >Fundamento de Segurança</a
+              >
+              <button type="button" class="sign" data-bs-toggle="dropdown">
+                <i class="bx bx-caret-down"></i>
+              </button>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item link" href="#content-2"
+                    >Perguntas Frequentes</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item link" href="#job-2">Trabalhos</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item">
+            <div class="btn-group">
+              <a href="#desenvolvimento-sistemas" class="nav-link link"
+                >Desenvolvimento Sistemas</a
+              >
+              <button type="button" class="sign" data-bs-toggle="dropdown">
+                <i class="bx bx-caret-down"></i>
+              </button>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item link" href="#content-3"
+                    >Perguntas Frequentes</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item link" href="#job-3">Trabalhos</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <script src="js/active.js"></script>
+        </ul>
+      </nav>
+      <!-- ! Segundo Menu -->
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="menu">
+          <nav class="menu collapse navbar-collapse d-flex py-3">
+            <ul class="nav nav-pills">
+              <li class="nav-item">
+                <a href="#" class="nav-link link">Início</a>
+              </li>
+              <li class="nav-item">
+                <div class="btn-group">
+                  <a href="#front-end" class="nav-link link">Front-end</a>
+                  <button type="button" class="sign" data-bs-toggle="dropdown">
+                    <i class="bx bx-caret-down"></i>
+                  </button>
+                  <ul id="d1" class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="#content-1"
+                        >Perguntas Frequentes</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#job-1">Trabalhos</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="nav-item">
+                <div class="btn-group">
+                  <a href="#fundamento-seguranca" class="nav-link link"
+                    >Fundamento de Segurança</a
+                  >
+                  <button type="button" class="sign" data-bs-toggle="dropdown">
+                    <i class="bx bx-caret-down"></i>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="#content-2"
+                        >Perguntas Frequentes</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#job-2">Trabalhos</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="nav-item">
+                <div class="btn-group">
+                  <a href="#desenvolvimento-sistemas" class="nav-link link"
+                    >Desenvolvimento Sistemas</a
+                  >
+                  <button type="button" class="sign" data-bs-toggle="dropdown">
+                    <i class="bx bx-caret-down"></i>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="#content-3"
+                        >Perguntas Frequentes</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#job-3">Trabalhos</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <script src="js/active.js"></script>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <!-- Fim Navegador -->
+    <!-- Conteúdo do Site -->
+    <main>
+      <!-- 1°Parte -->
+      <div id="front-end">
+        <section class="materia">
+          <article id="front-end-text">
+            <h1>Front-end</h1>
+            <p>
+              O Front-end abrange a parte visual de sites e aplicações, isto é,
+              as áreas com as quais os usuários interagem diretamente.
+              Profissionais de Front-end são responsáveis por criar essa
+              interface gráfica usando as tecnologias fundamentais da web:
+              <abbr title="Hyper Text Markup Language">HTML</abbr>,
+              <abbr title="Cascading Style Sheets">CSS</abbr> e
+              <abbr title="JavaScript">JS</abbr>.
+            </p>
+            <a
+              href="https://querobolsa.com.br/carreiras-e-profissoes/desenvolvedor-front-end#accordion-0"
+              class="btn"
+              target="_blank"
+              >Saiba mais</a
+            >
+          </article>
+          <div class="profissional img-fluid">
+            <img src="../img/profissional-0.jpg" alt="" class="img-fluid" />
+          </div>
+        </section>
+        <!-- FAQ 1-->
+        <section id="content-1" class="conteudo">
+          <article class="FAQ">
+            <div class="left border border-2 border-secondary-subtle rounded-3">
+              <div class="faq_text text-center">
+                <h2>Perguntas Frequentes</h2>
+                <p>
+                  Estas são as perguntas frequentemente formuladas na área de
+                  front-end
+                </p>
+              </div>
+              <div class="faq">
+                <div class="accordion accordion-flush" id="accordion1">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseOne"
+                      >
+                        O que é um sistema Front-end
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapseOne"
+                      class="accordion-collapse collapse"
+                      data-bs-parent="#accordion1"
+                    >
+                      <div class="accordion-body">
+                        <p>
+                          O termo front-end se refere à interface gráfica do
+                          usuário (GUI) com a qual as pessoas interagem, como
+                          menus de navegação, elementos de design, botões,
+                          imagens e gráficos.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseTwo"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseTwo"
+                      >
+                        Qual a diferença entre HTML, CSS e JavaScript
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapseTwo"
+                      class="accordion-collapse collapse"
+                      data-bs-parent="#accordion1"
+                    >
+                      <div class="accordion-body">
+                        <ul>
+                          <li>
+                            <strong>HTML</strong> é usado para estruturar o
+                            conteúdo da página;
+                          </li>
+                          <li>
+                            <strong>CSS</strong> é usado para estilizar o
+                            conteúdo e definir o layout visual;
+                          </li>
+                          <li>
+                            <strong>JavaScript</strong> é usado para adicionar
+                            interatividade e funcionalidades dinâmicas à página.
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThree"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseThree"
+                      >
+                        O que são frameworks e bibliotecas de front-end
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapseThree"
+                      class="accordion-collapse collapse"
+                      data-bs-parent="#accordion1"
+                    >
+                      <div class="accordion-body">
+                        <p>
+                          Frameworks e bibliotecas são conjuntos de ferramentas
+                          e códigos pré-escritos que ajudam a simplificar e
+                          acelerar o desenvolvimento front-end.
+                        </p>
+                        <p>
+                          React, Bootsrap, Tailwind CSS, Angular, jQuery são
+                          alguns dos mais variados frameworks e bibliotecas.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="right">
+              <h2>Visão Front-end</h2>
+              <p>
+                O Front-end está muito relacionado com a
+                <strong>interface gráfica</strong> do projeto. Ou seja, é onde
+                se desenvolve a aplicação com a qual o usuário irá interagir
+                diretamente, seja em softwares, sites, aplicativos, etc.
+                Portanto, é essencial que o desenvolvedor tenha uma preocupação
+                com a experiência do usuário.
+              </p>
+              <p>
+                O <strong>Programador front-end</strong> é um termo muito
+                utilizado para identificar profissionais que se especializaram
+                especificamente nessa área. Além disso, apesar de envolver a
+                interface do projeto, o programador front-end não é formado em
+                design. A diferença entre os dois é que o desenvolvedor não
+                desenha visualmente a interface.
+              </p>
+            </div>
+          </article>
+        </section>
+        <!-- Fim FAQ 1 -->
+        <!-- Trabalhos 1 -->
+        <section id="job-1" class="job">
+          <article>
+            <h2>Trabalhos</h2>
+            <p>
+              O campo do front-end é composto por uma série de funções e
+              especializações que são fundamentais para o sucesso no
+              desenvolvimento de interfaces e aplicações web, entre elas temos:
+            </p>
+          </article>
+          <div class="boxcard">
+            <div class="card">
+              <img
+                src="../img/work-front-1.jpg"
+                class="card-img-top"
+                alt="Profissional primeira área"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Designer de Interface</h5>
+                <div class="price notSelect">3.585,00</div>
+                <p class="card-text">
+                  É a prática responsável pelo planejamento, desenvolvimento e
+                  aplicação de uma solução com o objetivo de facilitar a
+                  experiência do usuário e estimular sua interação.
+                </p>
+                <a
+                  href="https://querobolsa.com.br/carreiras-e-profissoes/ui-designer"
+                  target="_blank"
+                  class="link"
+                  >Saiba mais</a
+                >
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="../img/work-front-2.png"
+                class="card-img-top"
+                alt="Profissional segunda área"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Desenvolvedor UX</h5>
+                <div class="price notSelect">5.999,00</div>
+                <p class="card-text">
+                  São todas as interações do usuário com uma marca e suas
+                  vivências ao utilizar um produto ou serviço oferecido. Essa
+                  área busca analisar como os usuários interagem.
+                </p>
+                <a
+                  href="https://querobolsa.com.br/carreiras-e-profissoes/ux-designer"
+                  target="_blank"
+                  class="link"
+                  >Saiba mais</a
+                >
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="../img/work-front-3.png"
+                class="card-img-top"
+                alt="Profissional terceira área"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Desenvolvedor Front-end</h5>
+                <div class="price notSelect">6.480,00</div>
+                <p class="card-text">
+                  É o profissional encarregado de transformar o design de um
+                  site ou interface em uma experiência funcional e interativa,
+                  executando por meio de códigos e tecnologias web.
+                </p>
+                <a
+                  href="https://querobolsa.com.br/carreiras-e-profissoes/desenvolvedor-front-end"
+                  target="_blank"
+                  class="link"
+                  >Saiba mais</a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Fim Trabalhos 1 -->
+      </div>
+      <!-- Fim 1° Parte -->
+      <!-- 2° Parte -->
+      <div id="fundamento-seguranca">
+        <section class="materia">
+          <article id="fundamento-seguranca-text">
+            <h1>Fundamento de Segurança</h1>
+            <p>
+              Fundamentos de segurança são princípios e práticas essenciais para
+              proteger sistemas, redes e dados contra ameaças e ataques. Essas
+              práticas visam garantir a confidencialidade, integridade e
+              disponibilidade das informações. Em resumo, o objetivo principal
+              das ações de segurança é proteger dados valiosos contra violações
+              e ataques.
+            </p>
+            <a
+              href="https://querobolsa.com.br/cursos-e-faculdades/seguranca-da-informacao#about_course"
+              class="btn"
+              target="_blank"
+              >Saiba mais</a
+            >
+          </article>
+          <div class="profissional img-fluid">
+            <img src="../img/profissional-1.jpg" alt="" />
+          </div>
+        </section>
+        <!-- FAQ 2 -->
+        <section id="content-2" class="conteudo">
+          <article class="FAQ">
+            <div class="left border border-2 border-secondary-subtle rounded-3">
+              <div class="faq_text text-center">
+                <h2>Perguntas frequentes</h2>
+                <p>
+                  Estas são as perguntas frequentemente formuladas no âmbito dos
+                  Fundamentos de Segurança.
+                </p>
+              </div>
+              <div class="faq">
+                <div class="accordion accordion-flush" id="accordion2">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseFour"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseFour"
+                      >
+                        Quais são os princípios de segurança
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapseFour"
+                      class="accordion-collapse collapse"
+                      data-bs-parent="#accordion2"
+                    >
+                      <div class="accordion-body">
+                        <p>
+                          Basicamente, a segurança se divide em três princípios:
+                          confidencialidade, integridade e disponibilidade.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseFive"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseFive"
+                      >
+                        Qual a diferença entre autenticidade e autorização
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapseFive"
+                      class="accordion-collapse collapse"
+                      data-bs-parent="#accordion2"
+                    >
+                      <div class="accordion-body">
+                        <p>
+                          Autenticidade confirma a identidade de um usuário ou
+                          sistema, enquanto autorização define o que um usuário
+                          ou sistema tem permissão para fazer.
+                        </p>
+                        <p>
+                          Ambos são essenciais para garantir que apenas
+                          entidades autorizadas realizem ações apropriadas.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseSix"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseSix"
+                      >
+                        Quais são as ameaças comuns à segurança da informação
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapseSix"
+                      class="accordion-collapse collapse"
+                      data-bs-parent="#accordion2"
+                    >
+                      <div class="accordion-body">
+                        <p>
+                          Ameaças comuns incluem malware, phishing, ataques de
+                          ransomware, acesso não autorizado, e vulnerabilidades
+                          em sistemas e aplicativos.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="right">
+              <h2>Base da Segurança</h2>
+              <p>
+                A <strong>segurança da informação</strong> é essencial para
+                qualquer negócio atualmente. Ela abrange métodos, ferramentas e
+                processos para proteger dados e informações, algo que ganhou
+                ainda mais urgência com a
+                <abbr title="Lei Geral de Proteção de Dados Pessoais">LGPD</abbr
+                >.
+              </p>
+            </div>
+          </article>
+        </section>
+        <!-- Fim FAQ 2 -->
+        <!-- Trabalho 2 -->
+        <section id="job-2" class="job">
+          <article>
+            <h2>Trabalhos</h2>
+            <p>
+              No domínio dos Fundamentos de Segurança, diversos profissionais
+              desempenham papéis essenciais na proteção e na gestão de
+              informações e sistemas. Entre essas funções, destacam-se:
+            </p>
+          </article>
+          <div class="boxcard">
+            <div class="card">
+              <img
+                src="../img/work-seguranca-1.png"
+                class="card-img-top"
+                alt="Profissional primeira área"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Analista de Segurança da Informação</h5>
+                <div class="price notSelect">8.094,46</div>
+                <p class="card-text">
+                  É um profissional especializado responsável por proteger os
+                  sistemas e dados de uma organização contra ameaças
+                  cibernéticas.
+                </p>
+                <a
+                  href="https://www.catho.com.br/profissoes/analista-de-seguranca-da-informacao/"
+                  target="_blank"
+                  class="link"
+                  >Saiba mais</a
+                >
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="../img/work-seguranca-2.png"
+                class="card-img-top"
+                alt="Profissional segunda área"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Engenheiro de Segurança da Informação
+                </h5>
+                <div class="price notSelect">9.451,00</div>
+                <p class="card-text">
+                  É o profissional responsável por garantir a proteção dos dados
+                  que circulam nas redes, com o objetivo de evitar que essas
+                  informações sejam alvo de invasões ou hackers.
+                </p>
+                <a
+                  href="https://www.catho.com.br/profissoes/engenheiro-de-seguranca-do-trabalho/"
+                  target="_blank"
+                  class="link"
+                  >Saiba mais</a
+                >
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="../img/work-seguranca-3.jpg"
+                class="card-img-top"
+                alt="Profissional terceira área"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Consultor de Segurança da Informação</h5>
+                <div class="price notSelect">9.023,00</div>
+                <p class="card-text">
+                  Executa testes de invasão e análise de vulnerabilidades no
+                  ambiente tecnológico para verificar a aderência ás políticas e
+                  padrões de segurança.
+                </p>
+                <a
+                  href="https://www.catho.com.br/profissoes/consultor-de-seguranca-da-informacao/"
+                  target="_blank"
+                  class="link"
+                  >Saiba mais</a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Fim Trabalho 2 -->
+      </div>
+      <!-- Fim 2° Parte -->
+      <!-- 3° Parte -->
+      <div id="desenvolvimento-sistemas">
+        <section class="materia">
+          <article id="desenvolvimento-sistemas-text">
+            <h1>Desenvolvimento Sistemas</h1>
+            <p>
+              O desenvolvimento de sistemas é um processo que envolve a criação
+              de softwares para atender às necessidades das empresas.
+            </p>
+            <a
+              href="https://querobolsa.com.br/cursos-e-faculdades/analise-e-desenvolvimento-de-sistemas#about_course"
+              class="btn"
+              target="_blank"
+              >Saiba mais</a
+            >
+          </article>
+          <div class="profissional img-fluid">
+            <img src="../img/profissional-2.jpeg" alt="" />
+          </div>
+        </section>
+        <!-- FAQ 3 -->
+        <section id="content-3" class="conteudo">
+          <article class="FAQ">
+            <div class="left border border-2 border-secondary-subtle rounded-3">
+              <div class="faq_text text-center">
+                <h2>Perguntas Frequentes</h2>
+                <p>
+                  Aqui estão as perguntas frequentemente levantadas no campo do
+                  Desenvolvimento de Sistemas.
+                </p>
+              </div>
+              <div class="faq">
+                <div class="accordion accordion-flush" id="accordion3">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseSeven"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseSeven"
+                      >
+                        Qual a diferença entre desenvolvimento de software ágil
+                        e tradicional
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapseSeven"
+                      class="accordion-collapse collapse"
+                      data-bs-parent="#accordion3"
+                    >
+                      <div class="accordion-body">
+                        <p>
+                          O desenvolvimento ágil é uma abordagem iterativa e
+                          incremental que foca na flexibilidade e na colaboração
+                          contínua com o cliente.
+                        </p>
+                        <p>
+                          Já o desenvolvimento tradicional (ou em cascata) segue
+                          um modelo sequencial e rígido, onde cada fase deve ser
+                          concluída antes que a próxima comece.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseEight"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseEight"
+                      >
+                        O que são metodologias ágeis e quais são as mais comuns
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapseEight"
+                      class="accordion-collapse collapse"
+                      data-bs-parent="#accordion3"
+                    >
+                      <div class="accordion-body">
+                        <p>
+                          Metodologias ágeis são abordagens de desenvolvimento
+                          que promovem entregas contínuas e adaptação às
+                          mudanças.
+                        </p>
+                        <p>
+                          As mais comuns incluem Scrum, Kanban e Extreme
+                          Programming (XP). Elas enfatizam a colaboração, a
+                          adaptação rápida e a entrega incremental de
+                          funcionalidades.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseNine"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseNine"
+                      >
+                        O que é teste de software e por que é importante
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapseNine"
+                      class="accordion-collapse collapse"
+                      data-bs-parent="#accordion3"
+                    >
+                      <div class="accordion-body">
+                        <p>
+                          Teste de software é o processo de avaliar um sistema
+                          para identificar defeitos e garantir que ele atenda
+                          aos requisitos especificados.
+                        </p>
+                        <p>
+                          É importante para garantir a qualidade do software,
+                          reduzir erros e melhorar a satisfação do usuário
+                          final.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="right">
+              <h2>Essência dos Sistemas</h2>
+              <p>
+                O Técnico em
+                <strong>Desenvolvimento de Sistemas</strong> desenvolve
+                programas para computadores e outros dispositivos computacionais
+                como, por exemplo, aparelhos celulares e tablets, visando a
+                automação de todos os processos relativos às <abbr title="Tecnologias de
+                Informação e Comunicação">TICs</abbr>, ou seja, seu trabalho envolve a
+                produção de software e sua integração com processos
+                administrativos, comerciais, hospitalares, industriais, de
+                automação residencial, automação industrial, de serviços, de
+                telecomunicações e de teleprocessamento.
+              </p>
+            </div>
+          </article>
+        </section>
+        <!-- Fim do FAQ 3 -->
+        <!-- Trabalhos 3 -->
+        <section id="job-3" class="job">
+          <article>
+            <h2>Trabalhos</h2>
+            <p>
+              O campo do Desenvolvimento de Sistemas envolve diversos
+              profissionais com funções especializadas que são essenciais para a
+              criação e manutenção de soluções de software. Entre essas funções,
+              temos:
+            </p>
+          </article>
+          <div class="boxcard">
+            <div class="card">
+              <img
+                src="../img/work-sistema-1.png"
+                class="card-img-top"
+                alt="Profissional primeira área"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Desenvolvedor de Software</h5>
+                <div class="price notSelect">5.000,00</div>
+                <p class="card-text">
+                  É o especialista encarregado de conceber, projetar e
+                  desenvolver programas, tais como softwares, sites ou
+                  aplicativos.
+                </p>
+                <a
+                  href="https://www.serasaexperian.com.br/carreiras/blog-carreiras/desenvolvedor-de-software/"
+                  target="_blank"
+                  class="link"
+                  >Saiba mais</a
+                >
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="../img/work-sistema-2.jpg"
+                class="card-img-top"
+                alt="Profissional segunda área"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Engenheiro de Sistemas</h5>
+                <div class="price notSelect">8.372,00</div>
+                <p class="card-text">
+                  O trabalho do Engenheiro de Sistemas é projetar e administrar
+                  projetos relacionados a plataformas tecnológicas e sistemas de
+                  informação.
+                </p>
+                <a
+                  href="https://www.serasaexperian.com.br/carreiras/blog-carreiras/engenheiro-de-software/"
+                  target="_blank"
+                  class="link"
+                  >Saiba mais</a
+                >
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="../img/work-sistema-3.jpg"
+                class="card-img-top"
+                alt="Profissional terceira área"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Analista de Sistemas</h5>
+                <div class="price notSelect">3.312,00</div>
+                <p class="card-text">
+                  Serve como um tradutor entre as necessidades do usuário e o
+                  programa a ser desenvolvido pelos programadores.
+                </p>
+                <a
+                  href="https://www.serasaexperian.com.br/carreiras/blog-carreiras/o-que-faz-um-analista-de-sistemas/"
+                  target="_blank"
+                  class="link"
+                  >Saiba mais</a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Fim Trabalhos 3 -->
+      </div>
+      <!-- Fim 3° Parte -->
+    </main>
+    <!-- Rodapé -->
+    <div id="footer" class="container">
+      <footer class="py-2">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item">
+            <a href="../index.html" class="nav-link px-2">3SafeUI</a>
+          </li>
+          <li class="nav-item"><a href="#" class="nav-link px-2">Início</a></li>
+          <li class="nav-item">
+            <a href="#front-end" class="nav-link px-2">Front-end</a>
+          </li>
+          <li class="nav-item">
+            <a href="#fundamento-seguranca" class="nav-link px-2"
+              >Fund.Segurança</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#desenvolvimento-sistemas" class="nav-link px-2"
+              >Desenv.Sistemas</a
+            >
+          </li>
+        </ul>
+        <p class="text-center">
+          Copyright &copy; 2024 Website | Todos os direitos reservados
+        </p>
+      </footer>
+    </div>
+    <!-- Fim do rodapé -->
+    <script src="js/nav-scroll.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
