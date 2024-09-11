@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap');
 :root{
-    --color01: #2C3036ff;
-    --color02: #3C4B61ff;
-    --color03: #3E6094ff;
-    --color04: #2C6AC7ff;
-    --color05: #0567FAff;
+    --color01: #000;
+    --color02: #2C3036ff;
+    --color03: #3C4B61ff;
+    --color04: #3E6094ff;
+    --color05: #2C6AC7ff;
+    --color06: #0567FAff;
+    --color07: #FFF;
 }
 *{
     padding: 0;
@@ -13,8 +15,8 @@
     box-sizing: border-box;
 }
 body{
-    color: black;
-    background-image: url('../img/interface.jpg');
+    color: var(--color01);
+    background-image: url('../../../img/interface-04.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -35,13 +37,14 @@ body{
 main{
     min-width: 200px;
     max-width: 400px;
+    text-align: justify;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     text-align: center;
     margin: auto;
-    color: white;
+    color: var(--color07);
 }
 .content > h1{
     font-family: 'Rubik', sans-serif;
@@ -65,7 +68,7 @@ main{
     display: inline-block;
     text-decoration: none;
     color: white;
-    background-color: rgb(52, 38, 175);
+    background-color: var(--color06);
     border-radius: 7px;
     box-shadow: 0 0 15px rgba(36, 32, 56, 0.5);
     padding: 5px 40px;
@@ -94,7 +97,7 @@ main{
         position: absolute;
         cursor: pointer;
         font-size: 5em;
-        color: white;
+        color: var(--color07);
         top: 45%;
         right: 0;
         transition: transform 1s;
@@ -234,9 +237,9 @@ main{
     .sign{
         position: absolute;
         cursor: pointer;
-        font-size: 3em;
+        font-size: 5em;
         top: 0;
-        color: white;
+        color: var(--color07);
         right: 45%;
         transition: transform 1s;
     }
@@ -291,6 +294,7 @@ main{
     .modal .apresentacao{
         align-items: center;
         display: grid;
+        display: grid;
         grid-template-areas:
             'imagem'
             'nome'
@@ -336,7 +340,7 @@ main{
         width: 25%;
     }
     .modal .apresentacao .rede a{
-        color: black;
+        color: var(--color01);
         display: inline-block;
         font-size: 3em;
     }
