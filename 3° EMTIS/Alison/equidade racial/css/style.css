@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#raca{
+    background-image: url('../img/diversidade-1.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#raca h1{
+    font-size: 10vw;
+    height: 100vh;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#raca p{
+    display: none;
+    position: absolute;
+    top: 40%;
+    text-align: justify;
+}
+#raca p.show{
+    display: block;
+    z-index: 99;
+}
