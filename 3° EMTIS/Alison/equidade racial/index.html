@@ -3,34 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Equidade Racial</title>
     <link rel="stylesheet" href="css/style.css">
-</head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="js/graph.js"></script>
 <body>
     <section id="raca">
         <h1 id="raca_titulo">EQUIDADE RACIAL</h1>
         <div id="texto">
-            <p id="raca_texto">
-                Se pararmos para pensar, faria sentido que o grupo de pessoas que representa a maior parte da população de um país tenha as melhores condições de vida e, faça parte dos melhores índices sociais e econômicos, não é mesmo? Mais essa não e a realidade do brasil. Apesar dos negros representarem mais da metade da população (54,9% segundo o ibge),esses grupos possui alguns dos piores índices socioeconomicos do país. As recentes conquistas legislativas que estabeleceram uma série de direitos fundamentais a grupos étinico-racial vuneráveis, como a constituíção de 1988, não foram capazes de alterar a realidade desigual desses grupos. Existem vários motivos que justificam essa realidade, que vão desde desde um processo histórico escravocrata até a falta de iniciativas e políticas públicas de inclusão racial. Falar sobre os desafios  e obstáculos  existentes para que a equidade racial seja estabelecida na sociedade.
-            </p>
+            <div id="row-1">
+                <p id="raca_texto">
+                    Se considerarmos a população de um país, seria lógico que o grupo mais numeroso tivesse melhores condições de vida e figurasse nos melhores índices socioeconômicos. Porém, essa não é a realidade do Brasil. Embora os negros representem 57,1% da população, de acordo com o IBGE, eles enfrentam alguns dos piores indicadores sociais. Mesmo com conquistas legais, como a Constituição de 1988, a desigualdade racial persiste. Esse cenário é resultado de fatores históricos, como a escravidão, e da ausência de políticas públicas eficazes para inclusão racial.
+                </p>
+                <div id="chart_div"></div>
+            </div>
+            <div id="fechar"><i id="close">X</i></div>
         </div>
     </section>
-    <script>
-        const titulo = document.getElementById('raca_titulo')
-        const texto = document.getElementById('raca_texto')
-        const raca = document.getElementById('raca')
-
-        titulo.addEventListener('click', (e) => {
-            texto.classList.toggle('show')
-            raca.classList.add('open')
-        })
-
-        document.addEventListener('click', (e) => {
-            if (!titulo.contains(e.target) && !texto.contains(e.target) && e.target !== texto) {
-                texto.classList.remove('show')
-                raca.classList.remove('open')
-        }
-        })
-    </script>
+    <script src="js/open.js"></script>
 </body>
 </html>
